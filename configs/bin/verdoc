@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Definicion de variables
+FILE=$1
+RED="\033[0;31m"
+BOLD="\033[1m"
+NC="\033[0m"
+
+# Comprobar que el usuario ha seleccionado un archivo
+if [ "$FILE" = "" ]
+then
+  echo -e "${RED}${BOLD}Debes seleccionar un archivo${NC}"
+  sleep 1
+else
+
+# Ejecutar zathura independiente de la terminal y eliminar el archivo resultante de nohup
+  nohup zathura "$FILE" > /dev/null &
+fi
