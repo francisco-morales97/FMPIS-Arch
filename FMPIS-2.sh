@@ -28,6 +28,9 @@ case "$ANSWER" in
       'gimp'
       'mysql-workbench'
 
+      # Mensajería -------------------------------------------------
+      'geary'
+
       # Aplicaciones favoritas -------------------------------------
       'alacritty'
       'lollypop'
@@ -44,16 +47,21 @@ case "$ANSWER" in
 
       # Utilidades -------------------------------------------------
       'flatpak'
+      'gnome-system-monitor'
       'gnome-calendar'
       'gnome-calculator'
       'gnome-todo'
       'gnome-screenshot'
       'gnome-software'
+      'baobab'
+      'file-roller'
+      'evince'
       'sushi'
       'eog'
       'seahorse'
       'tlp'
       'totem'
+      'transmission-gtk'
       'gufw'
       'cmatrix'
       'htop'
