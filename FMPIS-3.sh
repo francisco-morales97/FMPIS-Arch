@@ -16,11 +16,16 @@ case "$ANSWER" in
     sleep 1
     echo ""
 
-    # Inicia el servicio de Auto CPU-Freq
-    echo -e "${BOLD}${GREEN}Iniciando Auto CPU-Freq"
+    # Configura ZSH como el shell por defecto
+    echo -e "${BOLD}${GREEN}Cambiando bash por zsh${NC}"
     sleep 1
-    sudo systemctl start auto-cpufreq
-    sudo systemctl enable auto-cpufreq
+    sudo chsh -s /bin/zsh
+    echo ""
+
+    # Inicia el servicio de Auto CPU-Freq
+    echo -e "${BOLD}${GREEN}Iniciando Auto CPU-Freq${NC}"
+    sleep 1
+    sudo systemctl enable --now auto-cpufreq
     sudo auto-cpufreq --live
     echo ""
 

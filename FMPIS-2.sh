@@ -47,13 +47,11 @@ case "$ANSWER" in
 
       # Utilidades -------------------------------------------------
       'flatpak'
-      'gnome-system-monitor'
       'gnome-calendar'
       'gnome-calculator'
       'gnome-todo'
       'gnome-screenshot'
       'gnome-software'
-      'baobab'
       'file-roller'
       'evince'
       'sushi'
@@ -65,6 +63,8 @@ case "$ANSWER" in
       'gufw'
       'cmatrix'
       'htop'
+      'zsh'
+      'zsh-completions'
     )
     for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
       echo ""
@@ -79,6 +79,7 @@ case "$ANSWER" in
     sleep 1
     PROGRAMAS_FLAT=(
       # Desarrollo web ---------------------------------------------
+      'io.github.Figma_Linux.figma_linux'
       'com.getpostman.Postman'
 
       # Aplicaciones favoritas -------------------------------------
@@ -91,15 +92,16 @@ case "$ANSWER" in
       # Ofimatica --------------------------------------------------
       'com.wps.Office'
       'org.onlyoffice.desktopeditors'
+      'com.microsoft.Teams'
 
       # Utilidades -------------------------------------------------
-      'com.microsoft.Teams'
+      'com.github.tchx84.Flatseal'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo ""
       echo -e "${BOLD}${GREEN}Instalando:${NC} ${PROGRAMA_FLAT}"
       sleep 1
-      sudo flatpak install "${PROGRAMA_FLAT}"
+      sudo flatpak install -y --noninteractive "${PROGRAMA_FLAT}"
     done
     echo ""
 
@@ -108,7 +110,6 @@ case "$ANSWER" in
     sleep 1
     PROGRAMAS_AUR=(
       # Desarrollo web ---------------------------------------------
-      'figma-linux'
       'xmind-2020'
       'xampp'
 

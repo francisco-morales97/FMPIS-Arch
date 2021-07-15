@@ -45,9 +45,6 @@ case "$ANSWER" in
     echo -e "${BOLD}${GREEN}Instalando Gnome mínimo${NC}"
     sleep 1
     GNOME_PAQUETES=(
-      'nano'
-      'base-devel'
-      'xf86-input-synaptics'
       'xdg-user-dirs'
       'gnome-shell'
       'nautilus'
@@ -70,7 +67,7 @@ case "$ANSWER" in
     sleep 1
     git clone https://aur.archlinux.org/yay.git
     cd yay
-    sudo makepkg -si
+    makepkg -si
     echo ""
 
     # Ajustar el valor de swappiness
