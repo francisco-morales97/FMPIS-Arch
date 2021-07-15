@@ -91,14 +91,14 @@ setlocal noshortname
 setlocal showbreak=
 setlocal sidescrolloff=-1
 setlocal signcolumn=auto
-setlocal nosmartindent
+setlocal smartindent
 setlocal softtabstop=0
 setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=es,en_us
 setlocal spelloptions=
-setlocal statusline=%!airline#statusline(2)
+setlocal statusline=%!airline#statusline(1)
 setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
@@ -124,16 +124,140 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-1,32fold
-34,126fold
-128,250fold
-252,322fold
+3,35fold
+37,149fold
+151,273fold
+275,392fold
+1,392fold
+396,468fold
+470,492fold
+494,568fold
+570,606fold
+608,674fold
+676,691fold
+693,733fold
+394,733fold
+737,747fold
+735,747fold
+751,815fold
+817,853fold
+749,853fold
+857,870fold
+855,870fold
+874,899fold
+901,960fold
+962,967fold
+872,967fold
+977,985fold
+987,1069fold
+1071,1084fold
+975,1084fold
+1088,1092fold
+1094,1121fold
+1123,1127fold
+1129,1140fold
+1142,1150fold
+1152,1157fold
+1086,1157fold
+1161,1165fold
+1167,1189fold
+1159,1189fold
+1193,1197fold
+1191,1197fold
+1201,1212fold
+1214,1223fold
+1225,1254fold
+1199,1254fold
+971,1255fold
+1263,1291fold
+1293,1297fold
+1299,1303fold
+1261,1303fold
+1307,1312fold
+1314,1318fold
+1320,1325fold
+1327,1344fold
+1305,1344fold
+1346,1353fold
+1357,1363fold
+1365,1370fold
+1355,1370fold
+1257,1371fold
+969,1371fold
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 10) / 20)
+1
+normal! zo
+1
+normal! zc
+394
+normal! zo
+394
+normal! zc
+735
+normal! zo
+735
+normal! zc
+749
+normal! zo
+749
+normal! zc
+855
+normal! zo
+855
+normal! zc
+872
+normal! zo
+872
+normal! zc
+969
+normal! zo
+971
+normal! zo
+975
+normal! zo
+975
+normal! zc
+1086
+normal! zo
+1086
+normal! zc
+1159
+normal! zo
+1159
+normal! zc
+1191
+normal! zo
+1191
+normal! zc
+1199
+normal! zo
+1199
+normal! zc
+971
+normal! zc
+1257
+normal! zo
+1261
+normal! zo
+1261
+normal! zc
+1305
+normal! zo
+1305
+normal! zc
+1355
+normal! zo
+1355
+normal! zc
+1257
+normal! zc
+969
+normal! zc
+let s:l = 969 - ((968 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
+keepjumps 969
 normal! 0
 let &g:so = s:so_save | let &g:siso = s:siso_save
 nohlsearch

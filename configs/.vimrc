@@ -25,11 +25,14 @@ set completeopt=longest,menuone
 autocmd BufWinEnter *.* set autoindent smartindent
 
 " Guarda y carga los foldings que existan al cerrar o abrir archivos
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
+autocmd BufWinLeave *.css mkview
+autocmd BufWinEnter *.css silent loadview
 
 " Configura el espacio para accionar los comandos
 nnoremap <Space> :
+
+" Limpia el resaltado de busqueda temporalmente
+nnoremap <silent> <Leader>c :noh<CR>
 
 " Autocompletado de parentesis, comillas y llaves
 inoremap ( ()<Left>
@@ -54,10 +57,10 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <silent> <Up> :resize +2<CR>
+nnoremap <silent> <Up> :resize -2<CR>
 nnoremap <silent> <Right> :vertical resize -2<CR>
 nnoremap <silent> <Left> :vertical resize +2<CR>
-nnoremap <silent> <Down> :resize -2<CR>
+nnoremap <silent> <Down> :resize +2<CR>
 
 " Configura las teclas para moverse entre Tabs
 nnoremap <silent> th :tabprevious<CR>
@@ -67,6 +70,18 @@ nnoremap <silent> tl :tabnext<CR>
 nnoremap <silent> <Leader>f :Vex!<CR>
 let g:netrw_liststyle=3
 let g:netrw_list_hide= '\(^\|\s\s\)\zs\.\S\+'
+
+" Configuracion de Goyo
+nnoremap <silent> <Leader>g :Goyo<CR>
+let g:goyo_width=70
+function! s:goyo_enter()
+  set showmode
+endfunction
+function! s:goyo_leave()
+  set noshowmode
+endfunction
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 " Remapea la tecla leader de emmet
 let g:user_emmet_leader_key='<C-z>'
