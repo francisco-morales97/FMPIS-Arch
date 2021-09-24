@@ -39,7 +39,7 @@ case "$ANSWER" in
     mv configs/.vimrc ~/
     echo ""
 
-    # Instala mi tema personal de Gnome 3.38
+    # Instala mi tema personal de Gnome 40
     echo -e "${BOLD}${GREEN}Instalando mi tema de gnome-shell${NC}"
     sleep 1
     if [ -e ~/.themes ]; then

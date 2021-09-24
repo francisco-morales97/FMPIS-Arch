@@ -27,6 +27,7 @@ case "$ANSWER" in
       'inkscape'
       'gimp'
       'mysql-workbench'
+      'scribus'
 
       # Mensajería -------------------------------------------------
       'geary'
@@ -34,7 +35,6 @@ case "$ANSWER" in
       # Aplicaciones favoritas -------------------------------------
       'alacritty'
       'lollypop'
-      'signal-desktop'
 
       # Emuladores -------------------------------------------------
       'dolphin-emu'
@@ -52,11 +52,11 @@ case "$ANSWER" in
       'gnome-todo'
       'gnome-screenshot'
       'gnome-software'
+      'kvantum-qt5'
       'file-roller'
       'evince'
       'sushi'
       'eog'
-      'seahorse'
       'tlp'
       'totem'
       'transmission-gtk'

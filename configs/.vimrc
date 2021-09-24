@@ -22,7 +22,7 @@ filetype indent plugin on
 syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone
-autocmd BufWinEnter *.* set autoindent smartindent
+autocmd BufNewFile,BufRead *.* set autoindent smartindent
 
 " Guarda y carga los foldings que existan al cerrar o abrir archivos
 autocmd BufWinLeave *.css mkview
@@ -57,10 +57,10 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <silent> <Up> :resize -2<CR>
+nnoremap <silent> <Up> :resize +2<CR>
 nnoremap <silent> <Right> :vertical resize -2<CR>
 nnoremap <silent> <Left> :vertical resize +2<CR>
-nnoremap <silent> <Down> :resize +2<CR>
+nnoremap <silent> <Down> :resize -2<CR>
 
 " Configura las teclas para moverse entre Tabs
 nnoremap <silent> th :tabprevious<CR>
