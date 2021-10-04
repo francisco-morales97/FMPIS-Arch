@@ -120,8 +120,6 @@ case "$ANSWER" in
       # Utilidades -------------------------------------------------
       'zsh-theme-powerlevel10k-git'
       'auto-cpufreq-git'
-      'vim-gruvbox-git'
-      'vim-airline-gruvbox-git'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
       echo ""
