@@ -1,0 +1,13 @@
+
+[submodule "configs/.vim/pack/plugins/start/vim-fugitive"]
+	path = configs/.vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "configs/.vim/pack/plugins/start/gruvbox"]
+	path = configs/.vim/pack/plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "configs/.vim/pack/plugins/start/indentLine"]
+	path = configs/.vim/pack/plugins/start/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "configs/.vim/pack/plugins/start/vim-airline"]
+	path = configs/.vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
