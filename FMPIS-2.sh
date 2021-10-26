@@ -58,7 +58,7 @@ case "$ANSWER" in
       'sushi'
       'eog'
       'tlp'
-      'totem'
+      'mpv'
       'transmission-gtk'
       'gufw'
       'cmatrix'

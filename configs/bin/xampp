@@ -40,7 +40,7 @@ function xamppStart() {
         BACK=true
         ;;
       *)
-        echo -e "${RED}${BOLD}¿Eres tonto o te haces?${NC}"
+        echo -e "${RED}${BOLD}Opción inválida${NC}"
         sleep 2
         clear
         ;;
@@ -82,7 +82,7 @@ function xamppStop() {
         BACK=true
         ;;
       *)
-        echo -e "${RED}${BOLD}¿Eres tonto o te haces?${NC}"
+        echo -e "${RED}${BOLD}Opción inválida${NC}"
         sleep 2
         clear
         ;;
@@ -117,7 +117,7 @@ do
       EXIT=true
       ;;
     *)
-      echo -e "${RED}${BOLD}Pusieron al mas vío a programar...${NC}"
+      echo -e "${RED}${BOLD}Opción inválida${NC}"
       sleep 2
       clear
       ;;

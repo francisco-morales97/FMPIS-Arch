@@ -11,3 +11,6 @@
 [submodule "configs/.vim/pack/plugins/start/vim-airline"]
 	path = configs/.vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "configs/.vim/pack/plugins/start/emmet-vim"]
+	path = configs/.vim/pack/plugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

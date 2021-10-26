@@ -7,6 +7,7 @@ set noshowmode
 set encoding=utf-8
 set confirm
 set colorcolumn=80
+set termguicolors
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -44,7 +45,7 @@ inoremap {<CR> {<CR>}<Esc>O
 inoremap < <><Left>
 
 " Salto de linea indentado entre etiquetas HTML
-inoremap <C-@> <CR><Esc>O<Tab>
+inoremap <C-@> <CR><Esc>O
 
 " Mapeado para Omnifunc
 inoremap <C-s> <C-x><C-o>
@@ -82,9 +83,30 @@ function! s:goyo_leave()
 endfunction
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+autocmd User GoyoEnter,GoyoLeave hi Normal guibg=NONE ctermbg=NONE
 
-" Remapea la tecla leader de emmet
+" Configuracion de Emmet
 let g:user_emmet_leader_key='<C-z>'
+let g:user_emmet_settings = {
+\  'variables': {'lang': 'es'},
+\  'html': {
+\    'default_attributes': {
+\      'option': {'value': v:null},
+\      'textarea': {'id': v:null, 'name': v:null, 'cols': 10, 'rows': 10},
+\    },
+\    'snippets': {
+\      'html:5': "<!DOCTYPE html>\n"
+\              ."<html lang=\"${lang}\">\n"
+\              ."<head>\n"
+\              ."\t<meta charset=\"${charset}\">\n"
+\              ."\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+\              ."\t<title></title>\n"
+\              ."</head>\n"
+\              ."<body>\n\t${child}|\n</body>\n"
+\              ."</html>",
+\    },
+\  },
+\}
 
 " Configuracion de Airline
 let g:airline_extensions = ['branch', 'tabline']
@@ -95,4 +117,5 @@ set ttimeoutlen=10
 let g:gruvbox_guisp_fallback = "bg"
 let g:gruvbox_italic = 1
 autocmd VimEnter * ++nested colorscheme gruvbox
+autocmd VimEnter * hi Normal guibg=NONE ctermbg=NONE
 set background=dark
