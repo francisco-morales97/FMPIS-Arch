@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# Definición de variables
+FILE=$1
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+BOLD="\033[1m"
+NC="\033[0m"
+EXIT=false
+
+# Comprobar que el usuario ha seleccionado un documento
+if [ "$FILE" = "" ]
+then
+  echo -e "${RED}${BOLD}Debes seleccionar un archivo${NC}"
+  sleep 1
+else
+  while [ $EXIT = false ]
+  do
+    echo "¿El documento posee bibliografía? [y/n/q]"
+    read ANSWER
+
+# Ejecutar una accion segun la respuesta del usuario
+    case "$ANSWER" in
+      y)
+        echo "¿Qué nombre tendrá el documento?"
+        read NAME
+        refer $FILE | pdfmom -kt > $NAME.pdf
+        echo -e "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}"
+        sleep 1
+        EXIT=true
+        ;;
+      n)
+        echo "¿Qué nombre tendrá el documento?"
+        read NAME
+        pdfmom $FILE -kt > $NAME.pdf
+        echo -e "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}"
+        sleep 1
+        EXIT=true
+        ;;
+      q)
+        echo "Ha cancelado la operación"
+        sleep 1
+        EXIT=true
+        ;;
+      *)
+        echo -e "${RED}${BOLD}Esa no es una opción válida${NC}"
+        sleep 1
+        ;;
+    esac
+  done  
+fi
