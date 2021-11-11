@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Definir variables
 GREEN="\033[0;32m"
@@ -19,7 +19,7 @@ case "$ANSWER" in
     echo "Instalación de programas con pacman"
     sleep 1
     PROGRAMAS_PAC=(
-      # Desarrollo web ---------------------------------------------
+      # Desarrollo web --
       'firefox'
       'chromium'
       'epiphany'
@@ -28,30 +28,30 @@ case "$ANSWER" in
       'gimp'
       'mysql-workbench'
       'scribus'
+      'vim'
 
-      # Mensajería -------------------------------------------------
+      # Mensajería --
       'geary'
 
-      # Aplicaciones favoritas -------------------------------------
+      # Aplicaciones favoritas --
       'alacritty'
       'lollypop'
 
-      # Emuladores -------------------------------------------------
+      # Emuladores --
       'dolphin-emu'
 
-      # Escritura con groff ----------------------------------------
+      # Escritura con groff --
       'zathura'
       'zathura-pdf-poppler'
       'zathura-ps'
-      'vim'
 
-      # Utilidades -------------------------------------------------
+      # Utilidades --
       'flatpak'
       'gnome-calendar'
       'gnome-calculator'
-      'gnome-todo'
       'gnome-screenshot'
       'gnome-software'
+      'gnome-usage'
       'kvantum-qt5'
       'file-roller'
       'evince'
@@ -59,74 +59,63 @@ case "$ANSWER" in
       'eog'
       'tlp'
       'mpv'
+      'youtube-dl'
       'transmission-gtk'
       'gufw'
-      'cmatrix'
       'htop'
+      'dash'
       'zsh'
+      'zsh-syntax-highlighting'
+      'zsh-autosuggestions'
       'zsh-completions'
     )
-    for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
-      echo ""
-      echo -e "${BOLD}${GRENN}Instalando:${NC} ${PROGRAMA_PAC}"
-      sleep 1
-      sudo pacman -S "${PROGRAMA_PAC}" --noconfirm --needed
-    done
+    sudo pacman -S "${PROGRAMAS_PAC[*]}" --noconfirm --needed
     echo ""
 
     # Instalación de programas con flatpak
     echo "Instalación de programas con flatpak"
     sleep 1
     PROGRAMAS_FLAT=(
-      # Desarrollo web ---------------------------------------------
+      # Desarrollo web --
       'io.github.Figma_Linux.figma_linux'
       'com.getpostman.Postman'
+      'net.xmind.ZEN'
 
-      # Aplicaciones favoritas -------------------------------------
+      # Aplicaciones favoritas --
       'com.spotify.Client'
       'com.stremio.Stremio'
         
-      # Emuladores -------------------------------------------------
+      # Emuladores --
       'org.libretro.RetroArch'
         
-      # Ofimatica --------------------------------------------------
+      # Ofimatica --
       'com.wps.Office'
       'org.onlyoffice.desktopeditors'
       'com.microsoft.Teams'
 
-      # Utilidades -------------------------------------------------
+      # Utilidades --
       'com.github.tchx84.Flatseal'
+      'com.github.alainm23.planner'
     )
-    for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
-      echo ""
-      echo -e "${BOLD}${GREEN}Instalando:${NC} ${PROGRAMA_FLAT}"
-      sleep 1
-      sudo flatpak install -y --noninteractive "${PROGRAMA_FLAT}"
-    done
+    sudo flatpak install -y --noninteractive "${PROGRAMAS_FLAT[*]}"
     echo ""
 
     # Instalación de programas con Yay
     echo "Instalación de programas con yay (AUR)"
     sleep 1
     PROGRAMAS_AUR=(
-      # Desarrollo web ---------------------------------------------
-      'xmind-2020'
+      # Desarrollo web --
       'xampp'
 
-      # Fuentes tipograficas ---------------------------------------
+      # Fuentes tipograficas --
       'ttf-ms-fonts'
       'nerd-fonts-roboto-mono'
 
-      # Utilidades -------------------------------------------------
+      # Utilidades --
       'zsh-theme-powerlevel10k-git'
       'auto-cpufreq-git'
     )
-    for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
-      echo ""
-      echo -e "${BOLD}${GREEN}Instalando:${NC} ${PROGRAMA_AUR}"
-      sleep 1
-      yay -S --noconfirm "${PROGRAMA_AUR}"
-    done
+    yay -S --noconfirm "${PROGRAMAS_AUR[*]}"
     echo ""
     echo -e "${BOLD}${GREEN}La segunda parte del script ha finalizado${NC}"
     sleep 1

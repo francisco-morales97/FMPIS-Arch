@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Definir variables
 GREEN="\033[0;32m"
@@ -14,6 +14,13 @@ case "$ANSWER" in
     echo ""
     echo "Iniciando personalización del sistema operativo"
     sleep 1
+    echo ""
+
+    # Cambia el symlink de sh por dash
+    echo -e "${BOLD}${GREEN}Creando symlink de dash para sh${NC}"
+    sleep 1
+    sudo ln -sfT /bin/dash /bin/sh
+    readlink /bin/sh
     echo ""
 
     # Configura ZSH como el shell por defecto

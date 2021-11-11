@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Definir variables
 GREEN="\033[0;32m"
@@ -16,6 +16,9 @@ case "$ANSWER" in
     echo ""
     echo "Configuraciones generales"
     sleep 1
+    echo "Habilitando descargas paralelas"
+    sleep 1
+    sed -i "s/^#Para/Para/" /etc/pacman.conf
     echo ""
 
     # Actualizar mirrors
@@ -35,7 +38,7 @@ case "$ANSWER" in
     # Instalar servicios útiles
     echo -e "${BOLD}${GREEN}Servicios útiles${NC}"
     sleep 1
-    sudo pacman -S acpid ntp dbus cups cronie
+    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse
     sudo systemctl enable acpid
     sudo systemctl enable ntpd
     sudo systemctl enable cups.service
@@ -53,12 +56,7 @@ case "$ANSWER" in
       'gnome-tweak-tool'
       'gdm'
     )
-    for GNOME_PAQUETE in "${GNOME_PAQUETES[@]}"; do
-      echo ""
-      echo -e "${BOLD}${GREEN}Instalando:${NC} ${GNOME_PAQUETE}"
-      sleep 1
-      sudo pacman -S "${GNOME_PAQUETE}" --noconfirm
-    done
+    sudo pacman -S "${GNOME_PAQUETES[*]}" --noconfirm
     sudo systemctl enable gdm
     echo ""
 

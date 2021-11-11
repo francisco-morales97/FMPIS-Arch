@@ -16,9 +16,10 @@ set cursorline
 set wildmenu
 set wrap linebreak nolist
 set splitbelow splitright
-set hlsearch is 
+set hlsearch incsearch
 set nospell spelllang=es,en_us
 set foldmethod=manual
+set scrolloff=8
 filetype indent plugin on
 syntax on
 set omnifunc=syntaxcomplete#Complete
