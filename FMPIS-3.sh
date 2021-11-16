@@ -59,6 +59,12 @@ case "$ANSWER" in
     fi
     echo ""
 
+    # Mueve mis wallpapers a la carpeta de imágenes
+    echo -e "${BOLD}${GREEN}Moviendo wallpapers${NC}"
+    sleep 1
+    mv configs/wallpapers/*.* ~/Imágenes
+    echo ""
+
     # Añade Powerlevel10k al archivo zshrc
     echo -e "${BOLD}${GREEN}Iniciando Powerlevel10k${NC}"
     echo "source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc

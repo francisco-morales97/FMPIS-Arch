@@ -52,7 +52,6 @@ case "$ANSWER" in
       'gnome-screenshot'
       'gnome-software'
       'gnome-usage'
-      'kvantum-qt5'
       'file-roller'
       'evince'
       'sushi'
@@ -91,7 +90,6 @@ case "$ANSWER" in
       # Ofimatica --
       'com.wps.Office'
       'org.onlyoffice.desktopeditors'
-      'com.microsoft.Teams'
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
