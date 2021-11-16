@@ -71,7 +71,6 @@ case "$ANSWER" in
     # Ajustar el valor de swappiness
     echo -e "${BOLD}${GREEN}Ajustando swappiness${NC}"
     sleep 1
-    sudo touch /etc/sysctl.d/99-swappiness.conf
     echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
     echo ""
     echo -e "${BOLD}${GREEN}La primera parte del script ha finalizado${NC}"
