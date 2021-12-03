@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # Definición de variables
-FILE=$1
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 BOLD="\033[1m"
@@ -9,43 +8,35 @@ NC="\033[0m"
 EXIT=false
 
 # Comprobar que el usuario ha seleccionado un documento
-if [ "$FILE" = "" ]
-then
-  echo -e "${RED}${BOLD}Debes seleccionar un archivo${NC}"
-  sleep 1
-else
-  while [ $EXIT = false ]
-  do
-    echo "¿El documento posee bibliografía? [y/n/q]"
-    read ANSWER
+[ ! -f "$1" ] && printf "${RED}${BOLD}Debes seleccionar un archivo${NC}\n" && exit
 
-# Ejecutar una accion segun la respuesta del usuario
-    case "$ANSWER" in
-      y)
-        echo "¿Qué nombre tendrá el documento?"
-        read NAME
-        refer $FILE | pdfmom -kt > $NAME.pdf
-        echo -e "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}"
-        sleep 1
-        EXIT=true
-        ;;
-      n)
-        echo "¿Qué nombre tendrá el documento?"
-        read NAME
-        pdfmom $FILE -kt > $NAME.pdf
-        echo -e "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}"
-        sleep 1
-        EXIT=true
-        ;;
-      q)
-        echo "Ha cancelado la operación"
-        sleep 1
-        EXIT=true
-        ;;
-      *)
-        echo -e "${RED}${BOLD}Esa no es una opción válida${NC}"
-        sleep 1
-        ;;
-    esac
-  done  
-fi
+# Configuracion del documento
+while [ $EXIT = false ]; do
+  printf "¿El documento posee bibliografía? [y/n/q]\n"
+  read ANSWER
+
+  case "$ANSWER" in
+    y)
+      printf "¿Qué nombre tendrá el documento?\n"
+      read NAME
+      refer $1 | pdfmom -kt > $NAME.pdf
+      printf "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}\n"
+      EXIT=true
+      ;;
+    n)
+      printf "¿Qué nombre tendrá el documento?\n"
+      read NAME
+      pdfmom $1 -kt > $NAME.pdf
+      printf "${GREEN}${BOLD}El documento ha sido compilado satisfactoriamente${NC}\n"
+      EXIT=true
+      ;;
+    q)
+      printf "Ha cancelado la operación\n"
+      EXIT=true
+      ;;
+    *)
+      printf "${RED}${BOLD}Esa no es una opción válida${NC}\n"
+      sleep 1
+      ;;
+  esac
+done  

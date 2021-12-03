@@ -7,16 +7,16 @@ BOLD="\033[1m"
 NC="\033[0m"
 
 # Comienza el script
-echo "¿Quiere iniciar la segunda parte del script? [y/n]"
+printf "¿Quiere iniciar la segunda parte del script? [y/n]\n"
 read ANSWER
 case "$ANSWER" in
   y)  
-    echo "Esto puede tardar unos minutos..."
+    printf "Esto puede tardar unos minutos...\n"
     sleep 1
-    echo ""
+    echo
 
     # Instalación de programas con pacman
-    echo "Instalación de programas con pacman"
+    printf "Instalación de programas con pacman\n"
     sleep 1
     PROGRAMAS_PAC=(
       # Desarrollo web --
@@ -45,18 +45,27 @@ case "$ANSWER" in
       'zathura-pdf-poppler'
       'zathura-ps'
 
+      # Codecs OGG para GStreamer --
+      'gst-libav'
+      'gst-plugins-base'
+
       # Utilidades --
+      'pacman-contrib'
+      'mtpfs'
+      'gvfs-mtp'
       'flatpak'
       'gnome-calendar'
       'gnome-calculator'
       'gnome-screenshot'
       'gnome-software'
+      'gnome-software-packagekit-plugin'
       'gnome-usage'
+      'gnome-photos'
       'file-roller'
       'evince'
       'sushi'
+      'pass'
       'eog'
-      'tlp'
       'mpv'
       'youtube-dl'
       'transmission-gtk'
@@ -68,11 +77,16 @@ case "$ANSWER" in
       'zsh-autosuggestions'
       'zsh-completions'
     )
-    sudo pacman -S "${PROGRAMAS_PAC[*]}" --noconfirm --needed
-    echo ""
+    for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
+      echo
+      printf "Instalando: ${PROGRAMA_PAC}\n"
+      sleep 1
+      sudo pacman -S "${PROGRAMA_PAC}" --noconfirm --needed
+    done
+    echo
 
     # Instalación de programas con flatpak
-    echo "Instalación de programas con flatpak"
+    printf "Instalación de programas con flatpak\n"
     sleep 1
     PROGRAMAS_FLAT=(
       # Desarrollo web --
@@ -90,16 +104,22 @@ case "$ANSWER" in
       # Ofimatica --
       'com.wps.Office'
       'org.onlyoffice.desktopeditors'
+      'com.microsoft.teams'
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
       'com.github.alainm23.planner'
     )
-    sudo flatpak install -y --noninteractive "${PROGRAMAS_FLAT[*]}"
-    echo ""
+    for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
+      echo
+      printf "Instalando: ${PROGRAMA_FLAT}\n"
+      sleep 1
+      sudo flatpak install -y --noninteractive "${PROGRAMA_FLAT}"
+    done
+    echo
 
     # Instalación de programas con Yay
-    echo "Instalación de programas con yay (AUR)"
+    printf "Instalación de programas con yay (AUR)\n"
     sleep 1
     PROGRAMAS_AUR=(
       # Desarrollo web --
@@ -110,20 +130,25 @@ case "$ANSWER" in
       'nerd-fonts-roboto-mono'
 
       # Utilidades --
+      'opustags'
+      'game-devices-udev'
       'zsh-theme-powerlevel10k-git'
       'auto-cpufreq-git'
     )
-    yay -S --noconfirm "${PROGRAMAS_AUR[*]}"
-    echo ""
-    echo -e "${BOLD}${GREEN}La segunda parte del script ha finalizado${NC}"
-    sleep 1
+    for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
+      echo
+      printf "Instalando: ${PROGRAMA_AUR}\n"
+      sleep 1
+      yay -S --noconfirm "${PROGRAMA_AUR}"
+    done
+    echo
+    printf "${BOLD}${GREEN}La segunda parte del script ha finalizado${NC}\n"
     ;;
   n)
-    echo "Ha cancelado la operación"
-    sleep 1
+    printf "Ha cancelado la operación\n"
     ;;
   *)
-    echo -e "${BOLD}${RED}Esa opción no es válida${NC}"
+    printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
     sleep 1
     ;;
 esac

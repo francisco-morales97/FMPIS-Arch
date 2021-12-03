@@ -7,47 +7,50 @@ BOLD="\033[1m"
 NC="\033[0m"
 
 # Comienza el script
-echo "¿Quiere iniciar la tercera parte del script? [y/n]"
+printf "¿Quiere iniciar la tercera parte del script? [y/n]\n"
 read ANSWER
 case "$ANSWER" in
   y)
-    echo ""
-    echo "Iniciando personalización del sistema operativo"
+    echo
+    printf "Iniciando personalización del sistema operativo\n"
     sleep 1
-    echo ""
+    echo
 
     # Cambia el symlink de sh por dash
-    echo -e "${BOLD}${GREEN}Creando symlink de dash para sh${NC}"
+    printf "${BOLD}${GREEN}Creando symlink de dash para sh${NC}\n"
     sleep 1
-    sudo ln -sfT /bin/dash /bin/sh
-    readlink /bin/sh
-    echo ""
+    sudo ln -sfT dash /usr/bin/sh
+    readlink /usr/bin/sh
+    echo
 
     # Configura ZSH como el shell por defecto
-    echo -e "${BOLD}${GREEN}Cambiando bash por zsh${NC}"
+    printf "${BOLD}${GREEN}Cambiando bash por zsh${NC}\n"
     sleep 1
-    sudo chsh -s /bin/zsh
-    echo ""
+    chsh -s /bin/zsh
+    echo
 
     # Inicia el servicio de Auto CPU-Freq
-    echo -e "${BOLD}${GREEN}Iniciando Auto CPU-Freq${NC}"
+    printf "${BOLD}${GREEN}Iniciando Auto CPU-Freq${NC}\n"
     sleep 1
     sudo systemctl enable --now auto-cpufreq
     sudo auto-cpufreq --live
-    echo ""
+    echo
 
     # Mueve archivos de configuración a sus ubicaciones correspondientes
-    echo -e "${BOLD}${GREEN}Instalando mis configuraciones${NC}"
+    printf "${BOLD}${GREEN}Instalando mis configuraciones${NC}\n"
     sleep 1
     mv configs/alacritty ~/.config
     mv configs/bin ~/.local
     mv configs/zathura ~/.config
     mv configs/.vim ~/
     mv configs/.vimrc ~/
-    echo ""
+    mv configs/mpv ~/.config
+    mv configs/.zshrc ~/
+    mv configs/zsh ~/.cache
+    echo
 
     # Instala mi tema personal de Gnome 40
-    echo -e "${BOLD}${GREEN}Instalando mi tema de gnome-shell${NC}"
+    printf "${BOLD}${GREEN}Instalando mi tema de gnome-shell${NC}\n"
     sleep 1
     if [ -e ~/.themes ]; then
       git clone https://github.com/fMorales-97/Fradwaita.git
@@ -57,29 +60,22 @@ case "$ANSWER" in
       git clone https://github.com/fMorales-97/Fradwaita.git
       mv Fradwaita ~/.themes
     fi
-    echo ""
+    echo
 
     # Mueve mis wallpapers a la carpeta de imágenes
-    echo -e "${BOLD}${GREEN}Moviendo wallpapers${NC}"
+    printf "${BOLD}${GREEN}Moviendo wallpapers${NC}\n"
     sleep 1
     mv configs/wallpapers/*.* ~/Imágenes
-    echo ""
-
-    # Añade Powerlevel10k al archivo zshrc
-    echo -e "${BOLD}${GREEN}Iniciando Powerlevel10k${NC}"
-    echo "source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
-    echo ""
-    echo -e "${BOLD}${GREEN}La segunda parte del script ha finalizado${NC}"
+    echo
+    printf "${BOLD}${GREEN}La tercera parte del script ha finalizado${NC}\n"
     sleep 1
-    echo -e "${BOLD}${GREEN}Reinicie la computadora para ver todos los cambios${NC}"
-    sleep 1
+    printf "${BOLD}${GREEN}Reinicie la computadora para ver todos los cambios${NC}\n"
     ;;
   n)
-    echo "Ha cancelado la operación"
-    sleep 1
+    printf "Ha cancelado la operación\n"
     ;;
   *)
-    echo -e "${BOLD}${RED}Esa opción no es válida${NC}"
+    printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
     sleep 1
     ;;
 esac

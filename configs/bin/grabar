@@ -5,32 +5,25 @@ RED="\033[0;31m"
 BOLD="\033[1m"
 NC="\033[0m"
 
-echo "¿Qué desea grabar?"
-echo "1) Video"
-echo "2) Audio"
-echo "3) Audio y Video"
-echo "q) Cancelar"
-echo ""
+printf "%s\n" "¿Qué desea grabar?" "1) Video" "2) Audio" "3) Audio y Video" "q) Cancelar"
+echo
 read ANSWER
 
 case "$ANSWER" in
   1)
-    sleep 1
     ffmpeg -f x11grab -framerate 30 -video_size 1366x768 -hwaccel qsv -probesize 20M -i :0+0,0 video.mkv
     ;;
   2)
     ffmpeg -f pulse -i default audio.wav
     ;;
   3)
-    sleep 1
     ffmpeg -f x11grab -framerate 30 -video_size 1366x768 -i :0+0,0 -f pulse -i default video.mkv
     ;;
   q)
-    echo "Ha cancelado la operación"
-    sleep 1
+    printf "Ha cancelado la operación\n"
     ;;
   *)
-    echo -e "${RED}${BOLD}Esa no es una opción válida${NC}"
+    printf "${RED}${BOLD}Esa no es una opción válida${NC}\n"
     sleep 1
     ;;
 esac

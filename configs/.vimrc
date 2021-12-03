@@ -1,7 +1,9 @@
+" CONFIGURACION BASE {{{
+
 " Configurar Leader
 let mapleader = ","
 
-" Configuraciones generales
+" Configuraciones generales 
 set nocompatible
 set noshowmode
 set encoding=utf-8
@@ -11,14 +13,18 @@ set termguicolors
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set number relativenumber
+set relativenumber
 set cursorline
 set wildmenu
+set clipboard+=unnamedplus
+set mouse=a
 set wrap linebreak nolist
 set splitbelow splitright
 set hlsearch incsearch
 set nospell spelllang=es,en_us
-set foldmethod=manual
+set foldenable
+set foldmethod=marker
+set foldmarker={{{,}}}
 set scrolloff=8
 filetype indent plugin on
 syntax on
@@ -26,17 +32,17 @@ set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone
 autocmd BufNewFile,BufRead *.* set autoindent smartindent
 
-" Guarda y carga los foldings que existan al cerrar o abrir archivos
-autocmd BufWinLeave *.css mkview
-autocmd BufWinEnter *.css silent loadview
-
 " Configura el espacio para accionar los comandos
 nnoremap <Space> :
 
 " Limpia el resaltado de busqueda temporalmente
 nnoremap <silent> <Leader>c :noh<CR>
 
-" Autocompletado de parentesis, comillas y llaves
+"}}}
+
+" FUNCIONALIDADES {{{
+
+" Autocompletado de parentesis, comillas y llaves 
 inoremap ( ()<Left>
 inoremap " ""<Left>
 inoremap ' ''<Left>
@@ -54,7 +60,16 @@ inoremap <C-s> <C-x><C-o>
 " Mapea la letra S para ejecutar sed en todo el documento
 nnoremap S :%s//g<Left><Left>
 
-" Configura las teclas para moverse entre Splits
+" Configurar explorador de archivos
+nnoremap <silent> <Leader>f :Vex!<CR>
+let g:netrw_liststyle=3
+let g:netrw_list_hide= '\(^\|\s\s\)\zs\.\S\+'
+
+"}}}
+
+" SPLITS Y TABS {{{
+
+" Configura las teclas para moverse entre Splits 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -68,12 +83,11 @@ nnoremap <silent> <Down> :resize -2<CR>
 nnoremap <silent> th :tabprevious<CR>
 nnoremap <silent> tl :tabnext<CR>
 
-" Configurar explorador de archivos
-nnoremap <silent> <Leader>f :Vex!<CR>
-let g:netrw_liststyle=3
-let g:netrw_list_hide= '\(^\|\s\s\)\zs\.\S\+'
+"}}}
 
-" Configuracion de Goyo
+" PLUGINS {{{
+
+" Configuracion de Goyo 
 nnoremap <silent> <Leader>g :Goyo<CR>
 let g:goyo_width=70
 function! s:goyo_enter()
@@ -86,7 +100,7 @@ autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 autocmd User GoyoEnter,GoyoLeave hi Normal guibg=NONE ctermbg=NONE
 
-" Configuracion de Emmet
+" Configuracion de Emmet 
 let g:user_emmet_leader_key='<C-z>'
 let g:user_emmet_settings = {
 \  'variables': {'lang': 'es'},
@@ -120,3 +134,5 @@ let g:gruvbox_italic = 1
 autocmd VimEnter * ++nested colorscheme gruvbox
 autocmd VimEnter * hi Normal guibg=NONE ctermbg=NONE
 set background=dark
+
+"}}}

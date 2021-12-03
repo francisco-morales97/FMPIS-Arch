@@ -7,45 +7,46 @@ BOLD="\033[1m"
 NC="\033[0m"
 
 # Comienza el script
-echo "¿Quiere iniciar la primera parte del script? [y/n]"
+printf "¿Quiere iniciar la primera parte del script? [y/n]\n"
 read ANSWER
 case "$ANSWER" in
   y)  
-    echo "Esto puede tardar unos minutos..."
+    printf "Esto puede tardar unos minutos...\n"
     sleep 1
-    echo ""
-    echo "Configuraciones generales"
+    echo
+    printf "Configuraciones generales\n"
     sleep 1
-    echo "Habilitando descargas paralelas"
+    printf "Habilitando descargas paralelas\n"
     sleep 1
-    sed -i "s/^#Para/Para/" /etc/pacman.conf
-    echo ""
+    sudo sed -i "s/^#Para/Para/" /etc/pacman.conf
+    echo
 
     # Actualizar mirrors
-    echo -e "${BOLD}${GREEN}Actualizando los mirrors${NC}"
+    printf "${BOLD}${GREEN}Actualizando los mirrors${NC}\n"
     sleep 1
     sudo pacman -S reflector
     sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
     sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist
-    echo ""
+    echo
 
     # Actualizar el sistema
-    echo -e "${BOLD}${GREEN}Actualizando el sistema${NC}"
+    printf "${BOLD}${GREEN}Actualizando el sistema${NC}\n"
     sleep 1
     sudo pacman -Syyu
-    echo ""
+    sudo pacman -Sy archlinux-keyring
+    echo
 
     # Instalar servicios útiles
-    echo -e "${BOLD}${GREEN}Servicios útiles${NC}"
+    printf "${BOLD}${GREEN}Servicios útiles${NC}\n"
     sleep 1
     sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse
     sudo systemctl enable acpid
     sudo systemctl enable ntpd
     sudo systemctl enable cups.service
-    echo ""
+    echo
 
     # Instalación mínima del escritorio Gnome
-    echo -e "${BOLD}${GREEN}Instalando Gnome mínimo${NC}"
+    printf "${BOLD}${GREEN}Instalando Gnome mínimo${NC}\n"
     sleep 1
     GNOME_PAQUETES=(
       'xdg-user-dirs'
@@ -56,34 +57,43 @@ case "$ANSWER" in
       'gnome-tweak-tool'
       'gdm'
     )
-    sudo pacman -S "${GNOME_PAQUETES[*]}" --noconfirm
+    for GNOME_PAQUETE in "${GNOME_PAQUETES[@]}"; do
+      echo
+      printf "Instalando: ${GNOME_PAQUETE}\n"
+      sleep 1
+      sudo pacman -S "${GNOME_PAQUETE}" --noconfirm
+    done
     sudo systemctl enable gdm
-    echo ""
+    echo
 
     # Instalación de Yay para usar el AUR
-    echo -e "${BOLD}${GREEN}Instalando Yay${NC}"
+    printf "${BOLD}${GREEN}Instalando Yay${NC}\n"
     sleep 1
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
-    echo ""
+    echo
 
     # Ajustar el valor de swappiness
-    echo -e "${BOLD}${GREEN}Ajustando swappiness${NC}"
+    printf "${BOLD}${GREEN}Ajustando swappiness${NC}\n"
     sleep 1
-    echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
-    echo ""
-    echo -e "${BOLD}${GREEN}La primera parte del script ha finalizado${NC}"
+    printf "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
+    echo
+
+    # Habilitar servicio de bluetooth
+    printf "${BOLD}${GREEN}Habilitando servicio de bluetooth${NC}\n"
     sleep 1
-    echo -e "${BOLD}${GREEN}Reinicie la computadora antes de iniciar la segunda parte${NC}"
+    sudo systemctl enable bluetooth.service
+    echo
+    printf "${BOLD}${GREEN}La primera parte del script ha finalizado${NC}\n"
     sleep 1
+    printf "${BOLD}${GREEN}Reinicie la computadora antes de iniciar la segunda parte${NC}\n"
     ;;
   n)
-    echo "Ha cancelado la operación"
-    sleep 1
+    printf "Ha cancelado la operación\n"
     ;;
   *)
-    echo -e "${BOLD}${RED}Esa opción no es válida${NC}"
+    printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
     sleep 1
     ;;
 esac
