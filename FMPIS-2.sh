@@ -61,13 +61,15 @@ case "$ANSWER" in
       'gnome-software-packagekit-plugin'
       'gnome-usage'
       'gnome-photos'
+      'pass'
+      'xclip'
       'file-roller'
       'evince'
       'sushi'
       'pass'
       'eog'
       'mpv'
-      'youtube-dl'
+      'yt-dlp'
       'transmission-gtk'
       'gufw'
       'htop'
@@ -133,7 +135,7 @@ case "$ANSWER" in
       'opustags'
       'game-devices-udev'
       'zsh-theme-powerlevel10k-git'
-      'auto-cpufreq-git'
+      'auto-cpufreq'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
       echo

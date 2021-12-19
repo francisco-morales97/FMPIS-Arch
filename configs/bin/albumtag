@@ -17,26 +17,60 @@ TOTAL="$(wc -l < $1)"
 # Ordeno las canciones por orden de descarga y reemplazo los espacios por 
 # signos de grado para que, al ejecutar el loop, los nombres de cada cancion
 # sean tratados como una sola linea
-SONGS=$(ls *.m4a --time=creation -r | sed "s/ /°/g")
+SONGS=$(ls *.opus --time=creation -r | sed "s/ /°/g")
+# La línea de abajo es en caso de usar youtube-dl
+# SONGS=$(ls *.m4a --time=creation -r | sed "s/ /°/g")
 
 for SONG in $SONGS; do
   TRACK="$(printf "%02d" "$(expr $TRACK + 1)")"
-  SONGNAME="$(printf "$SONG" | sed "s/°/ /g;s/-.*\.//g;s/m4a$/-$TRACK/g" | awk -F - '{print $2,$1}' | sed "s/\s/ - /")"
-  printf "Convirtiendo '$(printf $SONG | sed "s/°/ /g;s/-.*//g")'\n"
-
-  # Revierto los signos de grado a espacios para que ffmpeg reconozca el 
+  SONGNAME="$(printf "$SONG" | sed "s/°/ /g;s/ \[.*\.//g;s/opus$/°$TRACK/g" | awk -F ° '{print $2,$1}' | sed "s/\s/ - /")"
+  printf "Renombrando '$(printf $SONG | sed "s/°/ /g;s/ \[.*//g")'\n"
+  # Revierto los signos de grado a espacios para que se reconozca el 
   # nombre original del archivo y pueda convertirlo de formato
-  ffmpeg -nostdin -loglevel 16 -i "$(printf $SONG | sed "s/°/ /g")" "$SONGNAME.opus"
+  mv "$(printf $SONG | sed 's/°/ /g')" "$SONGNAME.opus"
+
+  # Las lineas de abajo son en caso de usar youtube-dl en lugar de yt-dlp
+
+  # SONGNAME="$(printf "$SONG" | sed "s/°/ /g;s/-.*\.//g;s/m4a$/°$TRACK/g" | awk -F ° '{print $2,$1}' | sed "s/\s/ - /")"
+  # printf "Convirtiendo '$(printf $SONG | sed "s/°/ /g;s/-.*//g")'\n"
+
+  # Revierto los signos de grado a espacios para que se reconozca el 
+  # nombre original del archivo y pueda convertirlo de formato
+  # ffmpeg -nostdin -loglevel 16 -i "$(printf $SONG | sed "s/°/ /g")" "$SONGNAME.opus"
 done
 
 # Proceso de etiquetado de canciones
 
 # Metadatos generales
+EXIT=false
 echo
 printf "Nombre del album:\n"; read -r ALBUM
 printf "Nombre del artista:\n"; read -r ARTIST
 printf "Año de publicación:\n"; read -r DATE
-printf "Género del album:\n"; read -r GENRE
+while [ $EXIT = false ]; do
+  printf "¿Cuántos generos posee el álbum? [1/2/3]\n"; read ANSWER
+  case $ANSWER in
+    1)
+      printf "Género del álbum:\n"; read -r GENRE
+      EXIT=true
+      ;;
+    2)
+      printf "Primer género del álbum:\n"; read -r GENRE
+      printf "Segundo género del álbum:\n"; read -r GENRE2
+      EXIT=true
+      ;;
+    3)
+      printf "Primer género del álbum:\n"; read -r GENRE
+      printf "Segundo género del álbum:\n"; read -r GENRE2
+      printf "Tercer género del álbum:\n"; read -r GENRE3
+      EXIT=true
+      ;;
+    *)
+      echo
+      printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done
 EXIT=false
 while [ $EXIT = false ]; do
   printf "¿El album posee discos múltiples? [y/n]\n"; read ANSWER
@@ -57,22 +91,48 @@ done
 echo
 TRACK=0
  
-# Aplicar dichos metadatos según el album sea multidisco
-if [ -n "$DISCNUMBER" ]; then
+# Aplicar metadatos
+if [ -n "$GENRE2" ]; then                         # Si el álbum tiene 2 generos
   for SONG in *.opus; do
-    NAME="$(printf "$SONG" | sed "s/.*-\s//g;s/.opus$//g")"
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
     TRACK="$(printf "$(expr $TRACK + 1)")"
     printf "Escribiendo metadatos de '$SONG'\n"
     opustags "$SONG" --in-place -D
-    opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL" -a "DISCNUMBER=$DISCNUMBER"
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "GENRE=$GENRE2" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL" -a "DISCNUMBER=$DISCNUMBER"
+    else
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "GENRE=$GENRE2" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL"
+    fi
   done
-else
+elif [ -n "$GENRE3" ]; then                       # Si el álbum tiene 3 generos
   for SONG in *.opus; do
-    NAME="$(printf "$SONG" | sed "s/.*-\s//g;s/.opus$//g")"
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
     TRACK="$(printf "$(expr $TRACK + 1)")"
     printf "Escribiendo metadatos de '$SONG'\n"
     opustags "$SONG" --in-place -D
-    opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL"
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "GENRE=$GENRE2" -a "GENRE=$GENRE3" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL" -a "DISCNUMBER=$DISCNUMBER"
+    else
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "GENRE=$GENRE2" -a "GENRE=$GENRE3" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL"
+    fi
+  done
+else                                          # Si el álbum tiene 1 solo genero
+  for SONG in *.opus; do
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
+    TRACK="$(printf "$(expr $TRACK + 1)")"
+    printf "Escribiendo metadatos de '$SONG'\n"
+    opustags "$SONG" --in-place -D
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL" -a "DISCNUMBER=$DISCNUMBER"
+    else
+      opustags "$SONG" --in-place -a "TITLE=$NAME" -a "ALBUM=$ALBUM" -a "ARTIST=$ARTIST" -a "DATE=$DATE" -a "GENRE=$GENRE" -a "TRACKNUMBER=$TRACK" -a "TOTALTRACKS=$TOTAL"
+    fi
   done
 fi
 
@@ -84,7 +144,9 @@ while [ $EXIT = false ]; do
   printf "¿Desea remover los archivos sobrantes? [y/n]\n" && read ANSWER
   case "$ANSWER" in
     y)
-      rm *.m4a tracks
+      rm tracks
+      # La linea de abajo es en caso de usar youtube-dl
+      # rm *.m4a tracks
       echo
       printf "${GREEN}${BOLD}¡Proceso Finalizado!${NC}\n"
       EXIT=true
