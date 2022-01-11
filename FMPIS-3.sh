@@ -29,6 +29,12 @@ case "$ANSWER" in
     chsh -s /bin/zsh
     echo
 
+    # Desactiva power profile daemon
+    printf "${BOLD}${GREEN}Desactivando power profile daemon${NC}\n"
+    sleep 1
+    sudo systemctl stop power-profiles-daemon && sudo systemctl mask power-profiles-daemon
+    echo
+
     # Inicia el servicio de Auto CPU-Freq
     printf "${BOLD}${GREEN}Iniciando Auto CPU-Freq${NC}\n"
     sleep 1

@@ -11,13 +11,16 @@ read ANSWER
 
 case "$ANSWER" in
   1)
+    sleep 1
     ffmpeg -f x11grab -framerate 30 -video_size 1366x768 -hwaccel qsv -probesize 20M -i :0+0,0 video.mkv
     ;;
   2)
+    sleep 1
     ffmpeg -f pulse -i default audio.wav
     ;;
   3)
-    ffmpeg -f x11grab -framerate 30 -video_size 1366x768 -i :0+0,0 -f pulse -i default video.mkv
+    sleep 1
+    ffmpeg -f x11grab -framerate 30 -video_size 1366x768 -hwaccel qsv -probesize 20M -i :0+0,0 -f pulse -i default video.mkv
     ;;
   q)
     printf "Ha cancelado la operación\n"

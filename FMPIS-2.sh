@@ -73,6 +73,7 @@ case "$ANSWER" in
       'transmission-gtk'
       'gufw'
       'htop'
+      'ttf-iosevka-nerd'
       'dash'
       'zsh'
       'zsh-syntax-highlighting'
@@ -129,7 +130,6 @@ case "$ANSWER" in
 
       # Fuentes tipograficas --
       'ttf-ms-fonts'
-      'nerd-fonts-roboto-mono'
 
       # Utilidades --
       'opustags'

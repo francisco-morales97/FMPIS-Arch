@@ -14,3 +14,6 @@
 [submodule "configs/.vim/pack/plugins/start/emmet-vim"]
 	path = configs/.vim/pack/plugins/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "configs/.vim/pack/plugins/start/vim-mucomplete"]
+	path = configs/.vim/pack/plugins/start/vim-mucomplete
+	url = https://github.com/lifepillar/vim-mucomplete.git

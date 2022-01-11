@@ -4,6 +4,8 @@
 let mapleader = ","
 
 " Configuraciones generales 
+filetype indent plugin on
+syntax on
 set nocompatible
 set noshowmode
 set encoding=utf-8
@@ -21,15 +23,17 @@ set mouse=a
 set wrap linebreak nolist
 set splitbelow splitright
 set hlsearch incsearch
+set dictionary=spell
 set nospell spelllang=es,en_us
 set foldenable
 set foldmethod=marker
 set foldmarker={{{,}}}
 set scrolloff=8
-filetype indent plugin on
-syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone
+set completeopt+=noselect
+set completeopt+=noinsert
+set shortmess+=c
 autocmd BufNewFile,BufRead *.* set autoindent smartindent
 
 " Configura el espacio para accionar los comandos
@@ -86,6 +90,14 @@ nnoremap <silent> tl :tabnext<CR>
 "}}}
 
 " PLUGINS {{{
+
+" Configuracion de MuComplete
+let g:mucomplete#enable_auto_at_startup = 1
+let g:mucomplete#chains = {
+                  \ 'default':    ['file', 'keyn', 'omni', 'user', 'defs', 'incl', 'c-n', 'uspl'],
+                  \ 'vim':        ['file', 'keyn', 'cmd',  'omni', 'user', 'c-n', 'uspl'],
+                  \ 'text':       ['file', 'c-n',  'uspl', 'omni', 'user'],
+                  \ }
 
 " Configuracion de Goyo 
 nnoremap <silent> <Leader>g :Goyo<CR>

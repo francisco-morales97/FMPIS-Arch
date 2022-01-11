@@ -78,10 +78,15 @@ fi
 alias anime="ani-cli -q 720"
 alias ls="ls -C --color=always"
 alias grep="grep --color=always"
-alias yta="youtube-dl -xf --bestaudio/best"
-alias yt="youtube-dl"
+alias yta="yt-dlp --abort-on-error -x --audio-format best --audio-quality 0"
+alias yt="yt-dlp"
 alias mpv="mpv --profile=480p"
-alias hh="cd /opt/lampp/htdocs/wordpress/wp-content/themes/Huara-Huara"
+alias etags="EDITOR=vim opustags --in-place --edit"
+alias hh="cd /opt/lampp/htdocs/huara-huara/wp-content/themes/Huara-Huara"
+alias u="cd ~/Documentos/Inacap/'4to Semestre'/"
+alias t="cd ~/Documentos/'Proyectos Web Personales'/Geoservices"
+alias mirror-refresh="sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist"
+alias tunel-geosrv="ssh -v -N -D localhost:1080 tunel@geosysrv.noip.me -p 10"
 
 # Zsh history
 HISTSIZE=1000
