@@ -38,6 +38,9 @@ window:
   #
   decorations: none
 
+  # Window opacity
+  opacity: 0.95
+
   # Startup Mode (changes require restart)
   #
   # Values for `startup_mode`:
@@ -143,12 +146,6 @@ colors:
     cyan:    '#427b58'
     white:   '#928374'
   # indexed_colors: []
-        
-# Background opacity
-#
-# Window opacity as a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
 
 cursor:
   # Cursor style

@@ -75,7 +75,7 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 fi
 
 # Sección de aliases
-alias anime="ani-cli -q 720"
+alias cmatrix="cmatrix -ab"
 alias ls="ls -C --color=always"
 alias grep="grep --color=always"
 alias yta="yt-dlp --abort-on-error -x --audio-format best --audio-quality 0"
@@ -84,7 +84,8 @@ alias mpv="mpv --profile=480p"
 alias etags="EDITOR=vim opustags --in-place --edit"
 alias hh="cd /opt/lampp/htdocs/huara-huara/wp-content/themes/Huara-Huara"
 alias u="cd ~/Documentos/Inacap/'4to Semestre'/"
-alias t="cd ~/Documentos/'Proyectos Web Personales'/Geoservices"
+alias t="cd ~/Documentos/'Proyectos Web Personales'/Geoservice"
+alias anime="ani-cli -q 720"
 alias mirror-refresh="sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist"
 alias tunel-geosrv="ssh -v -N -D localhost:1080 tunel@geosysrv.noip.me -p 10"
 
@@ -94,7 +95,7 @@ SAVEHIST=1000
 HISTFILE=~/.cache/zsh/history
 
 # Zsh completions
-autoload -U compinit
+autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
