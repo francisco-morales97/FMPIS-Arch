@@ -67,7 +67,7 @@ while [ $EXIT = false ]; do
       ;;
     *)
       echo
-      printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
       ;;
   esac
 done

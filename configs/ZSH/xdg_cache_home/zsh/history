@@ -1,0 +1,1003 @@
+mkdir .local/share/nvim/site/autoload
+ls
+mv plug.vim .local/share/nvim/site/autoload
+nvim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+cd .local/share/nvim/site/pack/plugins/start
+ls
+sudo rm -r nvim-lspconfig
+ls
+cd
+exit
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+vim index.php
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+vim index.php
+nvim index.php
+exit
+nvim .config/nvim/init.vim
+exit
+ls
+ls -a
+nvim .config/zsh/.zshrc
+nvim .zshenv
+exit
+etags
+cd Música/Tears\ For\ Fears/Songs\ From\ The\ Big\ Chair
+ls
+etags 02\ -\ The\ Working\ Hour.opus
+cd
+nvim .config/zsh/.zshrc
+printf $EDITOR
+echo $EDITOR
+printf $EDITOR
+printf "$EDITOR"
+echo "$SHELL"
+nvim FMPIS-Arch/FMPIS-3.sh
+readlink /bin/sh
+readlink /usr/bin/sh
+nvim .config/zsh/.zshrc
+cd Música/Tears\ For\ Fears/Songs\ From\ The\ Big\ Chair
+ls
+etags 01\ -\ Shout.opus
+cd
+nvim .config/zsh/.zshrc
+cd Música/Tears\ For\ Fears/Songs\ From\ The\ Big\ Chair
+etags 01\ -\ Shout.opus
+nvim ~/.config/zsh/.zshrc
+nvim ~/.config/zsh/.zshrc
+exit
+nvim ~/.config/nvim/init.vim
+exit
+htop
+exit
+cd Música/Tears\ For\ Fears/Songs\ From\ The\ Big\ Chair
+etags 01\ -\ Shout.opus
+etags 01\ -\ Shout.opus
+cd
+nvim .config/nvim/init.vim
+cd .local/share/nvim/swap
+ls
+rm %home%francisco%.config%nvim%init.vim.swp
+cd
+nvim .config/nvim/init.vim
+ls .local/share/nvim/site/pack/plugins/start
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+vim index.php
+nvim index.php
+cd
+sudo npm install -g typescript typescript-language-server
+nvim .config/nvim/init.vim
+gs
+nvim js/index.js
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+nvim js/fades.js
+cd
+nvim .config/nvim/init.vim
+gs
+nvim js/servicios.js
+nvim index.php
+cd
+cd Documentos/Proyectos\ Web\ Personales
+ls
+cd Pruebas
+ls
+cd Revistas
+ls
+cd Cocombustible
+ls
+nvim index.html
+cd
+exit
+sudo flatpak uninstall org.pitivi.Pitivi
+nvim .config/nvim/init.vim
+pacman -Q xdg-portal-gnome
+pacman -Q xdg-desktop-portal-gnome
+exit
+sudo pacman -S helvum
+exit
+man pass
+pass generate -c mercadolibre 12
+pass
+pass vnc
+pass rm vnc
+exit
+pw-top
+exit
+nvim .config/zsh/.zshrc
+exit
+ls
+cd TLauncher
+ls
+exit
+mc
+exit
+pw-top
+exit
+nvim .config/nvim/init.vim
+gs
+ls
+nvim js/fades.js
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+cd Documentos/Proyectos\ Web\ Personales
+cd Grid/
+ls
+nvim index.html
+cd
+gs
+nvim js/fades.js
+cd
+nvim .config/nvim/init.vim
+gs
+nvim js/index.js
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+nvim js/servicios.js
+which node
+which npm
+nvim js/servicios.js
+cd
+nvim .config/nvim/init.vim
+cd .config/nvim
+ls
+mkdir lua
+rm -r lua
+mkdir -p lua/francisco
+cd lua/francisco
+touch lspconfig.lua
+touch init.lua
+ls
+nvim lspconfig.lua
+nvim init.lua
+gs
+ls
+nvim js/servicios.js
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/lua/francisco/init.lua
+nvim .config/nvim/lua/francisco/lspconfig.lua
+gs
+nvim js/servicios.js
+cd $XDG_CONFIG_HOME/nvim/
+nvim init.vim
+cd lua/francisco
+ls
+git init
+ls
+touch test.js
+ls
+nvim test.js
+gs
+ls
+nvim js/fades.js
+cd
+cd .config/nvim
+nvim lua/francisco/lspconfig.lua
+nvim lua/francisco/test.js
+nvim lua/francisco/lspconfig.lua
+nvim lua/francisco/lspconfig.lua
+nvim lua/francisco/lspconfig.lua
+nvim lua/francisco/test.js
+nvim init.vim
+nvim lua/francisco/init.lua
+nvim lua/francisco/lspconfig.lua
+nvim init.vim
+nvim init.vim
+nvim lua/francisco/test.js
+gs
+nvim js/fades.js
+nvim js/fades.js
+cd $XDG_CONFIG_HOME/nvim/lua/francisco
+ls
+touch index.html style.css
+nvim index.html
+ls
+ls -a
+cd .git
+ls
+cd ..
+ls
+ls -a
+rm -r .git
+ls -a
+nvim test.js
+exit
+nvim
+htop
+man npm
+npm info
+exit
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+gs
+nvim index.php
+cd
+nvim
+nvim .config/nvim/lua/francisco/init.lua
+nvim
+nvim
+cd .config/nvim/lua/francisco
+ls
+touch colorizer.lua
+nvim colorizer.lua
+ls
+nvim init.lua
+nvim
+nvim
+gs
+ls
+nvim index.php
+nvim js/index.js
+nvim
+nvim
+nvim
+nvim
+nvim
+cd
+cd .config/nvim/lua/francisco
+ls
+nvim lspconfig.lua
+nvim
+nvim
+ls
+rm colorizer.lua index.html style.css test.js
+ls
+cd ../..
+ls
+nvim init.vim
+nvim init.vim
+nvim init.vim
+nvim lua/francisco/lspconfig.lua
+gs
+nvim css/style.css
+cd
+nvim Documentos/Proyectos\ Web\ Personales/Grid/index.html
+nvim .config/nvim/lua/francisco/lspconfig.lua
+nvim Documentos/Proyectos\ Web\ Personales/Grid/index.html
+nvim .config/nvim/init.vim
+gs
+nvim css/style.css
+nvim $XDG_CONFIG_HOME/nvim/init.vim
+nvim css/style.css
+cd
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+gs
+ls
+nvim js/index.js
+nvim js/index.js
+nvim js/index.js
+nvim js/index.js
+nvim js/index.js
+cd
+cd .config/nvim/lua/francisco
+ls
+touch treesitter.lua
+nvim init.lua
+nvim treesitter.lua
+nvim init.lua
+gs
+nvim js/index.js
+nvim index.php
+cd
+nvim .config/zsh/.zshrc
+nvim .local/bin/albumtag
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim .config/nvim/init.vim
+nvim
+nvim .config/nvim/init.vim
+nvim
+nvim
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+nvim
+nvim .config/alacritty/alacritty.yml
+nvim
+nvim
+exit
+exit
+nvim -u NONE -c "helptags  ~/.config/nvim/pack/plugins/start/indentLine/doc" -c "q"
+nvim
+nvim
+cd .config/nvim/
+ls
+cd
+cd .local/share/nvim/
+ls
+cd
+nvim -u NONE -c "helptags  ~/.local/share/nvim/site/pack/plugins/start/indentLine/doc" -c "q"
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+nvim
+cd .config/nvim/lua/francisco
+ls
+nvim lspconfig.lua
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+nvim 
+nvim
+exit
+nvim
+exit
+exit
+ls
+nvim
+vim
+nvim
+exit
+cd /usr/share/fonts
+ls
+cd RobotoMono
+ls
+cd
+nvim .config/alacritty/alacritty.yml
+exit
+man npm
+nvim
+nvim
+cd Descargas/afetch
+ls
+nvim src/config.h
+exit
+p10k configure
+exit
+yay -Syu
+yay -S lf
+ping google.com
+ping google.com
+yay -S lf
+afetch
+exit
+lf
+ls
+cd go
+ls
+ls -a
+cd pkg
+ls
+ls -a
+cd
+rm -r go
+lf
+ls
+ls /etc
+lf -doc
+lf -doc | less
+cd .config
+l
+ls
+mkdir lf
+ls
+cd lf
+ls
+touch lfrc
+nvim lfrc
+nvim lfrc
+lf
+nvim lfrc
+lf
+nvim lfrc
+cd
+lf
+lf
+lf
+exit
+lf
+exit
+htop
+exit
+lf
+nvim
+exit
+nvim
+nvim
+lf
+exit
+lf
+rm -r .config/lf
+lf
+yay -Rs lf
+exit
+sudoedit /usr/share/applications/nvim.desktop
+exit\
+nvim .local/share/nvim/
+nvim
+nvim
+nvim
+nvim
+nvim
+gs
+nvim
+nvim
+cd
+sudo pacman -Rs vim
+ls -a
+rm -rf .vim
+ls
+ls -a
+vim
+exit\
+nvim .local/share/nvim/
+vim
+ls -a
+ls -a | wc -l
+ls -a | wc -l
+ls -C
+ls -Ca | wc -l
+ls
+ls -Ca
+cd .password-store
+ls
+cd
+cd .pki
+ls
+cd nssdb
+ls
+cd
+cd .tlauncher
+ls
+cd
+cd .vscode-oss
+ls
+cd extensions
+ls
+cd
+nvim .nodemid
+nvim .gitconfig
+ls -la
+exit\
+
+exit
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+nvim .config/alacritty/alacritty.yml
+ls
+nvim FMPIS-Arch/FMPIS-2.sh
+nvim .config/alacritty/alacritty.yml
+exit
+ani-cli boruto
+ani-cli boruto
+ani-cli boruto
+ping google.com
+ani-cli boruto
+ani-cli boruto
+ani-cli -U
+ani-cli boruto
+ani-cli boruto
+ani-cli boruto
+sudo pacman -S gnome-todo
+cd .local/share/applications
+ls
+sudo cp /usr/share/applications/nvim.desktop .
+ls
+sudo chown francisco:francisco nvim.desktop
+nvim nvim.desktop
+flatpak list
+sudo flatpak uninstall com.spotify.Client
+cd
+yay -Syu
+sudo shutdown now
+exit
+nvim .themes/Fradwaita/gnome-shell/gnome-shell.css
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.yml
+nvim .themes/Fradwaita/gnome-shell/gnome-shell.css
+nvim .themes/Fradwaita/gnome-shell/gnome-shell.css
+exit
+exit
+flatpak list
+nvim .config/alacritty/alacritty.yml
+exit
+ls
+flatpak list
+sudo flatpak uninstall com.microsoft.Teams
+nvim .themes/Fradwaita/gnome-shell/gnome-shell.css
+exit
+sudo npm install -g @angular/language-server
+nvim
+nvim
+nvim
+flatpak search zoom
+pacman -Ss zoom
+exit
+pass -c github
+pass github
+pass -c github
+sudo pacman -Rs firefox
+exit
+pacman -Q screen
+pacman -Q screenshot
+pacman -Q gnome-screenshot
+sudo pacman -Rs gnome-screenshot
+nvim FMPIS-Arch/FMPIS-2.sh
+yay -Ss zoom
+pacman -Ss zoom
+yay -S zoom
+exit
+htop
+exit
+yay -Syu
+exit
+exit
+exit
+exit
+exit
+exit
+sudo npm install -g @angular/cli
+sudo npm clean cache --force
+sudo npm cache clean --force
+nvim
+nvim
+ls
+cd Documentos
+ls
+mkdir Angular
+cd Angular
+mkdir prueba
+cd prueba
+ls
+man ng
+ng --help
+ng new
+lw
+ls
+cd PruebaAngular
+ls
+cd src
+ls
+nvim styles.css
+nvim index.html
+ng serve
+exit
+$COLORTERM
+exit
+cd Documentos/Angular/prueba/PruebaAngular
+ls
+nvim README.md
+nvim angular.json
+cd src
+ls
+nvim main.ts
+ls
+cd app
+ls
+nvim app.component.css
+nvim app.component.html
+ls
+nvim app.component.ts
+nvim app.component.ts
+ls
+ls
+mkdir -p compoments/button
+cd compoments/button
+touch button.component.ts
+nvim button.component.ts
+nvim
+nvim ~/.config/nvim/init.vim
+nvim
+ls
+rm button.component.ts
+ls
+nvim prueba-componente.component.ts
+ls
+cd ..
+ls
+cd ..
+ls
+afetch
+neo
+cd
+nvim .config/alacritty/alacritty.yml
+nvim .config/nvim/init.vim
+nvim
+nvim
+nvim
+nvim
+pass -c mercadolibre
+sudo pacman -S gnome-todo
+exit
+man pacman
+exit
+nvim
+nvim .config/nvim/lua/francisco/lspconfig.lua
+ls
+nvim .config/nvim/lua/francisco/treesitter.lua
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+cd Descargas/papirus-icon-theme-adwaita-folders
+ls
+diff Papirus /usr/share/icons/Papirus
+sudo mv Papirus /usr/share/icons
+sudo rm -r /usr/share/icons/Papirus
+ls /usr/share/icons/Papirus
+ls /usr/share/icons/
+sudo rm -r /usr/share/icons/Papirus-Dark
+sudo rm -r /usr/share/icons/Papirus-Light
+sudo mv Papirus /usr/share/icons
+sudo mv Papirus-Dark /usr/share/icons
+sudo mv Papirus-Light /usr/share/icons
+exit
+htop
+nautilus
+man nautilus
+exit
+htop
+exit
+pass -c generate zoom
+pass generate -c zoom 12
+pass -c zoom
+exit
+anime ranma
+exit
+pass -c zoom
+exit
+htop
+exit
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+flatpak list
+sudo flatpak uninstall com.anydesk.Anydesk
+exit
+nvim
+exit
+flatpak list
+sudo flatpak uninstall org.telegram.desktop
+exit
+exit
+nvim
+nvim .themes/Fradwaita/gnome-shell/gnome-shell.css
+exit
+nvim
+exit
+nvim
+exit
+pass -c zoom
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+ls
+ng serve
+exit
+pass generate -c claveunica 12
+pass generate -c claveunica 12
+pass claveunica
+man pass
+pass generate -c claveunica 12
+pass cla
+pass claveunica
+pass -c claveunica
+exit
+pass zoom
+exit
+htop
+exit
+htop
+exit
+ls -a | wc -l
+ls -a
+rm -rf .anydesk .vnc 
+ls .fltk
+t -RF .ANYDESK .VNC 
+exit
+nvim
+exit
+ls -a
+rm -rf .fltk 
+ls .tlauncher
+cat .tlauncher/protection.txt
+cat .tlauncher/doubleRunningProtection.txt
+nvim .tlauncher/tlauncher-2.0.properties
+rm -rf .tlauncher
+ls .pki
+ls .pki/nssdb/
+ls -a | wc -l
+man pass
+man npm
+nvim
+man npm
+npm help help config
+npm help config
+npm help -l config
+npm help -l config | less
+echo $npm_config_prefix
+npm help prefix
+npm help -l prefix | less
+exit
+nvim .zshenv
+nvim $XDG_CONFIG_HOME/npm/npmrc
+nvim $XDG_CONFIG_HOME/npm/npmrc
+man npm
+nvim .zshenv
+nvim
+nvim .config/npm/npmrc
+cd .config/npm
+ls
+cd
+ls -a
+ls .npm
+rm -rf .npm
+ls -a
+nvim .nodemid
+cd .local/share/
+ls
+cd npm
+ls
+cd
+man pass
+nvim .password-store
+ls
+mkdir .local/share/pass
+nvim .zshenv
+ls
+ls -a
+ls .password-store
+ls -la
+cp -r .password-store/* .local/share/pass
+ls .local/share/pass
+exit
+echo $PASSWORD_STORE_DIR
+man pass
+pass generate prueba 5
+ls -a
+ls .gnupg
+ls .local/share/pass
+nvim .config/alacritty/alacritty.yml
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+nvim .config/alacritty/alacritty.yml
+exit
+nvim .zshenv
+mkdir .local/share/gnupg
+exit
+man gnupg
+man gpg2
+man gpg
+nvim .zshenv
+exit
+cp -r .gnupg/* .local/share/gnupg
+ls .local/share/gnupg
+exit
+echo $WINE_PREFIX
+echo $SCR_PATH
+pass generate prueba 5
+ls -a
+ls .password-store
+rm -rf .local/share/pass/*
+ls -a
+ls .password-store
+pass generate prueba 5
+pass
+pass Password Store
+pass ls
+man pass
+man pass
+ls .local/share/pass
+ls .password-store
+ls .gnupg
+ls .gnupg/private-keys-v1.d
+ls .gnupg/crls.d
+cat .gnupg/crls.d/DIR.txt
+ls .gnupg/openpgp-revocs.d
+ls -a
+man pass
+nvim .zshenv
+man pass
+ls -a | wc -l
+ls .var
+ls .wine
+ls .local/share/gnupg
+diff .gnupg .local/share/gnupg
+man diff
+diff -r .gnupg .local/share/gnupg
+rm -rf .gnupg
+ls .pki
+ls .pki/nssdb
+cat .pki/nssdb/pkcs11.txt
+cd Descargas/illustratorCClinux
+ls
+nvim setup.sh
+cd scripts
+ls
+nvim illustratorSetup.sh
+ls
+nvim sharedFuncs.sh
+nvim winecfg.sh
+cd
+cd .password-store
+ls
+ls -a
+nvim .gpg-id
+cd
+ls .local/share/pass
+mkdir pass
+cp -r .password-store/* pass
+pass init
+pass init fmorales12.97@gmail.com
+pass
+man pass
+ls .local/share/gnupg
+pass generate prueba 5
+pass
+pass rm prueba
+ls -l .local/share/gnupg
+ls -l .local/share/
+chmod 700 .local/share/gnupg
+ls -l .local/share/
+ls -l .local/share/gnupg
+chmod 600 .local/share/gnupg/*
+ls -l .local/share/gnupg
+pass generate prueba 5
+pass
+pass rm prueba
+cp -r .password-store/* .local/share/pass
+pass
+pass zoom
+rm -rf pass
+ls -a
+pass generate prueba 5
+pass
+ls .password-store
+ls .local/share/pass
+rm -rf .password-store
+pass rm prueba
+ls -a
+man yabridgectl
+yabridgectl --help
+ls .pki
+ls .config
+cp -rf .pki .config/pki
+ls .config
+ls .config/pki
+rm -rf .pki
+ls -a
+nvim .viminfo
+nvim .viminfo
+nvim .viminfo
+ls -a | wc -l
+nvim .p10k.zsh
+ls .cache
+ls .cache/p10k-francisco
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+cd
+nvim
+ls -a
+rm  .p10k.zsh
+ls -a
+ls .config
+ls .cache
+cd .cache
+rm -rf p10k-dump-francisco.zsh p10k-dump-francisco.zsh.zwc p10k-francisco p10k-instant-prompt-francisco.zsh p10k-instant-prompt-francisco.zsh.zwc
+ls
+cd
+grep -E 'p10k|powerlevel10k' ~/.zshrc ~/.zpreztorc ~/.zimrc 2>/dev/null
+nvim FMPIS-Arch/FMPIS-2.sh
+yay -Rs zsh-theme-powerlevel10k-git
+exit
+ls
+ls -a | wc -l
+cd .config/zsh
+ls
+ls -a
+ls
+ls -a
+git clone https://github.com/sindresorhus/pure.git pure
+ls
+cd pure
+ls
+cd
+nvim
+exit
+ls
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+ls
+git status
+cd
+exit
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+ls
+nvim
+exit
+t
+exit
+pwd
+exit
+htop
+exit
+pacman -Q firewalld
+exit
+flatpak list
+anime ranma
+exit
+echo $XDG_MENU_PREFIX
+echo $XDG_DATA_DIRS
+cd .cache
+ls
+ls nvim
+cat nvim/lsp.log
+cd
+ls
+exi
+exit

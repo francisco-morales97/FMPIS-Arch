@@ -22,7 +22,7 @@ case "$ANSWER" in
     echo
 
     # Actualizar mirrors
-    printf "${BOLD}${GREEN}Actualizando los mirrors${NC}\n"
+    printf "${GREEN}${BOLD}Actualizando los mirrors${NC}\n"
     sleep 1
     sudo pacman -S reflector
     sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
@@ -30,23 +30,23 @@ case "$ANSWER" in
     echo
 
     # Actualizar el sistema
-    printf "${BOLD}${GREEN}Actualizando el sistema${NC}\n"
+    printf "${GREEN}${BOLD}Actualizando el sistema${NC}\n"
     sleep 1
     sudo pacman -Syyu
     sudo pacman -Sy archlinux-keyring
     echo
 
     # Instalar servicios útiles
-    printf "${BOLD}${GREEN}Servicios útiles${NC}\n"
+    printf "${GREEN}${BOLD}Servicios útiles${NC}\n"
     sleep 1
-    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse
+    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse pipewire-jack
     sudo systemctl enable acpid
     sudo systemctl enable ntpd
     sudo systemctl enable cups.service
     echo
 
     # Instalación mínima del escritorio Gnome
-    printf "${BOLD}${GREEN}Instalando Gnome mínimo${NC}\n"
+    printf "${GREEN}${BOLD}Instalando Gnome mínimo${NC}\n"
     sleep 1
     GNOME_PAQUETES=(
       'xdg-user-dirs'
@@ -67,7 +67,7 @@ case "$ANSWER" in
     echo
 
     # Instalación de Yay para usar el AUR
-    printf "${BOLD}${GREEN}Instalando Yay${NC}\n"
+    printf "${GREEN}${BOLD}Instalando Yay${NC}\n"
     sleep 1
     git clone https://aur.archlinux.org/yay.git
     cd yay
@@ -75,25 +75,25 @@ case "$ANSWER" in
     echo
 
     # Ajustar el valor de swappiness
-    printf "${BOLD}${GREEN}Ajustando swappiness${NC}\n"
+    printf "${GREEN}${BOLD}Ajustando swappiness${NC}\n"
     sleep 1
     printf "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
     echo
 
     # Habilitar servicio de bluetooth
-    printf "${BOLD}${GREEN}Habilitando servicio de bluetooth${NC}\n"
+    printf "${GREEN}${BOLD}Habilitando servicio de bluetooth${NC}\n"
     sleep 1
     sudo systemctl enable bluetooth.service
     echo
-    printf "${BOLD}${GREEN}La primera parte del script ha finalizado${NC}\n"
+    printf "${GREEN}${BOLD}La primera parte del script ha finalizado${NC}\n"
     sleep 1
-    printf "${BOLD}${GREEN}Reinicie la computadora antes de iniciar la segunda parte${NC}\n"
+    printf "${GREEN}${BOLD}Reinicie la computadora antes de iniciar la segunda parte${NC}\n"
     ;;
   n)
     printf "Ha cancelado la operación\n"
     ;;
   *)
-    printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
+    printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
     sleep 1
     ;;
 esac

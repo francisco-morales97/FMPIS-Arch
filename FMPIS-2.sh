@@ -20,15 +20,14 @@ case "$ANSWER" in
     sleep 1
     PROGRAMAS_PAC=(
       # Desarrollo web --
-      'firefox'
+      'firefox-developer-edition'
       'chromium'
       'epiphany'
       'code'
       'inkscape'
       'gimp'
-      'mysql-workbench'
-      'scribus'
-      'vim'
+      'npm'
+      'neovim'
 
       # Mensajería --
       'geary'
@@ -56,13 +55,11 @@ case "$ANSWER" in
       'flatpak'
       'gnome-calendar'
       'gnome-calculator'
-      'gnome-screenshot'
-      'gnome-software'
-      'gnome-software-packagekit-plugin'
       'gnome-usage'
       'gnome-photos'
       'pass'
       'xclip'
+      'wl-clipboard'
       'file-roller'
       'evince'
       'sushi'
@@ -70,8 +67,8 @@ case "$ANSWER" in
       'eog'
       'mpv'
       'yt-dlp'
-      'transmission-gtk'
-      'gufw'
+      'fragments'
+      'firewalld'
       'htop'
       'ttf-iosevka-nerd'
       'dash'
@@ -95,10 +92,9 @@ case "$ANSWER" in
       # Desarrollo web --
       'io.github.Figma_Linux.figma_linux'
       'com.getpostman.Postman'
-      'net.xmind.ZEN'
+      'net.xmind.XMind'
 
       # Aplicaciones favoritas --
-      'com.spotify.Client'
       'com.stremio.Stremio'
         
       # Emuladores --
@@ -107,11 +103,9 @@ case "$ANSWER" in
       # Ofimatica --
       'com.wps.Office'
       'org.onlyoffice.desktopeditors'
-      'com.microsoft.teams'
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
-      'com.github.alainm23.planner'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo
@@ -132,10 +126,9 @@ case "$ANSWER" in
       'ttf-ms-fonts'
 
       # Utilidades --
+      'zoom'
       'opustags'
       'game-devices-udev'
-      'zsh-theme-powerlevel10k-git'
-      'auto-cpufreq'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
       echo
@@ -144,13 +137,13 @@ case "$ANSWER" in
       yay -S --noconfirm "${PROGRAMA_AUR}"
     done
     echo
-    printf "${BOLD}${GREEN}La segunda parte del script ha finalizado${NC}\n"
+    printf "${GREEN}${BOLD}La segunda parte del script ha finalizado${NC}\n"
     ;;
   n)
     printf "Ha cancelado la operación\n"
     ;;
   *)
-    printf "${BOLD}${RED}Esa opción no es válida${NC}\n"
+    printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
     sleep 1
     ;;
 esac
