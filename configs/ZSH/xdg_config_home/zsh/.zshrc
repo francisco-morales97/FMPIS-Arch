@@ -1,10 +1,6 @@
 # Afetch
 afetch
 
-fpath+=$XDG_CONFIG_HOME/zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
-
 # Variables de color
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -90,3 +86,5 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Zsh syntax highlight
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Starship
+eval "$(starship init zsh)"

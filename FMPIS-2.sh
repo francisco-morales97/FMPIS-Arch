@@ -76,6 +76,7 @@ case "$ANSWER" in
       'zsh-syntax-highlighting'
       'zsh-autosuggestions'
       'zsh-completions'
+      'starship'
     )
     for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
       echo
