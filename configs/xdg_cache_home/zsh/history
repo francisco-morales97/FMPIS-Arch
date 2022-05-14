@@ -1,0 +1,1001 @@
+ls
+cd header
+ls
+cd ..
+nvim header/header.component.ts
+exit
+exit
+ls
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+ls
+cd src
+ls
+cd app
+ls
+nvim app.component.html
+nvim app.component.ts
+ls dashboard
+ls sitio-hilo
+ls sitio-hilo/grafico
+ls sitio-hilo/grafico-bus
+exit
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+ls
+cd src
+ls
+ls environments
+ls assets
+cd app
+ls
+cat app.component.html
+ls jobs
+nvim jobs/jobs.component.html
+ls
+ls navbar
+nvim navbar/navbar.component.html
+exit
+cd Documentos
+ls
+nvim apuntes.md
+nvim
+nvim
+exit
+cd Documentos/Angular
+ls
+cd prueba
+ls
+rm -r PruebaAngular
+rm -rf PruebaAngular
+ls
+rm -rf PruebaAngular
+ls
+man ng
+ng --help
+ng help
+ng new
+ls
+cd Tutorial
+ls
+cd src
+ls
+cd app
+ls
+nvim app.component.html
+nvim app.component.css
+nvim app.component.ts
+ls
+ng serve
+ng serve &
+jobs
+jobs
+ls
+man disown
+disown --help
+man disown
+fg
+bg
+jobs
+jobs
+fg
+jobs
+ng serve &
+jobs
+ls
+ls
+nvim header/header.component.html
+fg
+jobs
+exit
+nvim
+exit
+anime ranma
+ani-cli -U
+anime ranma
+ani-cli attack on titan
+ani-cli shingeki no kyojin
+anime ranma
+anime ranma
+ani-cli -U
+anime ranma
+exit
+htop
+exit
+ani-cli ranma
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+nvim
+exit
+yay -Syu
+yay -Syu
+sudo pacman -Rs mysql-workbench
+exit
+nvim
+nvim
+nvim
+exit
+nvim
+cd Documentos/Angular
+ls
+cd prueba
+ls
+cd ..
+ls
+rm -rf prueba
+ls
+ng new dashboard
+cd dashboard
+ls
+ng g c sidebar
+ls
+ls src
+ls src/app
+cd src/app
+ls
+ng g c modal
+ng g c tablero
+ls
+nvim app.component.html
+l
+ls
+nvim app.component.html
+nvim
+nvim
+nvim
+nvim
+nvim app.component.html
+ng serve &
+nvim app.component.html
+ls
+cd ..
+ls
+touch reset.css
+nvim reset.css
+ls
+cd ..
+ls
+nvim angular.json
+jobs
+nvim package.json
+nvim tsconfig.app.json
+nvim tsconfig.json
+nvim angular.json
+nvim angular.json
+ls
+cd src/app
+ls
+nvim sidebar/sidebar.component.html
+nvim app.component.html
+nvim app.component.html
+jobs
+disown -h
+disown
+jobs
+nvim app.component.html
+fg
+jobd
+jobs
+htop
+htop
+nvim app.component.html
+nvim sidebar/sidebar.component.ts
+exit
+cd Documentos/Angular/dashboard/src/app
+ng serve
+exit
+anime saint seiya
+anime knights of the zodiac
+anime saint seiya
+ani-cli -U
+anime saint seiya
+anime saint seiya
+exit
+anime saint seiya
+ls .local/bin
+nvim
+anime saint seiya
+ani-cli saint seiya
+ani
+anime
+nvim .local/bin/ani-cli
+ani-cli -U
+cd Descargas/ani-cli
+ls
+./ani-cli -U
+ls
+git status
+./ani-cli saint seiya
+cd
+rm .local/bin/ani-cli
+anime saint seiya
+ls
+nvim
+exit
+anime saint seiya
+exit
+anime -h
+cp Descargas/ani-cli/ani-cli .local/bin
+ls .local/bin
+nvim
+exit
+ls /usr/bin | grep "ani"
+man curl
+exit
+ls /usr/local/bin | grep "ani"
+ls
+rm .local/bin/ani-cli
+ls .local/bin
+cd Descargas/ani-cli
+ls
+nvim ani-cli
+cd ..
+ls
+rm -rf ani-cli
+cd
+ls .local/bin
+sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli && sudo chmod +x /usr/local/bin/ani-cli
+ls /usr/local/bin | grep "ani"
+exit
+ani-cli
+nvim
+exit
+exit
+pw-top
+htop
+exit
+pacman -Ss starship
+cd .config/zsh
+ls
+ls -a
+rm -rf pure
+cd
+nvim
+nvim .zshenv
+exit
+ls
+sudo pacman -S starship
+exit
+nvim
+exit
+ls
+cd FMPIS-Arch
+ls
+cd
+cd FMPIS-Arch
+cd
+cd .cache
+ls
+cd starship
+ls
+nvim session_2390020056275623.log
+cd ../../.config
+ls
+man starship
+starship -h
+starship config
+ls
+cd
+ls -a
+exit
+cd FMPIS-Arch
+ls
+cd
+cd Documentos/Angular/dashboard
+ls
+git status
+ls
+cd
+exit
+exit
+cd .local/bin
+ls
+cd
+exit
+cd FMPIS-Arch
+ls
+nvim FMPIS-2.sh
+cd
+cp -rf .local/bin FMPIS-Arch/configs
+cd FMPIS-Arch/configs
+ls
+cd ZSH
+ls
+cd home
+ls
+ls -a
+cd
+cd FMPIS-Arch/configs/ZSH/xdg_config_home
+ls
+ls -a
+cd zsh
+ls
+ls -a
+rm -rf pure
+cd
+cp .config/zsh/.zshrc FMPIS-Arch/configs/ZSH/xdg_config_home/zsh
+cd FMPIS-Arch/configs/ZSH/xdg_config_home/zsh
+ls -a
+nvim .zshrc
+cd ../../..
+ls
+cd ..
+git status
+git add -A
+git commit -m "Cambios de shell prompt"
+ls configs
+pass -c github
+git push origin
+cd
+exit
+htop
+exit
+exit
+cd Documentos
+cd
+starship config
+starship config
+starship config
+starship config
+starship config
+cd Docu
+cd Documentos
+starship config
+starship config
+ls
+ls
+starship config
+ls
+cd Angular/dashboard
+ls
+cd src
+ls
+cd app
+ls
+cd
+exit
+starship config
+ane
+ani-cli
+ls
+starship config
+l
+starship config
+l
+cd
+starship config
+exit
+ani-cli ranma
+ani-cli ranma
+ani-cli -U
+ani-cli ranma
+ani-cli ranma
+ping google.com
+ani-cli ranma
+ls
+exit
+htop
+exit
+anime ranma
+ani-cli ranma
+anime ranma
+nvim
+exit
+anime ranma
+anime shaman king
+exit
+anime ranma
+exit
+htop
+exit
+exit
+cd Descargas/01-WhiteSur
+ls
+sudo mv -r WhiteSur /usr/share/icons
+man mv
+sudo mv WhiteSur /usr/share/icons
+cd
+sudo rm -r /usr/share/icons/WhiteSur
+starship config
+starship config
+exit
+htop
+anime ranma
+exit
+flatpak search anydesk
+pacman -Ss anydesk
+sudo flatpak install flathub com.anydesk.Anydesk
+exit
+ping google.com
+exit
+ping google.com
+ls
+exit
+htop
+exit
+exit
+lsblk
+sudo umount /dev/sdc1
+ls
+lsblk
+sudo mkfs.vfat /dev/sdc
+sudo mkfs.vfat -I /dev/sdc
+lsblk
+mount /dev/sdc
+exit
+sudo pacman -S transmission-gtk
+exit
+sudo pacman -Rs fragments
+pacman -Ss postman
+sudo pacman -Rs fragments
+exit
+yay -Syu
+yay -Syu
+afetch
+exit
+pass
+pass insert Solem/francisco.morales
+pass Solem/francisco.morales
+pass -c Solem/francisco.morales
+pass -c Solem/francisco.morales
+pass claveunica
+pass -c claveunica
+pass -c Solem/francisco.morales
+pass -c Solem/francisco.morales
+pass -c claveunica
+pass insert Solem/rubrika
+pass generate Solem/rubrika 12
+pass Solem/rubrika
+pass -c Solem/rubrika
+pass -c Solem/rubrika
+pass -c Solem/rubrika
+pass
+pass -c Solem/rubrika
+pass generate --no-symbols Solem/rubrika-pin 6
+man pass
+pass generate --no-symbols Solem/rubrika-pin 6
+pass generate --no-symbols Solem/rubrika-pin 6
+pass generate --no-symbols Solem/rubrika-pin 6
+pass generate --no-symbols Solem/rubrika-pin 6
+pass -c Solem/rubrika-pin
+pass rm Solem/rubrika-pin
+pass
+pass insert Solem/rubrika-pin
+anime saint seiya
+ani-cli -U
+sudo ani-cli -U
+anime saint seiya
+anime saint seiya
+sudoedit /usr/local/bin/ani-cli
+cd /usr/local/bin
+ls
+nvim illustrator
+nvim ani-cli
+sudo rm ani-cli
+cd
+cd Descargas
+ls
+cd
+sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli && sudo chmod +x /usr/local/bin/ani-cli
+ls /usr/local/bin
+sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli
+sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli
+ls /usr/local/bin
+sudo chmod +x /usr/local/bin/ani-cli
+anime saint seiya
+anime ranma
+ani-cli -h
+ani-cli -c
+anime ranma
+exit
+htop
+nvim
+anime -h
+exit
+ping google.com
+ping google.com
+pass
+pass -c Solem/rubrika
+ping google.com
+ping google.com
+pass insert Solem/rubrika-pin
+exit
+nvim
+exit
+exit
+anime -h
+anime -c
+anime ranma
+exit
+exit
+fc-match -s "Hack"
+fc-match -s "Iosevka"
+pacman -Q ttf-iosevka\
+
+pacman -Ss ttf-iosevka
+nvim 
+nvim .config/alacritty/alacritty.yml
+exit
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.yml
+exit
+exit
+nvim .config/starship.toml
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.yml
+exit
+ls -a | wc -l
+ls -a
+exit
+htop
+exit
+pass Solem/rubrika-pin
+exit
+htop
+exit
+ping google.com
+exit
+pacman -Ss deluge
+ls
+nvim
+exit
+anime ranma
+anime -c
+htop
+exit
+pacman -Ss gnome-videos
+pacman -Ss totem
+exit
+pass
+pass insert Solem/rubrika
+pass Solem/rubrika
+pass -c Solem/rubrika
+exit
+htop
+exit
+mirror-refresh
+yay -Syyu
+sudo flatpak update
+sudo reboot
+man yay
+yay -Sc
+pacman -Qqdt
+pacman -Qqdt | sudo pacman -Rs -
+sudo paccache -rk0
+sudo flatpak uninstall --unused
+exit
+exit
+cd Descargas/Naruto\ Kai
+ls
+nvim Readme.txt
+ks
+ls
+rm Readme.txt
+ls
+exit
+pacman -Ss gnome-console
+pacman -Ss console
+pacman -Ss gnome-console
+exit
+pacman -Ss gnome
+pacman -Ss gnome | grep "console"
+pacman -Ss calibre
+sudo pacman -S calibre
+exit
+exit
+pacman -Ss contrast
+nvim
+exit
+sudo pacman -S console
+yay -Ss console
+flatpak search console
+exit
+cd .local/share/applications
+ls
+cd ..
+ls
+cd applications
+ls
+nvim nvim.desktop
+touch htop.desktop
+nvim htop.desktop
+cat nvim.desktop
+nvim htop.desktop
+nvim htop.desktop
+exit
+ping google.com
+exit
+nvim
+cd Documentos/Angular
+ls
+exit
+nvim
+exit
+cd Documentos
+ls
+cd Proyectos\ Web\ Personales
+ls
+mkdir browser-startpage
+cd browser-startpage
+ls
+mkdir css
+touch index.html css/style.css
+ls
+mkdir assets
+ls
+cd ..
+ls
+cd browser-startpage
+ls
+touch css/reset.css
+nvim css/reset.css
+nvim css/reset.css
+nvim css/style.css
+nvim
+nvim index.html
+exit
+pass
+man pass
+pass rm -r Geoservice
+pass
+exit
+man mpv
+exit
+ping google.com
+yay -Ss contrast
+yay -S contrast
+afetch
+flatpak search contrast
+sudo flatpak install org.gnome.design.Contrast
+exit
+pacman -Ss amberol
+flatpak search amberol
+sudo flatpak install io.bassi.Amberol
+exit
+flatpak list
+sudo flatpak uninstall io.bassi.Amberol
+exit
+pacman -Ss clapper
+exit
+pacman -Ss gnome-music
+sudo pacman -S gnome-music
+gnome-music
+sudo pacman -Rs gnome-music
+exit
+sudo pacman -S calibre
+sudo pacman -S calibre
+sudo pacman -Sy calibre
+sudo pacman -Syu
+sudo pacman -S calibre
+exit
+sudo pacman -Rs calibre
+afetch
+exit
+nvim Descargas/custom-theme.json
+cd Descargas
+ls
+mv custom-theme.json color-pallete.json
+exit
+ls -a | wc -l
+exit
+sudo pacman -Syu
+sudo pacman -Syu
+exit
+exit
+exit
+pacman -Ss foliate
+exit
+sudo pacman -S calibre
+exit
+cd Descargas
+convert 1266_critica_de_la_razon_pura_-_immanuel_kant_thb.webp critica_de_la_razon_pura.png
+pacman -Ss sigil
+sudo pacman -S sigil
+exit
+pacman -Ss vellum
+ysy -Ss vellum
+yay -Ss vellum
+flatpak search vellum
+exit
+exit
+yt-dlp https://hentaila.com/ver/isekai-yarisaa-1
+nvim
+nvim
+exit
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd Documentos/Angular
+ls
+cd dashboard
+ls
+cd src
+ls
+cd app
+l
+sls
+ls
+nvim app.component.css
+nvim
+cd
+nvim .config/alacritty/alacritty.yml
+exit
+cd Documentos/Angular
+exit
+nvim .config/alacritty/alacritty.yml
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+cd Documentos/Angular/dashboard/src
+ls
+exit
+cd Documentos/Angular/dashboard/src
+ls
+nvim styles.css
+ls
+nvim index.html
+cd app
+ls
+cat app.component.html
+nvim sidebar/sidebar.component.html
+cd
+gs
+ls
+nvim css/style.css
+cd
+cd Documentos/Angular/dashboard/src
+ls
+nvim app/sidebar/sidebar.component.html
+exit
+cd Documentos/Angular
+ls
+cd dashboard/src/app/
+ls
+nvim app.component.css
+nvim app.component.css
+nvim
+nvim
+nvim app.component.css
+ls ..
+cd ..
+ls
+nvim styles.css
+nvim reset.css
+nvim styles.css
+ls
+nvim reset.css
+nvim styles.css
+nvim
+nvim
+nvim styles.css
+ng serve
+ls
+ng serve &
+nvim styles.css
+fg
+bg
+nvim styles.css
+fg
+ng serve
+exit
+cd Documentos/Angular/dashboard/src
+ls
+nvim styles.css
+exit
+cd Documentos/Angular/dashboard/src
+ls
+nvim styles.css reset.css
+nvim
+nvim
+nvim
+nvim styles.css reset.css
+nvim index.html
+nvim
+nvim
+nvim styles.css reset.css
+nvim
+exit
+cd Documentos/Angular/dashboard/src
+nvim styles.css reset.css
+nvim
+nvim styles.css reset.css
+nvim
+nvim
+nvim styles.css reset.css
+cd
+exit
+nvim
+cd Documentos/Angular/dashboard/src
+ls
+nvim styles.css
+exit
+pacman -Ss gnome-music
+exit
+cd Documentos/Angular/dashboard/src
+ls
+nvim index.html
+nvim
+nvim index.html
+nvim
+nvim index.html
+nvim index.html styles.css reset.css
+jobs
+nvim index.html styles.css reset.css
+nvim
+nvim index.html styles.css reset.css
+nvim
+nvim index.html styles.css reset.css
+nvim index.html styles.css reset.css
+nvim index.html
+exit
+cd Documentos/Angular/dashboard/src
+nvim index.html
+nvim styles.css
+ls
+nvim index.html
+exit
+cd Documentos/Angular/dashboard/src
+nvim index.html
+exit
+cd Documentos/Angular/dashboard/src
+nvim styles.css
+cd
+nvim
+anime ranma
+anime -c
+anime ranma
+exit
+nvim
+nvim
+cd Documentos/Angular/dashboard/src
+ls
+nvim index.html
+nvim
+nvim styles.css
+nvim
+nvim styles.css
+cd
+cd FMPIS-Arch
+cd
+cd FMPIS-Arch
+clear
+clear
+ls
+cd configs
+ls
+ls neovim
+ls neovim/xdg_data_home
+ls neovim/xdg_data_home/nvim
+ls neovim/xdg_data_home/nvim/plugged
+ls ~/.local/share/nvim/plugged
+cd
+cp -r .config/alacritty FMPIS-Arch/configs
+cat FMPIS-Arch/configs/alacritty/alacritty.yml
+clear
+ls FMPIS-Arch/configs
+cp -rf .local/bin FMPIS-Arch/configs
+cp -rf .local/share/pass FMPIS-Arch/configs
+ls FMPIS-Arch/configs/pass
+ls FMPIS-Arch/configs/pass/xdg_data_home
+ls FMPIS-Arch/configs/pass/xdg_data_home/pass
+cd .local/bin
+ls
+touch update-configs
+nvim update-configs
+ls
+cd
+ls
+cd Documentos/Groff-docs
+ls
+touch oral-test.mom
+nvim oral-test.mom
+ls
+compilar
+compilar oral-test.mom
+ls
+zathura oral-test.pdf
+nvim oral-test.mom
+compilar oral-test.mom
+zathura oral-test.pdf
+nvim oral-test.mom
+compilar oral-test.mom
+nvim oral-test.mom
+compilar oral-test.mom
+exit
+cd Documentos/Groff-docs
+ls
+nvim oral-test.mom
+exit
+ls FMPIS-Arch/configs/
+ls FMPIS-Arch/configs/neovim/
+ls FMPIS-Arch/configs/neovim/xdg_config_home
+ls FMPIS-Arch/configs/neovim/xdg_data_home
+ls FMPIS-Arch/configs/
+ls FMPIS-Arch/configs/pass
+cd FMPIS-Arch/configs
+ls
+mkdir xdg_config_home xdg_data_home xdg_cache_home
+ls
+ls alacritty
+ls
+ls
+ls pass
+ls ZSH
+ls
+ls -a ZSH
+ls -a ZSH/home
+ls -a ZSH/xdg_cache_home
+ls -a ZSH/xdg_config_home
+ls
+ls xdg_cache_home
+ls xdg_config_home
+ls xdg_data_home
+ls -a
+ls xdg_cache_home
+ls xdg_config_home
+ls xdg_data_home
+ls
+rm -rf alacritty mpv pass neovim zathura ZSH
+ls
+ls -a
+exit
+cd FMPIS-Arch/configs
+ls
+ls xdg_cache_home/zsh
+ls xdg_config_home/alacritty
+exit
+cd FMPIS-Arch/configs
+cd
+nvim .local/bin/update-configs
+nvim .local/bin/update-configs
+exit
+nvim .local/bin/update-configs
+nvim .local/bin/update-configs
+chmod +x .local/bin/update-configs
+ls .local/bin
+update-configs
+cd FMPIS-Arch
+ls
+nvim FMPIS-3.sh
+ls
+ls configs
+nvim FMPIS-3.sh
+git status
+git add -A
+cd configs/xdg_data_home/nvim/
+ls
+ls plugged
+ls shada
+ls site
+ls site/autoload
+ls
+cd
+nvim .local/bin/update-configs
+exit
+nvim FMPIS-Arch/configs/xdg_data_home/nvim/shada/main.shada
+exit
+update-configs
+cd FMPIS-Arch/configs
+ls xdg_data_home/nvim
+ls xdg_data_home/nvim/shada
+ls xdg_data_home/nvim/swap
+ls xdg_data_home/nvim/site
+ls xdg_data_home/nvim/site/autoload
+cd
+nvim .local/bin/update-configs
+exit

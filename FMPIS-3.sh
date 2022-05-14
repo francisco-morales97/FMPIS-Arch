@@ -32,16 +32,21 @@ case "$ANSWER" in
     # Mueve archivos de configuración a sus ubicaciones correspondientes
     printf "${GREEN}${BOLD}Instalando mis configuraciones${NC}\n"
     sleep 1
-    mv configs/ZSH/home/.zshenv ~/
-    mv configs/ZSH/xdg_cache_home/zsh ~/.cache
-    mv configs/ZSH/xdg_config_home/zsh ~/.config
-    mv configs/alacritty ~/.config
-    mv configs/bin ~/.local
-    mv configs/zathura ~/.config
-    mv configs/mpv ~/.config
-    mv configs/neovim/xdg_config_home ~/.config
-    mv configs/neovim/xdg_data_home ~/.local/share
-    mv configs/pass/xdg_data_home/pass ~/.local/share
+    mv configs/xdg_config_home/alacritty ~/.config/
+    mv configs/bin ~/.local/
+    mv configs/xdg_config_home/mpv ~/.config/
+    mv configs/xdg_config_home/nvim ~/.config/
+    mv configs/xdg_data_home/nvim ~/.local/share/
+    mv configs/xdg_data_home/pass ~/.local/share/
+    mv configs/.zshenv ~/
+    mv configs/xdg_config_home/zathura ~/.config/
+    mv configs/xdg_config_home/zsh ~/.config/
+    if [ -e ~/.cache ]; then
+      mv configs/xdg_cache_home/zsh ~/.cache/
+    else
+      mkdir ~/.cache
+      mv configs/xdg_cache_home/zsh ~/.cache/
+    fi
     echo
 
     # Instala mi tema personal de Gnome 40

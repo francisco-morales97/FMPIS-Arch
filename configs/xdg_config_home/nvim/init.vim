@@ -29,6 +29,7 @@ set foldenable
 set foldmethod=marker
 set foldmarker={{{,}}}
 set scrolloff=8
+set path=.,,**
 "set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,noselect,noinsert
 set shortmess+=c
@@ -71,21 +72,27 @@ let g:netrw_list_hide= '\(^\|\s\s\)\zs\.\S\+'
 
 "}}}
 
-" SPLITS Y TABS {{{
+" SPLITS {{{
 
 " Configura las teclas para moverse entre Splits 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+nnoremap <silent> th :bp<CR>
+nnoremap <silent> tl :bn<CR>
+" Configura orientacion de Splits
+nnoremap sh <C-w>H
+nnoremap sj <C-w>J
+nnoremap sk <C-w>K
+nnoremap sl <C-w>L
+" Reajusta tamaño de Splits
 nnoremap <silent> <Up> :resize +2<CR>
 nnoremap <silent> <Right> :vertical resize -2<CR>
 nnoremap <silent> <Left> :vertical resize +2<CR>
 nnoremap <silent> <Down> :resize -2<CR>
-
-" Configura las teclas para moverse entre Tabs
-nnoremap <silent> th :tabprevious<CR>
-nnoremap <silent> tl :tabnext<CR>
+" Split to Tab
+nnoremap st <C-w>T
 
 "}}}
 
@@ -95,20 +102,29 @@ call plug#begin()
 
 Plug 'mattn/emmet-vim'
 Plug 'vim-airline/vim-airline'
-Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'lifepillar/vim-mucomplete'
 Plug 'mhinz/vim-startify'
-Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
+Plug 'chrisbra/Colorizer'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
 
 lua << EOF
 require('francisco')
 EOF
+
+" Configuracion de colorizer
+let g:colorizer_auto_color = 1
+let g:colorizer_auto_filetype='css'
+let g:colorizer_skip_comments = 1
+let g:colorizer_colornames = 0
+let g:colorizer_use_virtual_text = 1
 
 " Configuracion de indentLine
 let g:indentLine_fileTypeExclude = ['mom', 'text', 'startify']
@@ -170,11 +186,12 @@ let g:user_emmet_settings = {
 \}
 
 " Configuracion de Airline
+let g:airline_theme = 'onehalfdark'
 let g:airline_extensions = ['branch', 'tabline']
-let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#show_buffers = 1
 set ttimeoutlen=10
 
 " Color scheme
-autocmd VimEnter * ++nested colorscheme nightfly
-autocmd VimEnter * hi Normal guibg=NONE ctermbg=NONE
+"autocmd VimEnter * ++nested colorscheme onehalfdark
+colorscheme onehalfdark
 "}}}
