@@ -1,739 +1,369 @@
-ls
-cd header
-ls
-cd ..
-nvim header/header.component.ts
-exit
-exit
-ls
-cd Documentos/Solem/proyectos/dashboard-pte-frontend
-ls
-cd src
-ls
-cd app
-ls
-nvim app.component.html
-nvim app.component.ts
-ls dashboard
-ls sitio-hilo
-ls sitio-hilo/grafico
-ls sitio-hilo/grafico-bus
-exit
-cd Documentos/Solem/proyectos/dashboard-pte-frontend
-ls
-cd src
-ls
-ls environments
-ls assets
-cd app
-ls
-cat app.component.html
-ls jobs
-nvim jobs/jobs.component.html
-ls
-ls navbar
-nvim navbar/navbar.component.html
-exit
-cd Documentos
-ls
-nvim apuntes.md
-nvim
-nvim
-exit
-cd Documentos/Angular
-ls
-cd prueba
-ls
-rm -r PruebaAngular
-rm -rf PruebaAngular
-ls
-rm -rf PruebaAngular
-ls
-man ng
-ng --help
-ng help
-ng new
-ls
-cd Tutorial
-ls
-cd src
-ls
-cd app
-ls
-nvim app.component.html
-nvim app.component.css
-nvim app.component.ts
-ls
-ng serve
-ng serve &
-jobs
-jobs
-ls
-man disown
-disown --help
-man disown
-fg
-bg
-jobs
-jobs
-fg
-jobs
-ng serve &
-jobs
-ls
-ls
-nvim header/header.component.html
-fg
-jobs
-exit
-nvim
-exit
-anime ranma
-ani-cli -U
-anime ranma
-ani-cli attack on titan
-ani-cli shingeki no kyojin
-anime ranma
-anime ranma
-ani-cli -U
-anime ranma
-exit
-htop
-exit
-ani-cli ranma
-exit
-nvim FMPIS-Arch/FMPIS-2.sh
-nvim
-exit
-yay -Syu
-yay -Syu
-sudo pacman -Rs mysql-workbench
-exit
-nvim
-nvim
-nvim
-exit
-nvim
-cd Documentos/Angular
-ls
-cd prueba
-ls
-cd ..
-ls
-rm -rf prueba
-ls
-ng new dashboard
-cd dashboard
-ls
-ng g c sidebar
-ls
-ls src
-ls src/app
-cd src/app
-ls
-ng g c modal
-ng g c tablero
-ls
-nvim app.component.html
-l
-ls
-nvim app.component.html
-nvim
-nvim
-nvim
-nvim
-nvim app.component.html
-ng serve &
-nvim app.component.html
-ls
-cd ..
-ls
-touch reset.css
-nvim reset.css
-ls
-cd ..
-ls
-nvim angular.json
-jobs
-nvim package.json
-nvim tsconfig.app.json
-nvim tsconfig.json
-nvim angular.json
-nvim angular.json
-ls
-cd src/app
-ls
-nvim sidebar/sidebar.component.html
-nvim app.component.html
-nvim app.component.html
-jobs
-disown -h
-disown
-jobs
-nvim app.component.html
-fg
-jobd
-jobs
-htop
-htop
-nvim app.component.html
-nvim sidebar/sidebar.component.ts
-exit
-cd Documentos/Angular/dashboard/src/app
-ng serve
-exit
-anime saint seiya
-anime knights of the zodiac
-anime saint seiya
-ani-cli -U
-anime saint seiya
-anime saint seiya
-exit
-anime saint seiya
-ls .local/bin
-nvim
-anime saint seiya
-ani-cli saint seiya
-ani
-anime
-nvim .local/bin/ani-cli
-ani-cli -U
-cd Descargas/ani-cli
-ls
-./ani-cli -U
-ls
-git status
-./ani-cli saint seiya
-cd
-rm .local/bin/ani-cli
-anime saint seiya
-ls
-nvim
-exit
-anime saint seiya
-exit
-anime -h
-cp Descargas/ani-cli/ani-cli .local/bin
-ls .local/bin
-nvim
-exit
-ls /usr/bin | grep "ani"
-man curl
-exit
-ls /usr/local/bin | grep "ani"
-ls
-rm .local/bin/ani-cli
-ls .local/bin
-cd Descargas/ani-cli
-ls
-nvim ani-cli
-cd ..
-ls
-rm -rf ani-cli
-cd
-ls .local/bin
-sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli && sudo chmod +x /usr/local/bin/ani-cli
-ls /usr/local/bin | grep "ani"
-exit
-ani-cli
-nvim
-exit
-exit
-pw-top
-htop
-exit
-pacman -Ss starship
-cd .config/zsh
-ls
-ls -a
-rm -rf pure
-cd
-nvim
-nvim .zshenv
-exit
-ls
-sudo pacman -S starship
-exit
-nvim
-exit
-ls
-cd FMPIS-Arch
-ls
-cd
-cd FMPIS-Arch
-cd
-cd .cache
-ls
-cd starship
-ls
-nvim session_2390020056275623.log
-cd ../../.config
-ls
-man starship
-starship -h
-starship config
-ls
-cd
-ls -a
-exit
-cd FMPIS-Arch
-ls
-cd
-cd Documentos/Angular/dashboard
-ls
-git status
-ls
-cd
-exit
-exit
-cd .local/bin
-ls
-cd
-exit
-cd FMPIS-Arch
-ls
-nvim FMPIS-2.sh
-cd
-cp -rf .local/bin FMPIS-Arch/configs
-cd FMPIS-Arch/configs
-ls
-cd ZSH
-ls
-cd home
-ls
-ls -a
-cd
-cd FMPIS-Arch/configs/ZSH/xdg_config_home
-ls
-ls -a
-cd zsh
-ls
-ls -a
-rm -rf pure
-cd
-cp .config/zsh/.zshrc FMPIS-Arch/configs/ZSH/xdg_config_home/zsh
-cd FMPIS-Arch/configs/ZSH/xdg_config_home/zsh
-ls -a
-nvim .zshrc
-cd ../../..
-ls
-cd ..
-git status
-git add -A
-git commit -m "Cambios de shell prompt"
-ls configs
-pass -c github
-git push origin
-cd
-exit
-htop
-exit
-exit
-cd Documentos
-cd
-starship config
-starship config
-starship config
-starship config
-starship config
-cd Docu
-cd Documentos
-starship config
-starship config
-ls
-ls
-starship config
-ls
-cd Angular/dashboard
-ls
-cd src
-ls
-cd app
-ls
-cd
-exit
-starship config
-ane
-ani-cli
-ls
-starship config
-l
-starship config
-l
-cd
-starship config
-exit
-ani-cli ranma
-ani-cli ranma
-ani-cli -U
-ani-cli ranma
-ani-cli ranma
-ping google.com
-ani-cli ranma
-ls
-exit
-htop
-exit
-anime ranma
-ani-cli ranma
-anime ranma
-nvim
-exit
-anime ranma
-anime shaman king
-exit
-anime ranma
-exit
-htop
-exit
-exit
-cd Descargas/01-WhiteSur
-ls
-sudo mv -r WhiteSur /usr/share/icons
-man mv
-sudo mv WhiteSur /usr/share/icons
-cd
-sudo rm -r /usr/share/icons/WhiteSur
-starship config
-starship config
-exit
-htop
-anime ranma
-exit
-flatpak search anydesk
-pacman -Ss anydesk
-sudo flatpak install flathub com.anydesk.Anydesk
-exit
-ping google.com
-exit
-ping google.com
-ls
-exit
-htop
-exit
-exit
-lsblk
-sudo umount /dev/sdc1
-ls
-lsblk
-sudo mkfs.vfat /dev/sdc
-sudo mkfs.vfat -I /dev/sdc
-lsblk
-mount /dev/sdc
-exit
-sudo pacman -S transmission-gtk
-exit
-sudo pacman -Rs fragments
-pacman -Ss postman
-sudo pacman -Rs fragments
-exit
-yay -Syu
-yay -Syu
-afetch
-exit
-pass
-pass insert Solem/francisco.morales
-pass Solem/francisco.morales
-pass -c Solem/francisco.morales
-pass -c Solem/francisco.morales
-pass claveunica
-pass -c claveunica
-pass -c Solem/francisco.morales
-pass -c Solem/francisco.morales
-pass -c claveunica
-pass insert Solem/rubrika
-pass generate Solem/rubrika 12
-pass Solem/rubrika
-pass -c Solem/rubrika
-pass -c Solem/rubrika
-pass -c Solem/rubrika
-pass
-pass -c Solem/rubrika
-pass generate --no-symbols Solem/rubrika-pin 6
-man pass
-pass generate --no-symbols Solem/rubrika-pin 6
-pass generate --no-symbols Solem/rubrika-pin 6
-pass generate --no-symbols Solem/rubrika-pin 6
-pass generate --no-symbols Solem/rubrika-pin 6
 pass -c Solem/rubrika-pin
-pass rm Solem/rubrika-pin
-pass
-pass insert Solem/rubrika-pin
-anime saint seiya
-ani-cli -U
-sudo ani-cli -U
-anime saint seiya
-anime saint seiya
-sudoedit /usr/local/bin/ani-cli
-cd /usr/local/bin
-ls
-nvim illustrator
-nvim ani-cli
-sudo rm ani-cli
-cd
-cd Descargas
-ls
-cd
-sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli && sudo chmod +x /usr/local/bin/ani-cli
-ls /usr/local/bin
-sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli
-sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli
-ls /usr/local/bin
-sudo chmod +x /usr/local/bin/ani-cli
-anime saint seiya
-anime ranma
-ani-cli -h
-ani-cli -c
-anime ranma
-exit
-htop
-nvim
-anime -h
-exit
-ping google.com
-ping google.com
-pass
-pass -c Solem/rubrika
-ping google.com
-ping google.com
-pass insert Solem/rubrika-pin
-exit
-nvim
-exit
-exit
-anime -h
-anime -c
-anime ranma
-exit
-exit
-fc-match -s "Hack"
-fc-match -s "Iosevka"
-pacman -Q ttf-iosevka\
-
-pacman -Ss ttf-iosevka
-nvim 
-nvim .config/alacritty/alacritty.yml
-exit
-nvim .config/alacritty/alacritty.yml
-nvim .config/alacritty/alacritty.yml
-exit
-exit
-nvim .config/starship.toml
-nvim .config/alacritty/alacritty.yml
-nvim .config/alacritty/alacritty.yml
-exit
-ls -a | wc -l
-ls -a
-exit
-htop
-exit
 pass Solem/rubrika-pin
 exit
-htop
 exit
-ping google.com
+sudo flatpak install flathub com.raggesilver.BlackBox
 exit
-pacman -Ss deluge
-ls
+nvim .config/alacritty/alacritty.yml
+exit
+matrix
+clear
+afetch
+matrix
+nvim
+clear
+afetch
+matrix
+nvim
+nvim
+nvim
 nvim
 exit
-anime ranma
-anime -c
-htop
+nvim
 exit
-pacman -Ss gnome-videos
-pacman -Ss totem
+ls
 exit
+cd /var/lib/flatpak/app/com.raggesilver.BlackBox/x86_64/stable/85639987fd082c01822e6a6cf027620e7156c01278706fd36400a9d7ee498a72/files/share/blackbox/schemes
+ls
+sudo mv ~/Descargas/one-dark.json .
+sudo mv ~/Descargas/gruvbox.json .
+ls
+exit
+matrix
+nvim
+exit
+exit
+exit
+nvim
+matrix
+exit
+exit
+cd Documentos/Angular/map-api/src/app
+nvim app.component.ts
+exit
+nvim
+cd Documentos/Angular/map-api/src/app
+ls
+nvim app.component.ts
+exit
+nvim
+exit
+exit
+exit
+flatpak list
+com.raggesilver.BlackBox
+exit
+man nvim
+exit
+nvim
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+exit
+exit
+exit
+exit
+man pass
+pass generate aliexpress 12
+pass -c aliexpress
+pass -c aliexpress
+exit
+nvim
 pass
-pass insert Solem/rubrika
-pass Solem/rubrika
-pass -c Solem/rubrika
-exit
-htop
-exit
-mirror-refresh
-yay -Syyu
-sudo flatpak update
-sudo reboot
-man yay
-yay -Sc
-pacman -Qqdt
-pacman -Qqdt | sudo pacman -Rs -
-sudo paccache -rk0
-sudo flatpak uninstall --unused
-exit
-exit
-cd Descargas/Naruto\ Kai
-ls
-nvim Readme.txt
-ks
-ls
-rm Readme.txt
-ls
-exit
-pacman -Ss gnome-console
-pacman -Ss console
-pacman -Ss gnome-console
-exit
-pacman -Ss gnome
-pacman -Ss gnome | grep "console"
-pacman -Ss calibre
-sudo pacman -S calibre
-exit
-exit
-pacman -Ss contrast
+clear
 nvim
-exit
-sudo pacman -S console
-yay -Ss console
-flatpak search console
-exit
-cd .local/share/applications
-ls
-cd ..
-ls
-cd applications
-ls
-nvim nvim.desktop
-touch htop.desktop
-nvim htop.desktop
-cat nvim.desktop
-nvim htop.desktop
-nvim htop.desktop
-exit
-ping google.com
-exit
+nvim
+nvim
 nvim
 cd Documentos/Angular
 ls
-exit
+cd dashboard
+ls
+cd src
+ls
+clear
+ls
+cd app
+ls
+nvim app.component.ts
+nvim
+nvim app.component.ts
+clear
+nvim
+nvim app.component.ts
+nvim
+nvim app.component.ts
+nvim
+nvim app.component.ts
+nvim
+monitor
+ls
+clear
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim app.component.ts
+nvim app.component.ts
+nvim
+nvim
+nvim app.component.ts
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+clear
+nvim app.component.ts
+ls
+nvim app.component.css
+nvim
+nvim app.component.css
+nvim
+nvim
+cd
+cd .config/nvim
+ls
+cd lua/francisco
+ls
+cat init.lua
+touch nvim-cmp.lua
+nvim nvim-cmp.lua
+cd ../..
+nvim init.vim
+cd
+cd Documentos/Angular/dashboard/src/app
+nvim app.component.css
+nvim
+cd
+cd .config/nvim/lua/francisco
+nvim nvim-cmp.lua
+nvim
 nvim
 exit
-cd Documentos
+retroarch
+exit
+ping google.com
+exit
+nvim
+nvim
+cd Documentos/Angular/dashboard/src/app
 ls
-cd Proyectos\ Web\ Personales
+nvim app.component.ts
+nvim app.component.ts
+nvim
+cd
+cd .config/nvim/lua/francisco
 ls
-mkdir browser-startpage
-cd browser-startpage
+mv nvim-cmp.lua nvim-cmp-lsp.lua
+nvim init.vim
 ls
-mkdir css
-touch index.html css/style.css
+nvim init.lua
+nvim nvim-cmp-lsp.lua
+nvim
+cd ~/Documentos/Angular/dashboard/src/app
 ls
-mkdir assets
+nvim app.component.html
+cd
+cd .config/nvim/lua/francisco
+ls
+nvim nvim-cmp-lsp.lua
+ls
+cd ../..
+ls
+nvim init.vim
+nvim index.html
+cd
+exit
+exit
+nvim index.html
+exit
+nvim
+nvim
+nvim
+cd .config/nvim/lua/francisco
+ls
+touch lualine.lua
+nvim init.lua
+nvim lualine.lua
+nvim lualine.lua
+nvim lualine.lua
+nvim lualine.lua
+nvim
+cd
+cd Documentos/Angular/dashboard/src/app
+ls
+nvim app.component.css
+nvim app.component.ts
+cd
+cd .config/nvim/lua/francisco
+nvim lualine.lua
+nvim
+nvim
+ls
+touch bufferline-conf.lua
+nvim bufferline-conf.lua
+nvim
+nvim
+nvim
+cd
+cd Documentos/Angular/dashboard/src/app
+ls
+nvim app.component.ts
+nvim
+nvim
+nvim app.component.ts
+exit
+nvim
+nvim
+nvim
+cd Documentos/Angular/dashboard/src/app
+nvim app.component.ts
+exit
+pacman -Ss sigil
+sudo pacman -S sigil
+sudo pacman -S sigil
+ping google.com
+sudo pacman -S sigil
+cd Documentos/E-Books
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+exit
+ping google.com
+exit
+ping google.com
+sudo pacman -S sigil
+yay -Syu
+exit
+yay -Syu
+sudo pacman -Rs sigil
+yay -Rs python-numpy
+yay -Syyu
+yay -Rs python3.10-numpy
+yay -Rs python3.10
+yay -Rs python3
+yay -Rs python
+sudo pacman -Syu
+man yay
+yay -Sc
+yay Syu
+yay -Syu
+sudo pacman -Rs python-numpy
+cd /usr/lib/python3.10
+ls
+cd site-packages
+ls
+cd numpy
 ls
 cd ..
 ls
-cd browser-startpage
+cd
 ls
-touch css/reset.css
-nvim css/reset.css
-nvim css/reset.css
-nvim css/style.css
-nvim
-nvim index.html
-exit
-pass
-man pass
-pass rm -r Geoservice
-pass
-exit
-man mpv
-exit
+nvim 
+cat .local/bin/update-configs
+update-configs
+cd /usr/lib/python3.10/site-packages
+sudo rm -rf numpy
+cd
+yay -Sc
+yay -Syu
 ping google.com
-yay -Ss contrast
-yay -S contrast
-afetch
-flatpak search contrast
-sudo flatpak install org.gnome.design.Contrast
+yay -Syu
+yay -Sc
+clear
+ping google.com
+yay -Syu
+yay -Sc
+yay -Syu
+cd /usr/bin
+ls | grep "f2py"
+sudo rm -rf f2py f2py3 f2py3.10
+cd
+yay -Syu
 exit
-pacman -Ss amberol
-flatpak search amberol
-sudo flatpak install io.bassi.Amberol
-exit
-flatpak list
-sudo flatpak uninstall io.bassi.Amberol
-exit
-pacman -Ss clapper
-exit
-pacman -Ss gnome-music
-sudo pacman -S gnome-music
-gnome-music
-sudo pacman -Rs gnome-music
-exit
-sudo pacman -S calibre
-sudo pacman -S calibre
-sudo pacman -Sy calibre
-sudo pacman -Syu
-sudo pacman -S calibre
+sudo pacman -S sigil
+pacman -Qqdt | sudo pacman -Rs -
 exit
 sudo pacman -Rs calibre
 afetch
 exit
-nvim Descargas/custom-theme.json
+cd Documentos/E-Books
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+exit
+cd Documentos/E-Books
+ls
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim
+nvim
+nvim
+nvim
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim
+nvim
+nvim
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+fg
+fg
+jobs
+clear
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+exit
+pacman -Ss axel
+pacman -Ss aria
+pacman -Ss aria2
+sudo pacman -Rs aria2 && sudo pacman -S axel
+nvim FMPIS-Arch/FMPIS-2.sh
+clear
+ani-cli -U
+ani-cli -h
+ani-cli -V
+ani-cli -U
+sudo ani-cli -U
+anime inuyasha
+exit
+anime
+ani-cli
 cd Descargas
 ls
-mv custom-theme.json color-pallete.json
-exit
-ls -a | wc -l
-exit
-sudo pacman -Syu
-sudo pacman -Syu
-exit
-exit
-exit
-pacman -Ss foliate
-exit
-sudo pacman -S calibre
-exit
+clear
+cd
+sudo rm -rf "/usr/local/share/ani-cli" "/usr/local/bin/ani-cli" "/usr/local/bin/UI" /usr/local/bin/player_*
+ls
 cd Descargas
-convert 1266_critica_de_la_razon_pura_-_immanuel_kant_thb.webp critica_de_la_razon_pura.png
-pacman -Ss sigil
-sudo pacman -S sigil
-exit
-pacman -Ss vellum
-ysy -Ss vellum
-yay -Ss vellum
-flatpak search vellum
-exit
-exit
-yt-dlp https://hentaila.com/ver/isekai-yarisaa-1
-nvim
-nvim
-exit
-nvim
-nvim
-exit
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-cd Documentos/Angular
 ls
-cd dashboard
+git clone "https://github.com/pystardust/ani-cli.git" && cd ./ani-cli
+sudo cp ./bin/ani-cli /usr/local/bin
+sudo cp -a ./lib/ani-cli /usr/local/lib
+cd .. && rm -rf "./ani-cli"
 ls
-cd src
-ls
-cd app
-l
-sls
-ls
-nvim app.component.css
-nvim
 cd
-nvim .config/alacritty/alacritty.yml
+ani-cli
+anime
 exit
-cd Documentos/Angular
-exit
-nvim .config/alacritty/alacritty.yml
-nvim
-nvim
 exit
 nvim
 nvim
@@ -741,261 +371,630 @@ nvim
 nvim
 nvim
 exit
-cd Documentos/Angular/dashboard/src
+nvim
+exit
+sudo flatpak update
+exit
+exit
+cd /var/lib/flatpak/app/com.raggesilver.BlackBox/x86_64/stable/85639987fd082c01822e6a6cf027620e7156c01278706fd36400a9d7ee498a72/files/share/blackbox/schemes
+cd /var/lib/flatpak/app
 ls
-exit
-cd Documentos/Angular/dashboard/src
+cd com.raggesilver.BlackBox
 ls
-nvim styles.css
+cd x86_64
 ls
-nvim index.html
-cd app
+cd stable/e9d1d3011d2eedaba261f7e249d0937430cd8b1f5442f800c63619ba492610cf
 ls
-cat app.component.html
-nvim sidebar/sidebar.component.html
+cd files/share/blackbox
+ls
+cd schemes
+ls
+sudo mv one-dark.json ~/.var/app/com.raggesilver.BlackBox/data/blackbox/schemes
 cd
-gs
+cd .var/app/com.raggesilver.BlackBox/data/blackbox/schemes
 ls
-nvim css/style.css
-cd
-cd Documentos/Angular/dashboard/src
-ls
-nvim app/sidebar/sidebar.component.html
+man chown
+sudo chown francisco:francisco one-dark.json
 exit
-cd Documentos/Angular
+cd .var/app/com.raggesilver.BlackBox/data/blackbox/schemes
+nvim one-dark.json
+exit
+cd .var/app/com.raggesilver.BlackBox/data/blackbox/schemes
+nvim one-dark.json
+exit
+exit
+nvim
+exit
+exit
+nvim
+exit
+nvim
+exit
+exit
+compilar oral-test.mom
+verdoc prueba\ 2.pdf
+cd Documentos/Groff-docs
 ls
-cd dashboard/src/app/
-ls
-nvim app.component.css
-nvim app.component.css
+nvim oral-test.mom
+ls ~/.local/bin/compilar
+nvim ~/.local/bin/compilar
+nvim oral-test.mom
+exit
+exit
+exit
+afetch
+git status
 nvim
 nvim
-nvim app.component.css
-ls ..
+nvim
+nvim
+nvim
+nvim
+nvim
+clear
+cd Documentos/Angular/dashboard/src/app
+ls
+nvim app.component.ts
+cd
+nvim
+nvim
+exit
+cd Documentos
+nvim Meditaciones\ -\ Marco\ Aurelio\ Antonino\ Augusto.epub.annot
+nvim Meditaciones\ -\ Marco\ Aurelio\ Antonino\ Augusto.epub.annot
+ls
+cd E-Books
+clear
+ls
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+exit
+exit
+matrix
+exit
+nvim
+mc
+mc
+exit
+monitor
+exit
+matrix
+exit
+monitor
+exit
+sudo pacman -Rs firewalld
+exit
+mc
+exit
+sudo pacman -S gufw
+exit
+exit
+retroarch
+exit
+retroarch
+exit
+mc
+exit
+exit
+exit
+exit
+exit
+ls
+cd FMPIS-Arch
+ls
+nvim FMPIS-2.sh
+cd
+nvim
+nvim
+cd Documentos/Angular/dashboard/src/app
+ls
+nvim app.component.ts
+nvim
+nvim
+exit
+exit
+monitor
+exit
+exit
+exit
+nvim
+exit
+monitor
+exit
+monitor
+exit
+yay -Ss blackbox
+exit
+monitor
+yay -Syu
+clear
+yay -Syu
+yay -Syu
+pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+yay -Syu
+sudo flatpak update
+exit
+exit
+exit
+exit
+exit
+yay -Ss planner
+clear
+sudo flatpak install flathub com.github.alainm23.planner
+exit
+exit
+cd Documentos/E-Books/Platón/
+ls
+nvim Apologia_de_Socrates.epub
+cd
+nvim Descargas/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+cd Documentos/E-Books/Aristóteles
+ls
+exit
+sudo reboot
+mc
+mc
+monitor
+monitor
+exit
+cd Documentos/E-Books/Aristóteles
+ls
+nvim Metafisica-Aristoteles.epub
+ls
+ls
+cp Metafisica-Aristoteles.epub Metafisica-Aristoteles-prueba.epub
+nvim Metafisica-Aristoteles-prueba.epub
+exit
+monitor
+exit
+exit
+exit
+man yt-dlp
+exit
+mkdir "Los Prisioneros"
+cd Los\ Prisioneros
+mkdir "La voz de los '80"
+ls
+cd La\ voz\ de\ los\ \'80
+nvim
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && yta "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-"
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yta "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-"
+clear
+ls
+cat tracks
+cat ~/.local/bin
+ls ~/.local/bin
+albumtag2
+albumtag2 tracks
+ls
+rm *.opus
+ls
+rm tracks
+clear
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yta "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-"
+albumtag2 tracks
+ls
 cd ..
 ls
-nvim styles.css
-nvim reset.css
-nvim styles.css
+mkdir "Pateando piedras"
+cd Pateando\ piedras
 ls
-nvim reset.css
-nvim styles.css
-nvim
-nvim
-nvim styles.css
-ng serve
+yt -e "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB" > tracks && yta "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB"
 ls
-ng serve &
-nvim styles.css
-fg
-bg
-nvim styles.css
-fg
-ng serve
-exit
-cd Documentos/Angular/dashboard/src
+cat tracks
+albumtag2 tracks
 ls
-nvim styles.css
-exit
-cd Documentos/Angular/dashboard/src
+rm *
 ls
-nvim styles.css reset.css
-nvim
-nvim
-nvim
-nvim styles.css reset.css
-nvim index.html
-nvim
-nvim
-nvim styles.css reset.css
-nvim
-exit
-cd Documentos/Angular/dashboard/src
-nvim styles.css reset.css
-nvim
-nvim styles.css reset.css
-nvim
-nvim
-nvim styles.css reset.css
-cd
-exit
-nvim
-cd Documentos/Angular/dashboard/src
-ls
-nvim styles.css
-exit
-pacman -Ss gnome-music
-exit
-cd Documentos/Angular/dashboard/src
-ls
-nvim index.html
-nvim
-nvim index.html
-nvim
-nvim index.html
-nvim index.html styles.css reset.css
-jobs
-nvim index.html styles.css reset.css
-nvim
-nvim index.html styles.css reset.css
-nvim
-nvim index.html styles.css reset.css
-nvim index.html styles.css reset.css
-nvim index.html
-exit
-cd Documentos/Angular/dashboard/src
-nvim index.html
-nvim styles.css
-ls
-nvim index.html
-exit
-cd Documentos/Angular/dashboard/src
-nvim index.html
-exit
-cd Documentos/Angular/dashboard/src
-nvim styles.css
-cd
-nvim
-anime ranma
-anime -c
-anime ranma
-exit
-nvim
-nvim
-cd Documentos/Angular/dashboard/src
-ls
-nvim index.html
-nvim
-nvim styles.css
-nvim
-nvim styles.css
-cd
-cd FMPIS-Arch
-cd
-cd FMPIS-Arch
 clear
+nvim
+exit
+cd Los\ Prisioneros/Pateando\ piedras
+ls
+yt -e "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB" > tracks && yt3 "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB"
+ls
+albumtag2 tracks
+ls
+ls
+nvim ~/.local/bin/albumtag2
+nvim ~/.local/bin/compilar
+nvim ~/.local/bin/albumtag2
+exit
+nvim ~/.local/bin/albumtag
+exit
+nvim ~/.local/bin/albumtag
+exit
+nvim
+ls
+cd Los\ Prisioneros/
+ls
+ls La\ voz\ de\ los\ \'80
+cd La\ voz\ de\ los\ \'80
+ls
+rm *
+ls
+rm ../Pateando\ piedras/*
+ls ../Pateando\ piedras
 clear
 ls
-cd configs
-ls
-ls neovim
-ls neovim/xdg_data_home
-ls neovim/xdg_data_home/nvim
-ls neovim/xdg_data_home/nvim/plugged
-ls ~/.local/share/nvim/plugged
-cd
-cp -r .config/alacritty FMPIS-Arch/configs
-cat FMPIS-Arch/configs/alacritty/alacritty.yml
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yta "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
 clear
-ls FMPIS-Arch/configs
-cp -rf .local/bin FMPIS-Arch/configs
-cp -rf .local/share/pass FMPIS-Arch/configs
-ls FMPIS-Arch/configs/pass
-ls FMPIS-Arch/configs/pass/xdg_data_home
-ls FMPIS-Arch/configs/pass/xdg_data_home/pass
+ls
+rm *.opus tracks
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+clear
+ls
+cat tracks
+albumtag2 tracks
+ls
+nvim
+nvim
+nvim ~/.local/bin/verdoc
+nvim ~/.local/bin/grabar
+nvim
+ls
+clear
+albumtag2 tracks
+ls
+nvim
+ls
+rm *.mp3 tracks
+clear
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+clear
+ls
+cat tracks
+albumtag2 tracks
+nvim
+ls
+rm *.mp3 tracks
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+cat tracks
+albumtag2 tracks
+nvim
+rm *.mp3 tracks
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+albumtag2 tracks
+nvim
+rm *.mp3 tracks
+ls
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+albumtag2 tracks
+rm *.mp3 tracks
+nvim
+ls
+clear
+yt -e "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" > tracks && yt3 "https://www.youtube.com/watch?v=Jyc8IIVOLvo&list=PLsa6fFCUllDBTLeAv5l7XY_TNg88NATt-" && notify-send "Listo"
+albumtag2 tracks
+ls
+exit
+cd Los\ Prisioneros/La\ voz\ de\ los\ \'80
+ls
+albumtag2 tracks
+ls
+nvim
+nvim
+man kid3-cli
+ls
+cd ../Pateando\ piedras
+ls
+yt -e "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB" > tracks && yt3 "https://www.youtube.com/watch?v=i8gXs3Nve_U&list=PL_tKhcwp1CMI0bE9gE7koMgiRKd-m8ZgB"
+ls
+cat tracks
+clear
+albumtag2 tracks
+cd ..
+ls
+mkdir "La cultura de la basura"
+cd "La cultura de la basura
+cd "La cultura de la basura"
+ls
+yt -e "https://www.youtube.com/watch?v=iuBhltrt0Co&list=PLsa6fFCUllDCno_M3SbO2aRafOAxGeo8P" > tracks && yt3 "https://www.youtube.com/watch?v=iuBhltrt0Co&list=PLsa6fFCUllDCno_M3SbO2aRafOAxGeo8P" && notify-send "listo"
+cat tracks
+ls
+albumtag2 tracks
+ls
+rm *.mp3 tracks
+ls
+yt -e "https://www.youtube.com/watch?v=iuBhltrt0Co&list=PLsa6fFCUllDCno_M3SbO2aRafOAxGeo8P" > tracks && yt3 "https://www.youtube.com/watch?v=iuBhltrt0Co&list=PLsa6fFCUllDCno_M3SbO2aRafOAxGeo8P" && notify-send "listo"
+nvim
+nvim
+nvim
+nvim
+nvim ~/Documentos/Angular/dashboard/src/app/app.component.ts
+nvim
+nvim
+ls
+cat tracks
+albumtag2 tracks
+ls
+cd ..
+ls
+mkdir "Corazones" && cd Corazones
+yt -e "https://www.youtube.com/watch?v=NgEJ9gMxP90&list=PLsa6fFCUllDA-ur7x48T0uMX5xj8_QMIY" > tracks && yt3 "https://www.youtube.com/watch?v=NgEJ9gMxP90&list=PLsa6fFCUllDA-ur7x48T0uMX5xj8_QMIY" && notify-send "listo"
+ls
+cat tracks
+albumtag2 tracks
+ls
+cd ..
+ls
+mkdir "Los Prisioneros" && cd "Los Prisioneros"
+yt -e "https://www.youtube.com/watch?v=97oOghnp2qM&list=PL_tKhcwp1CMLqfcij263YKuRH_LOAEPLV" > tracks && yt3 "https://www.youtube.com/watch?v=97oOghnp2qM&list=PL_tKhcwp1CMLqfcij263YKuRH_LOAEPLV" && notify-send "listo"
+cat tracks
+albumtag2 tracks
+ls
+cd ..
+mkdir "Manzana" && cd Manzana
+yt -e "https://www.youtube.com/watch?v=1XrX5K95t64&list=PLQqbvRN360WM6YO5JI4i1WhlwDgKg7R1h" > tracks && yt3 "https://www.youtube.com/watch?v=1XrX5K95t64&list=PLQqbvRN360WM6YO5JI4i1WhlwDgKg7R1h" && notify-send "listo"
+cat tracks
+ls
+albumtag2 tracks
+ls
+nvim
+kid3-cli -c "set title '¿Por Qué No Me Dejas?'" 04\ -\ Por\ Qué\ No\ Me\ Dejas.mp3
+cd
+clear
+exit
+cd Descargas
+ls
+cd illustratorCClinux
+ls
+./setup.sh
+cd
+ls -a
+rm -rf go
+cd go
+ls
+cd pkg
+ls
+cd mod
+ls
+cd github.com
+ls
+cd
+sudo rm -rf go
+exit
+yay -Syu
+exit
+cd Descargas
+ls
+gnome-extensions install quick-settings@fmuellner.gnome.org.shell-extension.zip
+exit
+exit
+cd Descargas
+ls
+nvim Los_viajes_de_Gulliver_Jonathan_Swift.epub
+exit
+cd Documentos/E-Books/Aristóteles
+ls
+rm Metafisica-Aristoteles-prueba.epub
+ls
+cd ..
+cd Sun\ Tsu
+ls
+cp El_arte_de_la_guerra.epub El_arte_de_la_guerra-prueba.epub
+ls
+nvim El_arte_de_la_guerra-prueba.epub
+ls
+cd ../Immanuel\ Kant
+ls
+cp Critica_de_la_razon_pura_Immanuel_Kant.epub Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+exit
+cd Documentos/E-Books/Immanuel\ Kant
+ls
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+nvim Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub
+ls
+rm Critica_de_la_razon_pura_Immanuel_Kant.epub
+ls
+mv Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub Critica_de_la_razon_pura_Immanuel_Kant.epub
+ls
+cd ..
+clear
+ls
+cd Aristóteles
+ls
+nvim Metafisica-Aristoteles.epub
+exit
+lsblk
+sudo umount /dev/sdc
+monitor
+exit
+nvim
+nvim .config/alacritty/alacritty.yml
+exit
+ping google.com
+exit
+yay -Syu
+clear
+mirror-refresh
+yay -Syyu
+sudo flatpak update
+clear
+yay -Sc
+pacman -Qqdt | sudo pacman -Rs -
+clear
+man paccache
+sudo paccache -vrk0
+clear
+man flatpak
+sudo flatpak uninstall --unused
+exit
+monitor
+exit
+cd Descargas/reaper649_linux_x86_64/reaper_linux_x86_64
+ls
+nvim install-reaper.sh
+exit
+cd Descargas/reaper664_linux_x86_64
+cd reaper_linux_x86_64
+ls
+sudo ./install-reaper.sh
+cd
+clear
+exit
+nvim
+man reaper
+reaper
+nvim
+man yabridge
+yabridgectl --help
+yabridgectl sync
+pw-top
+powerprofilesctl launch reaper
+powerprofilesctl launch reaper
+powerprofilesctl launch reaper
+exit
+pass
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+man yt-dlp
+exit
+echo $XDG_HOME_MUSIC
+echo $XDG_MUSIC_DIR
+echo XDG_MUSIC_DIR
+ls /etc/xdg
+nvim /etc/xdg/user-dirs.defaults
+nvim /etc/xdg/user-dirs.conf
+exit
+man case
+exit
+e
+exit
+cd Música
+ls
+cd
+exit
+man mkdir
+mkdir -pv Documentos/dir1/dir2
+cd Documentos
+ls
+rm -r dir1
+ls
+cd
+exit
 cd .local/bin
 ls
-touch update-configs
-nvim update-configs
+nvim albumtag
+nvim albumtag2
 ls
+cat tagtrans
 cd
+clear
 ls
-cd Documentos/Groff-docs
-ls
-touch oral-test.mom
-nvim oral-test.mom
-ls
-compilar
-compilar oral-test.mom
-ls
-zathura oral-test.pdf
-nvim oral-test.mom
-compilar oral-test.mom
-zathura oral-test.pdf
-nvim oral-test.mom
-compilar oral-test.mom
-nvim oral-test.mom
-compilar oral-test.mom
+man mkdir
+mkdir -p Megadeth/"Countdown to Extinction" && cd Megadeth/"Countdown to Extinction"
+touch ~/.local/bin/music-dl
+nvim
+sudo chmod +x ~/.local/bin/music-dl
+ls ~/.local/bin/music-dl
+ls ~/.local/bin/
+nvim ~/.local/bin/music-dl
 exit
-cd Documentos/Groff-docs
-ls
-nvim oral-test.mom
+man test
 exit
-ls FMPIS-Arch/configs/
-ls FMPIS-Arch/configs/neovim/
-ls FMPIS-Arch/configs/neovim/xdg_config_home
-ls FMPIS-Arch/configs/neovim/xdg_data_home
-ls FMPIS-Arch/configs/
-ls FMPIS-Arch/configs/pass
-cd FMPIS-Arch/configs
 ls
-mkdir xdg_config_home xdg_data_home xdg_cache_home
+rm -r Megadeth
 ls
-ls alacritty
+clear
+music-dl
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+nvim
+music-dl https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT
+clear
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+nvim
+nvim
+exit
+man yt-dlp
+exit
+man yt-dlp
+exit
+music-dl
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+nvim
+clear
 ls
+ls Música
+rm -r Música/Megadeth
+ls Música
+clear
+music-dl
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
 ls
-ls pass
-ls ZSH
+cd Música
 ls
-ls -a ZSH
-ls -a ZSH/home
-ls -a ZSH/xdg_cache_home
-ls -a ZSH/xdg_config_home
+cd Megadeth
 ls
-ls xdg_cache_home
-ls xdg_config_home
-ls xdg_data_home
+cd Countdown\ to\ Extinction
+ls
+cat tracks
+cd 
+rm -r Música/Megadeth
+nvim
+exit
+ls
+ls Música
+clear
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+ls
+cd Música
+ls
+cd Megadeth
+ls
+cd Countdown\ to\ Extinction
+ls
 ls -a
-ls xdg_cache_home
-ls xdg_config_home
-ls xdg_data_home
-ls
-rm -rf alacritty mpv pass neovim zathura ZSH
-ls
-ls -a
 exit
-cd FMPIS-Arch/configs
+cd Música
 ls
-ls xdg_cache_home/zsh
-ls xdg_config_home/alacritty
-exit
-cd FMPIS-Arch/configs
-cd
-nvim .local/bin/update-configs
-nvim .local/bin/update-configs
-exit
-nvim .local/bin/update-configs
-nvim .local/bin/update-configs
-chmod +x .local/bin/update-configs
-ls .local/bin
-update-configs
-cd FMPIS-Arch
+rm -r Megadeth 
 ls
-nvim FMPIS-3.sh
-ls
-ls configs
-nvim FMPIS-3.sh
-git status
-git add -A
-cd configs/xdg_data_home/nvim/
-ls
-ls plugged
-ls shada
-ls site
-ls site/autoload
+rm -r \'Megadeth\'
 ls
 cd
-nvim .local/bin/update-configs
+nvim
 exit
-nvim FMPIS-Arch/configs/xdg_data_home/nvim/shada/main.shada
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+nvim
 exit
-update-configs
-cd FMPIS-Arch/configs
-ls xdg_data_home/nvim
-ls xdg_data_home/nvim/shada
-ls xdg_data_home/nvim/swap
-ls xdg_data_home/nvim/site
-ls xdg_data_home/nvim/site/autoload
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+nvim
+exit
+rm -r Música/Megadeth
+music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
+ls
+cd Música/
+ls
+cd Megadeth/Countdown\ to\ Extinction
+ls
+clear
+cat tracks
+albumtag2 tracks
+nvim
 cd
-nvim .local/bin/update-configs
+nvim
+ls Música/Megadeth/Countdown\ to\ Extinction
+cd Música
+ls
+rm -r Megadeth
+ls
+cd
 exit

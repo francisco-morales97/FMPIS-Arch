@@ -47,6 +47,7 @@ case "$ANSWER" in
       # Codecs OGG para GStreamer --
       'gst-libav'
       'gst-plugins-base'
+      'kid3-common'
 
       # Utilidades --
       'pacman-contrib'
@@ -67,9 +68,8 @@ case "$ANSWER" in
       'eog'
       'mpv'
       'yt-dlp'
-      'fragments'
+      'transmission-gtk'
       'firewalld'
-      'htop'
       'ttf-iosevka-nerd'
       'dash'
       'zsh'
@@ -97,6 +97,8 @@ case "$ANSWER" in
 
       # Aplicaciones favoritas --
       'com.stremio.Stremio'
+      'io.bassi.Amberol'
+      'com.raggesilver.BlackBox'
         
       # Emuladores --
       'org.libretro.RetroArch'
@@ -127,8 +129,8 @@ case "$ANSWER" in
       'ttf-ms-fonts'
 
       # Utilidades --
+      'gotop'
       'zoom'
-      'opustags'
       'game-devices-udev'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do

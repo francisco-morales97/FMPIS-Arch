@@ -1,0 +1,133 @@
+#!/bin/sh
+
+# Definición de variables
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+BOLD="\033[1m"
+NC="\033[0m"
+
+# Inicio del script
+TRACK=0
+TOTAL="$(ls *.opus | wc -l)"
+
+# Proceso de etiquetado de canciones
+
+# Metadatos generales
+EXIT=false
+echo
+printf "Nombre del album:\n"; read -r ALBUM
+printf "Nombre del artista:\n"; read -r ARTIST
+printf "Año de publicación:\n"; read -r DATE
+while [ $EXIT = false ]; do
+  printf "¿Cuántos generos posee el álbum? [1/2/3]\n"; read ANSWER
+  case $ANSWER in
+    1)
+      printf "Género del álbum:\n"; read -r GENRE
+      EXIT=true
+      ;;
+    2)
+      printf "Primer género del álbum:\n"; read -r GENRE
+      printf "Segundo género del álbum:\n"; read -r GENRE2
+      EXIT=true
+      ;;
+    3)
+      printf "Primer género del álbum:\n"; read -r GENRE
+      printf "Segundo género del álbum:\n"; read -r GENRE2
+      printf "Tercer género del álbum:\n"; read -r GENRE3
+      EXIT=true
+      ;;
+    *)
+      echo
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done
+EXIT=false
+while [ $EXIT = false ]; do
+  printf "¿El album posee discos múltiples? [y/n]\n"; read ANSWER
+  case $ANSWER in
+    y)
+      printf "Número de disco:\n"; read -r DISCNUMBER
+      EXIT=true
+      ;;
+    n)
+      EXIT=true
+      ;;
+    *)
+      echo
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done
+echo
+TRACK=0
+ 
+# Aplicar metadatos
+if [ -n "$GENRE2" ]; then
+  for SONG in *.opus; do
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
+    TRACK="$(printf "$(expr $TRACK + 1)")"
+    printf "Escribiendo metadatos de '$SONG'\n"
+    opustags "$SONG" --in-place -D
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre[0] \"$GENRE\"" -c "set genre[1] \"$GENRE2\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set discnumber '$DISCNUMBER'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    else
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre[0] \"$GENRE\"" -c "set genre[1] \"$GENRE2\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    fi
+  done
+elif [ -n "$GENRE3" ]; then
+  for SONG in *.opus; do
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
+    TRACK="$(printf "$(expr $TRACK + 1)")"
+    printf "Escribiendo metadatos de '$SONG'\n"
+    opustags "$SONG" --in-place -D
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre[0] \"$GENRE\"" -c "set genre[1] \"$GENRE2\"" -c "set genre[2] \"$GENRE3\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set discnumber '$DISCNUMBER'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    else
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre[0] \"$GENRE\"" -c "set genre[1] \"$GENRE2\"" -c "set genre[2] \"$GENRE3\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    fi
+  done
+else
+  for SONG in *.opus; do
+    NAME="$(printf "$SONG" | awk '{print substr($0, index($0, $3))}' | sed 's/\.opus$//g')"
+    TRACK="$(printf "$(expr $TRACK + 1)")"
+    printf "Escribiendo metadatos de '$SONG'\n"
+    opustags "$SONG" --in-place -D
+
+    # Si el álbum tiene más de un disco
+    if [ -n "$DISCNUMBER" ]; then
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre \"$GENRE\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set discnumber '$DISCNUMBER'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    else
+      kid3-cli -c "set title \"$NAME\"" -c "set album \"$ALBUM\"" -c "set artist \"$ARTIST\"" -c "set date '$DATE'" -c "set genre \"$GENRE\"" -c "set tracknumber '$TRACK'" -c "set totaltracks '$TOTAL'" -c "set picture:./cover.jpg 'Front cover'" "$SONG"
+    fi
+  done
+fi
+
+# Diálogo para remover archivos sobrantes
+
+EXIT=false
+while [ $EXIT = false ]; do
+  echo
+  printf "¿Desea remover los archivos sobrantes? [y/n]\n" && read ANSWER
+  case "$ANSWER" in
+    y)
+      rm cover.jpg
+      echo
+      printf "${GREEN}${BOLD}¡Proceso Finalizado!${NC}\n"
+      EXIT=true
+      ;;
+    n)
+      echo
+      printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
+      EXIT=true
+      ;;
+    *)
+      echo
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done

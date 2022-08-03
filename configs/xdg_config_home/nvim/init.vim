@@ -12,6 +12,7 @@ set encoding=utf-8
 set confirm
 set colorcolumn=80
 set termguicolors
+set showtabline=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -30,10 +31,8 @@ set foldmethod=marker
 set foldmarker={{{,}}}
 set scrolloff=8
 set path=.,,**
-"set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,noselect,noinsert
 set shortmess+=c
-"set guicursor=n-v-c:block,i-ci-ve:block
 autocmd BufNewFile,BufRead *.* set autoindent smartindent
 
 " Configura el espacio para accionar los comandos
@@ -59,16 +58,11 @@ inoremap < <><Left>
 " Salto de linea indentado entre etiquetas HTML
 inoremap <C-@> <CR><Esc>O
 
-" Mapeado para Omnifunc
-inoremap <C-s> <C-x><C-o>
-
 " Mapea la letra S para ejecutar sed en todo el documento
 nnoremap S :%s//g<Left><Left>
 
-" Configurar explorador de archivos
-nnoremap <silent> <Leader>f :Vex!<CR>
-let g:netrw_liststyle=3
-let g:netrw_list_hide= '\(^\|\s\s\)\zs\.\S\+'
+" Abrir terminal
+nnoremap <silent> <leader>t <cmd>split term://zsh<CR>
 
 "}}}
 
@@ -79,8 +73,8 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <silent> th :bp<CR>
-nnoremap <silent> tl :bn<CR>
+nnoremap <silent> <Tab> :bn<CR>
+nnoremap <silent> <S-Tab> :bp<CR>
 " Configura orientacion de Splits
 nnoremap sh <C-w>H
 nnoremap sj <C-w>J
@@ -100,18 +94,26 @@ nnoremap st <C-w>T
 
 call plug#begin()
 
-Plug 'mattn/emmet-vim'
-Plug 'vim-airline/vim-airline'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'lifepillar/vim-mucomplete'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'mattn/emmet-vim'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 Plug 'Yggdroot/indentLine'
 Plug 'chrisbra/Colorizer'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -119,11 +121,18 @@ lua << EOF
 require('francisco')
 EOF
 
+" Configuracion de Telescope
+nnoremap <leader>ff <cmd>Telescope find_files<CR>
+nnoremap <leader>fg <cmd>Telescope live_grep<CR>
+nnoremap <leader>fb <cmd>Telescope buffers<CR>
+
+
 " Configuracion de colorizer
 let g:colorizer_auto_color = 1
 let g:colorizer_auto_filetype='css'
 let g:colorizer_skip_comments = 1
-let g:colorizer_colornames = 0
+let g:colorizer_colornames_disable = 1
+let g:colorizer_rgba_disable = 1
 let g:colorizer_use_virtual_text = 1
 
 " Configuracion de indentLine
@@ -153,14 +162,6 @@ let g:startify_bookmarks = [
       \ { 'z': '$XDG_CONFIG_HOME/zsh/.zshrc' }
       \ ]
 
-" Configuracion de Mucomplete
-let g:mucomplete#enable_auto_at_startup = 1
-let g:mucomplete#chains = {
-                  \ 'default':    ['file', 'omni', 'user', 'defs', 'incl', 'c-n', 'uspl'],
-                  \ 'vim':        ['file', 'keyn', 'cmd',  'omni', 'user', 'c-n', 'uspl'],
-                  \ 'text':       ['file', 'c-n',  'uspl', 'omni', 'user'],
-                  \ }
-
 " Configuracion de Emmet 
 let g:user_emmet_leader_key='<C-z>'
 let g:user_emmet_settings = {
@@ -185,13 +186,8 @@ let g:user_emmet_settings = {
 \  },
 \}
 
-" Configuracion de Airline
-let g:airline_theme = 'onehalfdark'
-let g:airline_extensions = ['branch', 'tabline']
-let g:airline#extensions#tabline#show_buffers = 1
-set ttimeoutlen=10
-
 " Color scheme
-"autocmd VimEnter * ++nested colorscheme onehalfdark
-colorscheme onehalfdark
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_italic = 1
+colorscheme onedark
 "}}}

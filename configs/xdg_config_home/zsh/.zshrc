@@ -54,11 +54,9 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 fi
 
 # Sección de aliases
-alias neo="cmatrix -ab"
+alias matrix="cmatrix -ab"
 alias ls="ls --color=always"
 alias grep="grep --color=always"
-alias yta="yt-dlp --abort-on-error -x --audio-format best --audio-quality 0"
-alias yt="yt-dlp"
 alias mpv="mpv --profile=480p"
 alias etags="EDITOR=$EDITOR opustags --in-place --edit"
 alias gs="cd /opt/lampp/htdocs/geoservice/"
@@ -68,6 +66,10 @@ alias anime="ani-cli"
 alias mirror-refresh="sudo reflector --verbose --score 100 -l 50 -f 10 --sort rate --save /etc/pacman.d/mirrorlist"
 alias tunel-geosrv="ssh -v -N -D localhost:1080 tunel@geosysrv.noip.me -p 10"
 alias mc="sudo java -jar $HOME/TLauncher/TLauncher-2.839.jar"
+alias monitor="gotop -l layout"
+alias peli="mpv ~/Descargas/Fantastic.Beasts.The.Secrets.of.Dumbledore.2022.1080p.KORSUB.HDRip.x264.AAC2.0-SHITBOX/Fantastic.Beasts.The.Secrets.of.Dumbledore.2022.1080p.KORSUB.HDRip.x264.AAC2.0-SHITBOX.mp4 --sub-pos=84 --sub-font-size=45 --sub-back-color=0/0/0/0.9"
+alias retroarch="powerprofilesctl launch org.libretro.RetroArch & monitor"
+alias dolphin="powerprofilesctl launch dolphin-emu"
 
 # Zsh history
 HISTSIZE=1000

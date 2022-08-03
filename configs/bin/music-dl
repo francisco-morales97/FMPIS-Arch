@@ -1,0 +1,93 @@
+#!/bin/sh
+
+# Definición de variables
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+BOLD="\033[1m"
+NC="\033[0m"
+
+# Inicio del script
+[ ! "$1" ] && printf "${RED}${BOLD}Debes colocar la url de Youtube del álbum${NC}\n" && exit
+
+while true; do
+  echo
+  printf "¿Quieres crear un directorio particular para el álbum? [y/n]\n"
+  echo
+  read RES
+  case $RES in
+    y)
+      echo
+      printf "Escriba el nombre del artista: "; read -r ARTISTA
+      printf "Escriba el nombre del álbum: "; read -r ALBUM
+      echo
+      mkdir -pv ~/Música/"$ARTISTA"/"$ALBUM"
+      break
+      ;;
+    n)
+      break
+      ;;
+    *)
+      echo
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done
+
+echo
+while true; do
+  echo
+  printf "%s\n" "Elija el formato en que quiere el álbum" "1) opus" "2) mp3"
+  echo
+  read RES2
+  case $RES2 in
+    1)
+      if [ $RES = "y" ]; then
+        echo
+        printf "Creando archivo 'tracks'...\n"
+        yt-dlp -e $1 > ~/Música/"$ARTISTA"/"$ALBUM"/tracks
+        printf "Descargando canciones...\n"
+        echo
+        yt-dlp --abort-on-error -x --audio-format best --audio-quality 0 -P "~/Música/$ARTISTA/$ALBUM" $1
+        echo
+        printf "${GREEN}${BOLD}Proceso finalizado!${NC}\n"
+        notify-send "Listo"
+      else
+        echo
+        printf "Creando archivo 'tracks'...\n"
+        yt-dlp -e $1 > tracks
+        printf "Descargando canciones...\n"
+        echo
+        yt-dlp --abort-on-error -x --audio-format best --audio-quality 0 $1
+        printf "${GREEN}${BOLD}Proceso finalizado!${NC}\n"
+        notify-send "Listo"
+      fi
+      break
+      ;;
+    2)
+      if [ $RES = "n" ]; then
+        echo
+        printf "Creando archivo 'tracks'...\n"
+        yt-dlp -e $1 > ~/Música/"$ARTISTA"/"$ALBUM"/tracks
+        printf "Descargando canciones...\n"
+        echo
+        yt-dlp --abort-on-error -x --audio-format mp3 --audio-quality 0 -P "~/Música/$ARTISTA/$ALBUM" $1
+        printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
+        notify-send "Listo"
+      else
+        echo
+        printf "Creando archivo 'tracks'...\n"
+        yt-dlp -e $1 > tracks
+        printf "Descargando canciones...\n"
+        echo
+        yt-dlp --abort-on-error -x --audio-format mp3 --audio-quality 0 $1
+        printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
+        notify-send "Listo"
+      fi
+      break
+      ;;
+    *)
+      echo
+      printf "${RED}${BOLD}Esa opción no es válida${NC}\n"
+      ;;
+  esac
+done

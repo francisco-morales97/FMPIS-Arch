@@ -1,2 +1,5 @@
 require('francisco.lspconfig')
+require('francisco.nvim-cmp-lsp')
 require('francisco.treesitter')
+require('francisco.lualine')
+require('francisco.bufferline-conf')
