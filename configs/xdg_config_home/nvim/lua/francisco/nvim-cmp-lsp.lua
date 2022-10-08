@@ -3,7 +3,7 @@ local cmp = require'cmp'
 cmp.setup({
   snippet = {
     expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+      vim.fn["vsnip#anonymous"](args.body)
     end,
   },
   window = {
@@ -13,11 +13,11 @@ cmp.setup({
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<C-e>'] = cmp.mapping.abort(),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    ['<CR>'] = cmp.mapping.confirm({ select = true }),
   }),
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
-    { name = 'vsnip' }, -- For vsnip users.
+    { name = 'vsnip' },
   }, {
     { name = 'buffer' },
   })
@@ -26,7 +26,7 @@ cmp.setup({
 -- Set configuration for specific filetype.
 cmp.setup.filetype('gitcommit', {
   sources = cmp.config.sources({
-    { name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it.
+    { name = 'cmp_git' },
   }, {
     { name = 'buffer' },
   })
@@ -49,26 +49,3 @@ cmp.setup.cmdline(':', {
     { name = 'cmdline' }
   })
 })
-
--- Setup lspconfig.
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
--- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-require('lspconfig').emmet_ls.setup {
-  capabilities = capabilities
-}
-
-require('lspconfig').html.setup {
-  capabilities = capabilities
-}
-
-require('lspconfig').cssls.setup {
-  capabilities = capabilities
-}
-
-require('lspconfig').tsserver.setup {
-  capabilities = capabilities
-}
-
-require('lspconfig').angularls.setup {
-  capabilities = capabilities
-}

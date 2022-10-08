@@ -132,6 +132,8 @@ case "$ANSWER" in
       'gotop'
       'zoom'
       'game-devices-udev'
+      'ani-cli'
+      'mangal-bin'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
       echo

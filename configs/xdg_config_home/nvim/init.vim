@@ -35,12 +35,6 @@ set completeopt=longest,menuone,noselect,noinsert
 set shortmess+=c
 autocmd BufNewFile,BufRead *.* set autoindent smartindent
 
-" Configura el espacio para accionar los comandos
-nnoremap <Space> :
-
-" Limpia el resaltado de busqueda temporalmente
-nnoremap <silent> <Leader>c :noh<CR>
-
 "}}}
 
 " FUNCIONALIDADES {{{
@@ -59,10 +53,7 @@ inoremap < <><Left>
 inoremap <C-@> <CR><Esc>O
 
 " Mapea la letra S para ejecutar sed en todo el documento
-nnoremap S :%s//g<Left><Left>
-
-" Abrir terminal
-nnoremap <silent> <leader>t <cmd>split term://zsh<CR>
+nnoremap S <cmd>%s//g<Left><Left>
 
 "}}}
 
@@ -73,18 +64,19 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <silent> <Tab> :bn<CR>
-nnoremap <silent> <S-Tab> :bp<CR>
+nnoremap <silent> <Tab> <cmd>bn<CR>
+nnoremap <silent> <S-Tab> <cmd>bp<CR>
+nnoremap <silent> <leader>bd <cmd>bdelete<CR>
 " Configura orientacion de Splits
 nnoremap sh <C-w>H
 nnoremap sj <C-w>J
 nnoremap sk <C-w>K
 nnoremap sl <C-w>L
 " Reajusta tamaño de Splits
-nnoremap <silent> <Up> :resize +2<CR>
-nnoremap <silent> <Right> :vertical resize -2<CR>
-nnoremap <silent> <Left> :vertical resize +2<CR>
-nnoremap <silent> <Down> :resize -2<CR>
+nnoremap <silent> <Up> <cmd>resize +2<CR>
+nnoremap <silent> <Right> <cmd>vertical resize -2<CR>
+nnoremap <silent> <Left> <cmd>vertical resize +2<CR>
+nnoremap <silent> <Down> <cmd>resize -2<CR>
 " Split to Tab
 nnoremap st <C-w>T
 
@@ -100,20 +92,24 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'mattn/emmet-vim'
-Plug 'mhinz/vim-startify'
+Plug 'goolord/alpha-nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
-Plug 'Yggdroot/indentLine'
-Plug 'chrisbra/Colorizer'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'NvChad/nvim-colorizer.lua'
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()
 
@@ -121,46 +117,16 @@ lua << EOF
 require('francisco')
 EOF
 
+" Configuracion de NvimTree
+nnoremap <leader>t <cmd>NvimTreeToggle<CR>
+
 " Configuracion de Telescope
 nnoremap <leader>ff <cmd>Telescope find_files<CR>
 nnoremap <leader>fg <cmd>Telescope live_grep<CR>
 nnoremap <leader>fb <cmd>Telescope buffers<CR>
 
-
-" Configuracion de colorizer
-let g:colorizer_auto_color = 1
-let g:colorizer_auto_filetype='css'
-let g:colorizer_skip_comments = 1
-let g:colorizer_colornames_disable = 1
-let g:colorizer_rgba_disable = 1
-let g:colorizer_use_virtual_text = 1
-
-" Configuracion de indentLine
-let g:indentLine_fileTypeExclude = ['mom', 'text', 'startify']
-let g:indentLine_bufTypeExclude  = ['help']
-
-" Configuracion de Startify
-let g:startify_custom_header = [
-      \'   ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗',
-      \'   ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║',
-      \'   ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║',
-      \'   ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║',
-      \'   ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║',
-      \'   ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝',
-      \ ]
-let g:startify_padding_left = 8
-let g:startify_lists = [
-      \ { 'type': 'files',     'header': ['   Archivos Recientes'] },
-      \ { 'type': 'dir',       'header': ['   Directorio Actual '. getcwd()] },
-      \ { 'type': 'sessions',  'header': ['   Sesiones'] },
-      \ { 'type': 'bookmarks', 'header': ['   Marcadores'] },
-      \ { 'type': 'commands',  'header': ['   Comandos'] },
-      \ ]
-let g:startify_bookmarks = [
-      \ { 'c': '$XDG_CONFIG_HOME/nvim/' },
-      \ { 's': '~/Documentos/Solem/proyectos/' },
-      \ { 'z': '$XDG_CONFIG_HOME/zsh/.zshrc' }
-      \ ]
+" Configuracion de Alpha
+autocmd User AlphaReady set showtabline=0 | autocmd BufUnload <buffer> set showtabline=2
 
 " Configuracion de Emmet 
 let g:user_emmet_leader_key='<C-z>'
@@ -187,7 +153,8 @@ let g:user_emmet_settings = {
 \}
 
 " Color scheme
+let g:tokyonight_style = 'night'
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic = 1
-colorscheme onedark
+colorscheme tokyonight
 "}}}
