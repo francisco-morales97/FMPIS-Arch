@@ -1,38 +1,3 @@
-ls
-rm Critica_de_la_razon_pura_Immanuel_Kant.epub
-ls
-mv Critica_de_la_razon_pura_Immanuel_Kant-prueba.epub Critica_de_la_razon_pura_Immanuel_Kant.epub
-ls
-cd ..
-clear
-ls
-cd Aristóteles
-ls
-nvim Metafisica-Aristoteles.epub
-exit
-lsblk
-sudo umount /dev/sdc
-monitor
-exit
-nvim
-nvim .config/alacritty/alacritty.yml
-exit
-ping google.com
-exit
-yay -Syu
-clear
-mirror-refresh
-yay -Syyu
-sudo flatpak update
-clear
-yay -Sc
-pacman -Qqdt | sudo pacman -Rs -
-clear
-man paccache
-sudo paccache -vrk0
-clear
-man flatpak
-sudo flatpak uninstall --unused
 exit
 monitor
 exit
@@ -1000,4 +965,39 @@ yay mangal
 nvim FMPIS-Arch/FMPIS-2.sh
 exit
 yay -Ss mangal
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+nvim .local/bin/update-configs
+cd FMPIS-Arch/configs
+ls
+cd
+ls .config/mangal
+update-configs
+cd FMPIS-Arch/
+git status
+cd ..
+cd FMPIS-Arch/
+git add -A
+git status
+clear
+pass -c github
+git commit -m "actualizacion de configs"
+git push origin
+cd
+exit
+yay -Syu
+sudo flatpak update
+mangal
+exit
+cd Documentos/Angular/dashboard
+cd src/app
+nvim
+cd
+cd FMPIS-Arch/
+nvim FMPIS-1.sh
+exit
+cd FMPIS-Arch/
+nvim FMPIS-1.sh
+exit
+yt-dlp https://la.spankbang.com/76lsi/video/porn
 exit
