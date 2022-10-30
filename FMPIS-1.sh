@@ -39,7 +39,7 @@ case "$ANSWER" in
     # Instalar servicios útiles
     printf "${GREEN}${BOLD}Servicios útiles${NC}\n"
     sleep 1
-    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse pipewire-jack
+    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber
     sudo systemctl enable acpid
     sudo systemctl enable ntpd
     sudo systemctl enable cups.service

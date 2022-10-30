@@ -32,20 +32,15 @@ case "$ANSWER" in
     # Mueve archivos de configuración a sus ubicaciones correspondientes
     printf "${GREEN}${BOLD}Instalando mis configuraciones${NC}\n"
     sleep 1
-    mv configs/xdg_config_home/alacritty ~/.config/
-    mv configs/bin ~/.local/
-    mv configs/xdg_config_home/mpv ~/.config/
-    mv configs/xdg_config_home/nvim ~/.config/
-    mv configs/xdg_data_home/nvim ~/.local/share/
-    mv configs/xdg_data_home/pass ~/.local/share/
     mv configs/.zshenv ~/
-    mv configs/xdg_config_home/zathura ~/.config/
-    mv configs/xdg_config_home/zsh ~/.config/
+    mv configs/bin ~/.local/
+    mv -f configs/xdg_config_home/* ~/.config/
+    mv -f configs/xdg_data_home/* ~/.local/share/
     if [ -e ~/.cache ]; then
-      mv configs/xdg_cache_home/zsh ~/.cache/
+      mv -f configs/xdg_cache_home/* ~/.cache/
     else
       mkdir ~/.cache
-      mv configs/xdg_cache_home/zsh ~/.cache/
+      mv -f configs/xdg_cache_home/* ~/.cache/
     fi
     echo
 

@@ -20,9 +20,8 @@ case "$ANSWER" in
     sleep 1
     PROGRAMAS_PAC=(
       # Desarrollo web --
-      'firefox-developer-edition'
+      'firefox'
       'chromium'
-      'epiphany'
       'code'
       'inkscape'
       'gimp'
@@ -130,7 +129,6 @@ case "$ANSWER" in
 
       # Utilidades --
       'gotop'
-      'zoom'
       'game-devices-udev'
       'ani-cli'
       'mangal-bin'

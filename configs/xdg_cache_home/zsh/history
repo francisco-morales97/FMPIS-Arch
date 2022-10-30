@@ -1,161 +1,3 @@
-exit
-monitor
-exit
-cd Descargas/reaper649_linux_x86_64/reaper_linux_x86_64
-ls
-nvim install-reaper.sh
-exit
-cd Descargas/reaper664_linux_x86_64
-cd reaper_linux_x86_64
-ls
-sudo ./install-reaper.sh
-cd
-clear
-exit
-nvim
-man reaper
-reaper
-nvim
-man yabridge
-yabridgectl --help
-yabridgectl sync
-pw-top
-powerprofilesctl launch reaper
-powerprofilesctl launch reaper
-powerprofilesctl launch reaper
-exit
-pass
-pass -c Solem/rubrika
-pass Solem/rubrika-pin
-exit
-man yt-dlp
-exit
-echo $XDG_HOME_MUSIC
-echo $XDG_MUSIC_DIR
-echo XDG_MUSIC_DIR
-ls /etc/xdg
-nvim /etc/xdg/user-dirs.defaults
-nvim /etc/xdg/user-dirs.conf
-exit
-man case
-exit
-e
-exit
-cd Música
-ls
-cd
-exit
-man mkdir
-mkdir -pv Documentos/dir1/dir2
-cd Documentos
-ls
-rm -r dir1
-ls
-cd
-exit
-cd .local/bin
-ls
-nvim albumtag
-nvim albumtag2
-ls
-cat tagtrans
-cd
-clear
-ls
-man mkdir
-mkdir -p Megadeth/"Countdown to Extinction" && cd Megadeth/"Countdown to Extinction"
-touch ~/.local/bin/music-dl
-nvim
-sudo chmod +x ~/.local/bin/music-dl
-ls ~/.local/bin/music-dl
-ls ~/.local/bin/
-nvim ~/.local/bin/music-dl
-exit
-man test
-exit
-ls
-rm -r Megadeth
-ls
-clear
-music-dl
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-nvim
-music-dl https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT
-clear
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-nvim
-nvim
-exit
-man yt-dlp
-exit
-man yt-dlp
-exit
-music-dl
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-nvim
-clear
-ls
-ls Música
-rm -r Música/Megadeth
-ls Música
-clear
-music-dl
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-ls
-cd Música
-ls
-cd Megadeth
-ls
-cd Countdown\ to\ Extinction
-ls
-cat tracks
-cd 
-rm -r Música/Megadeth
-nvim
-exit
-ls
-ls Música
-clear
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-ls
-cd Música
-ls
-cd Megadeth
-ls
-cd Countdown\ to\ Extinction
-ls
-ls -a
-exit
-cd Música
-ls
-rm -r Megadeth 
-ls
-rm -r \'Megadeth\'
-ls
-cd
-nvim
-exit
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-nvim
-exit
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-nvim
-exit
-rm -r Música/Megadeth
-music-dl "https://www.youtube.com/watch?v=i1PceyvqBlg&list=PLxzSZG7g8c8xkww85YTk35Yfp4kw3hCQT"
-ls
-cd Música/
-ls
-cd Megadeth/Countdown\ to\ Extinction
-ls
-clear
-cat tracks
-albumtag2 tracks
-nvim
-cd
-nvim
-ls Música/Megadeth/Countdown\ to\ Extinction
-cd Música
 ls
 rm -r Megadeth
 ls
@@ -1000,4 +842,162 @@ cd FMPIS-Arch/
 nvim FMPIS-1.sh
 exit
 yt-dlp https://la.spankbang.com/76lsi/video/porn
+exit
+cd .local/bin
+ls
+nvim albumtag
+rm albumtag
+ls
+mv albumtag2 albumtag
+ls
+nvim albumtag
+nvim albumtag
+ls
+ls
+nvim music-dl
+cd
+ls
+cd FMPIS-Arch/
+ls
+update-configs
+nvim FMPIS-1.sh
+git status
+ls
+cd configs
+ls
+cd bin
+ls
+nvim albumtag
+nvim albumtag2
+git rm albumtag2 tagtrans
+ls
+cd ..
+cd wallpapers
+ls
+cd ..
+clear
+ls
+cd ..
+update-configs
+git status
+git add -A
+git status
+git commit -m "actualizacion de configs y eliminacion de archivos"
+pass -c github
+git push origin
+exit
+anime hunter x hunter
+exit
+yay -S firefox
+clear
+yay -S firefox
+exit
+yay -Rs firefox-developer-edition
+exit
+nvim .zshenv
+cd .local/share/applications
+ls
+nvim firefox-developer-edition.desktop
+ls /usr/share/applications | grep "firefox"
+sudo cp /usr/share/applications/firefox.desktop .
+ls
+nvim firefox.desktop
+man chown
+chown francisco:francisco firefox.desktop
+nvim firefox.desktop
+exit
+cd Descargas
+git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
+git branch
+./scripts/auto-install.sh
+exit
+rm .local/share/applications/firefox-developer-edition.desktop
+exit
+pass -c github
+mangal
+exit
+exit
+manga
+mangal
+exit
+mangal
+mangal
+ping google.com
+mangal
+exit
+yay -Syu
+exit
+pass -c mercadolibre
+exit
+pass -c Solem/rubrika
+exit
+pass -c Solem/rubrika
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+pass
+pass insert hbomax
+pass hbomax
+exit
+pass net
+pass netflix
+exit
+mangal
+exit
+yay -Syu
+yay -Syu
+yay -Syu
+yay -Sc
+afetch
+yay -Rs xampp
+clear
+exit
+yay -Syu
+exit
+yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night?"
+yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night?"
+yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
+yt-dlp "https://la.spankbang.com/5qwhr/video/hentai+anal+milf"
+yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
+yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
+exit
+music-dl "https://www.youtube.com/watch?v=QTJLu4eKL_8&list=OLAK5uy_kMeQiWgvnD8GXfeCh8FqZJYx-2qtDuwtY"
+nvim .local/bin/albumtag
+cd Música/Bill\ Evans\ Trio/Bill\ Evans\ With\ Symphony\ Orchestra
+clear
+ls
+cat tracks
+albumtag tracks
+ls
+clear
+exit
+lsblk
+exit
+yay -S gnome-shell-extension-pop-shell
+yay -Rs gnome-shell-extension-pop-shell
+yay -Rs rust
+exit
+yt-dlp "https://la.spankbang.com/5sldd/video/that+housewife+at+that+apartment"
+exit
+mangal
+exit
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph5d9a5a0706aed"
+exit
+exit
+cd /boot/EFI/
+ls
+cd ..
+ls
+cd loader
+ls
+nvim loader.conf
+ls entries
+nvim entries/arch-rt.conf
+cd ..
+ls
+cd EFI
+ls
+ls Linux
+ls systemd
 exit
