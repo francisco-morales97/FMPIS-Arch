@@ -33,7 +33,6 @@ case "$ANSWER" in
 
       # Aplicaciones favoritas --
       'alacritty'
-      'lollypop'
 
       # Emuladores --
       'dolphin-emu'

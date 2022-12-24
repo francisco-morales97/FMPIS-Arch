@@ -1,400 +1,3 @@
-ls
-rm -r Megadeth
-ls
-cd
-exit
-cd .local/bin
-ls
-nvim albumtag albumtag2
-nvim music-dl
-ls
-rm tagtrans
-ls
-cd
-ls
-update-configs
-cd FMPIS-Arch
-ls
-nvim FMPIS-1.sh FMPIS-2.sh FMPIS-3.sh
-nvim
-nvim ~/.local/bin/update-configs
-git status
-git add -A
-git status
-git commit -m "Modificacion y creacion de scripts"
-pass -c github
-git push origin
-exit
-exit
-pass
-exit
-cd Documentos/E-Books/Arist贸teles
-ls
-nvim Metafisica-Aristoteles.epub
-cd ../Immanuel\ Kant
-ls
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-ls
-clear
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-cd ../Arist贸teles
-ls
-nvim Metafisica-Aristoteles.epub
-exit
-cd Documentos/E-Books/Arist贸teles
-nvim Metafisica-Aristoteles.epub
-exit
-exit
-ls
-clear
-yay -Syu
-exit
-ani-cli -h
-ani-cli -U
-sudo ani-cli -U
-sudo ani-cli -U
-cd Descargas/
-ls
-rm -rf photoshopCClinux
-sudo rm -rf "/usr/local/share/ani-cli" "/usr/local/bin/ani-cli" "/usr/local/bin/UI" /usr/local/bin/player_* #If some of these aren't found, it's not a problem\
-git clone "https://github.com/pystardust/ani-cli.git" && cd ./ani-cli\
-sudo cp ./ani-cli /usr/local/bin\
-cd .. && rm -rf "./ani-cli"
-ls
-exit
-ani-cli -U
-anime ranma
-nvim
-exit
-nvim
-exit
-cd Documentos/E-Books/Arist贸teles
-ls
-nvim Metafisica-Aristoteles.epub
-nvim Metafisica-Aristoteles.epub
-ls
-exit
-cd Documentos/E-Books/Arist贸teles
-nvim Metafisica-Aristoteles.epub
-exit
-cd Documentos/E-Books/Immanuel\ Kant
-ls
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-ls
-cd ../Plat贸n
-ls
-nvim Apologia_de_Socrates.epub
-cd ..
-ls
-exit
-cd Documentos/E-Books/Immanuel\ Kant
-nvim Critica_de_la_razon_pura_Immanuel_Kant.epub
-exit
-monitor
-exit
-music-dl "https://www.youtube.com/watch?v=WYfljBCpmE4&list=PLBnJv6rImVe_i58jshuBNemYApQWyvegN"
-ls
-cd M煤sica/Pantera/Cowboys\ from\ Hell
-ls
-cat tracks
-albumtag2 tracks
-ls
-exit
-music-dl "https://www.youtube.com/watch?v=IESxcRQGkeQ&list=PLBnJv6rImVe8MIZ1GgK7iZoqF1S590TI9"
-rm -rf M煤sica/Pantera/Vulgar\ Display\ of\ Power
-cd M煤sica/Pantera/Cowboys\ from\ Hell
-ls
-cd ..
-ls
-ping google.com
-ping google.com
-cd
-music-dl "https://www.youtube.com/watch?v=IESxcRQGkeQ&list=PLBnJv6rImVe8MIZ1GgK7iZoqF1S590TI9"
-cd M煤sica/Pantera/Vulgar\ Display\ of\ Power
-ls
-cat tracks
-albumtag2 tracks
-ls
-exit
-music-dl "https://www.youtube.com/watch?v=KLRO4W9pNrQ&list=PLP_vXshlStIdUFp9pJ7qffQS8TbwmqVkL"
-cd M煤sica/Van\ Halen/Van\ Halen
-ls
-cat tracks
-albumtag2 tracks
-cd
-exit
-music-dl "https://www.youtube.com/watch?v=UM68ZL42hp0&list=PL6vwnon3sINoD91bhE6nVUSQyKf7iy5ya"
-cd M煤sica/Van\ Halen/1984
-ls
-cd ..
-mv 1984 MCMLXXXIV
-ls
-cd MCMLXXXIV
-ls
-cat tracks
-albumtag2 tracks
-exit
-ani-cli baki
-exit
-cd Documentos/E-Books/
-ls
-nvim George\ Orwell/1984_George_Orwell.epub
-exit
-cd Documentos/E-Books/
-nvim George\ Orwell/1984_George_Orwell.epub
-nvim George\ Orwell/1984_George_Orwell.epub
-ls
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Jules\ Verne/Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-nvim Marco\ Aurelio/Meditaciones_Marco_Aurelio.epub
-nvim Plat贸n/Apologia_de_Socrates.epub
-nvim Sun\ Tsu/El_arte_de_la_guerra.epub
-nvim Immanuel\ Kant/Critica_de_la_razon_pura_Immanuel_Kant.epub
-nvim Arist贸teles/Metafisica-Aristoteles.epub
-exit
-cd Documentos
-nvim Meditaciones\ -\ Marco\ Aurelio\ Antonino\ Augusto.epub.annot
-exit
-anime baki
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-monitor
-exit
-pacman -Rs epiphany
-sudo pacman -Rs epiphany
-exit
-sudo pacman -Rs geary
-exit
-sudo pacman -Rs gnome-todo
-exit
-yay -Ss piper
-yay -S piper
-clear
-sudo pacman -S piper
-exit
-sudo pacman -Rs piper
-exit
-cd Documentos/Angular/dashboard/src/app
-ls
-nvim app.component.ts
-cd
-nvim
-exit
-exit
-pass
-pass -c Solem/rubrika
-exit
-nvim
-nvim
-cd Documentos/Angular/dashboard/src/app
-ls
-nvim app.component.html
-fg
-fg
-cd
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-exit
-nvim
-fg
-nvim
-nvim
-nvim
-nvim .config/nvim/init.vim
-nvim
-cd .config/nvim/lua/francisco
-ls
-touch alpha-nvim.lua
-nvim alpha-nvim.lua
-nvim
-nvim
-nvim
-nvim alpha-nvim.lua
-nvim
-cd ../..
-ls
-nvim init.vim
-rm lua/francisco/alpha-nvim.lua
-ls
-nvim init.vim
-nvim
-cd
-exit
-cd .config/nvim/lua/francisco
-ls
-nvim nvim-cmp-lsp.lua
-exit
-lsblk
-lsblk
-clear
-exit
-ping google.com
-cd FMPIS-Arch
-ls
-cd configs
-ls
-cd xdg_config_home
-ls
-cd nvim
-ls
-ls ftdetect
-exit
-nvim
-nvim
-nvim
-cd .config/nvim/lua/francisco
-ls
-touch nvim-tree.lua
-nvim nvim-tree.lua
-nvim
-nvim nvim-tree.lua
-nvim
-nvim
-nvim
-nvim nvim-tree.lua
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-ls
-touch dashboard.lua
-nvim dashboard.lua
-nvim
-nvim
-nvim dashboard.lua
-nvim
-nvim
-ls
-nvim bufferline-conf.lua
-nvim dashboard.lua
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim
-nvim init.lua
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim init.lua
-ls
-nvim dashboard.lua
-nvim
-nvim dashboard.lua
-nvim
-cd ../..
-nvim init.lua
-nvim init.vim
-nvim
-nvim lua/francisco/dashboard.lua
-rm lua/francisco/dashboard.lua
-nvim lua/francisco/init.lua
-nvim
-nvim init.vim
-cd lua/francisco
-ls
-nvim
-nvim
-ls
-touch alpha-nvim.lua
-nvim alpha-nvim.lua
-nvim init.lua
-nvim
-cd ../..
-nvim init.vim
-nvim
-nvim init.vim
-nvim
-nvim lua/francisco/alpha-nvim.lua
-nvim
-nvim init.vim
-nvim
-nvim lua/francisco/alpha-nvim.lua
-nvim
-exit
-nvim .zshenv
-exit
-nvim
-cd .config/nvim/lua/francisco
-ls
-nvim lspconfig.lua
-nvim alpha-nvim.lua
-nvim
-nvim alpha-nvim.lua
-nvim
-nvim
-nvim
-nvim
-nvim
-ls
-nvim
-nvim
-nvim lspconfig.lua
-nvim
-nvim
-exit
-exit
-nvim
-exit
-yay -Syu
-exit
-nvim
-cd .config/nvim/lua/francisco
-ls
-nvim nvim-tree.lua
-cd
-nvim
-cd .config/nvim/lua/francisco
-nvim nvim-tree.lua
-cd
-clear
-nvim
-nvim
-cd .config/nvim/lua/francisco
-nvim nvim-tree.lua
-nvim nvim-tree.lua
-cd
-nvim
-nvim
-nvim
-nvim
-cd Documentos/E-Books/Arist贸teles
-ls
-nvim Metafisica-Aristoteles.epub
-exit
-cd Documentos/Angular/dashboard/src/app
-exit
-nvim
-exit
-cd Documentos/Angular/dashboard/src/app
-ls
-nvim app.component.ts
 nvim app.component.ts
 ls
 cd ../../..
@@ -1000,4 +603,398 @@ cd EFI
 ls
 ls Linux
 ls systemd
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+cd FMPIS-Arch
+ls
+nvim FMPIS-3.sh
+ls configs
+cd configs
+ls xdg_config_home
+cd ..
+nvim FMPIS-3.sh
+ls
+cd ..
+ls
+mkdir test-folder
+ls
+man mv
+man rename
+ls
+ls Im脙乬enes
+mv -f Im脙乬enes/* test-folder
+ls Im脙乬enes
+ls test-folder
+mv -f test-folder/* Im脙乬enes
+ls Im脙乬enes
+ls test-folder
+rm test-folder
+rm -rf test-folder
+ls
+cd FMPIS-Arch
+nvim FMPIS-3.sh
+ls
+nvim FMPIS-1.sh
+ls
+ls configs
+ls
+update-configs
+cd
+nvim .local/bin/update-configs
+ls .config
+clear
+cd FMPIS-Arch
+git add -A
+git status
+git commit -m "refactorizacion de codigo y actualizacion de archivos"
+pass -c github
+git push origin
+exit
+yay -Ss gnome-console
+exit
+yay -Syu
+sudo flatpak update
+sudo flatpak uninstall --unused
+yay -Sc
+pacman -Qqdt | sudo pacman -Rs -
+sudo paccache -vrk0
+clear
+exit
+nvim
+nvim .config/zsh/.zshrc
+exit
+rm -rf TLauncher
+ls
+cd ..
+ls
+ls -a
+cd ..
+ls
+cd root
+sudo su
+clear
+cd
+ls -a
+cd .minecraft
+ls
+cd ..
+rm -rf .minecraft
+rm -rf .zoom
+ls -a
+ls .android
+cd
+clear
+ls
+exit
+ls Descargas
+clear
+ls -a
+ls .config
+cd .config/REAPER
+ls
+ls ProjectTemplates
+nvim 'Inicio rapido 2.RPP'
+exit
+cd Descargas
+ls
+cd reaper664_linux_x86_64
+ls
+cd reaper_linux_x86_64
+ls
+./install-reaper.sh
+cd
+clear
+ls
+ls /usr/share/applications | grep "reaper"
+ls /srv
+ls /var
+nvim Descargas/reaper664_linux_x86_64/reaper_linux_x86_64/install-reaper.sh
+cd Descargas/reaper664_linux_x86_64/reaper_linux_x86_64
+ls
+nvim install-reaper.sh
+./install-reaper.sh uninstall
+./install-reaper.sh
+clear
+nvim install-reaper.sh
+ls /opt
+sudo ./install-reaper.sh
+sudo ./install-reaper.sh uninstall
+sudo ./install-reaper.sh 1
+nvim install-reaper.sh
+clear
+sudo ./install-reaper.sh --uninstall
+./install-reaper.sh --uninstall
+cd /opt/REAPER
+ls
+sudo ./uninstall-reaper.sh
+cd ..
+ls
+cd ..
+cd
+clear
+ls
+ls -a
+ls .config
+rm -rf .config/REAPER
+clear
+ls
+ls Documentos
+clear
+ls
+ls -a
+sudo flatpak uninstall com.anydesk.Anydesk
+clear
+ls
+ls -a
+ls .vst
+yay -Ss yabridge
+ls .vst3
+ls .local/share
+clear
+yay -Rs wine winetricks
+clear
+yay -Rs yabridge-bin
+yay -Rs wine winetricks
+clear
+ls -a
+rm -rf .vst .vst3 .wine
+rm -rf .anydesk
+nvim .aidata.txt
+rm .aidata.txt
+ls -a
+ls .var
+cd .config
+ls
+rm -rf yabridgectl
+ls
+cd
+exit
+monitor
+yay -Rs helvum
+exit
+exit
+yay -Rs alacritty
+exit
+yt-dlp "https://la.spankbang.com/5xa7z/video/anime+anal"
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+clear
+cd Documentos/Angular
+ls
+cd dashboard
+ls
+cd ..
+cd map-api/src/app
+nvim
+exit
+pacman -Ss epiphany
+yay -Ss epiphany
+exit
+cd Documentos/E-Books/Arist贸teles
+ls
+nvim Metafisica-Aristoteles.epub
+exit
+cd Documentos/E-Books/Arist贸teles
+nvim Metafisica-Aristoteles.epub
+exit
+cd Documentos/E-Books/Jules\ Verne
+nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
+cd ../George\ R.\ R.\ Martin
+ls
+nvim Juego_de_tronos_George_R_R_Martin.epub
+exit
+yay -S epiphany
+yay -Syu
+nvim /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+sudoedit /etc/pacman.conf
+yay -Syyu
+exit
+exit
+yay -Syyu
+mirror-refresh
+yay -Syyu
+exit
+monitor
+exit
+monitor
+exit
+notify-send "Prueba"
+notify-send "Prueba 2"
+notify-send "Prueba 3"
+notify-send "Prueba"
+exit
+yay -S epiphany
+sudo flatpak update
+exit
+monitor
+yay -Rs epiphany
+yay -Rs epiphany
+exit
+nvim
+nvim
+nvim
+cd Documentos/Angular/dashboard/src/app
+nvim
+cd
+nvim
+nvim
+nvim
+cd Documentos/Angular/dashboard/src/app
+nvim
+exit
+exit
+nvim
+nvim
+exit
+nvim
+yay -Ss gnome-console
+yay -S gnome-console
+yay -Rs gnome-console
+exit
+update-configs
+cd FMPIS-Arch
+ls
+git status
+git add -A
+exit
+clear
+pass
+pass generate falabella
+pass
+pass -c falabella
+pass -c falabella
+pass generate falabella
+pass -c falabella
+pass generate --no-symbols falabella
+pass -c falabella
+clear
+nvim
+nvim
+nvim
+exit
+yay -Syu
+exit
+monitor
+exit
+mangal blame!
+mangal blame
+mangal
+exit
+cd .config/mangal
+ls
+nvim mangal.toml
+exit
+mangal
+anime blame
+anime blame
+anime blame
+exit
+exit
+pass -c Solem/rubrika
+exit
+yay -Ss gnome-text-editor
+yay -S gnome-text-editor
+exit
+mangal
+exit
+yay -Syu
+sudo flatpak update
+clear
+exit
+yay -Ss gnome-todo
+yay -S endeavour
+yay -Rs endeavour
+exit
+yay -S calibre
+exit
+mangal
+exit
+anime
+nvim
+nvim
+nvim
+nvim
+exit
+mangal
+exit
+notify-send "Prueba"
+monitor
+exit
+monitor
+exit
+nvim
+exit
+yay -S gnome-console
+yay -Rs gnome-terminal
+exit
+yay -Ss fragments
+yay -S fragments
+yay -Rs transmission-gtk
+yay -Ss gnome-boxes
+flatpak list
+sudo flatpak uninstall org.gnome.Boxes
+clear
+yay -Ss gnome-music
+yay -S gnome-music
+yay -S gnome-music
+ping google.com
+yay -S gnome-music
+yay -Syu
+yay -S gnome-music
+gnome-music
+gnome-calculator
+clear
+yay -S grilo
+yay -Ss grilo
+gnome-music
+yay -Rs gnome-music
+nvim FMPIS-Arch/FMPIS-2.sh
+yay -Rs gnome-music
+flatpak search gnome-music
+sudo flatpak install flathub org.gnome.Music
+exit
+yay -Ss secrets
+flatpak search secrets
+flatpak search secrets
+sudo flatpak install flathub org.gnome.World.Secrets
+sudo flatpak uninstall org.gnome.World.Secrets
+flatpak list
+sudo flatpak uninstall org.gnome.Music
+exit
+anime
+exit
+monitor
+exit
+yay -Syu
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+yay -Ss vscodium
+exit
+exit
+man python
+exit
+mangal
+anime
+exit
+yay -Syu
+exit
+anime
+exit
+monitor
+exit
+yay -Syu
+exit
+yay -Ss musescore
+exit
+anime ishuzoku reviews
+exit
+yay -Syu
+monitor
+yay -Syu
+yay -S archlinux-keyring
+yay -Syu
 exit
