@@ -1,0 +1,3 @@
+setlocal showtabline=2
+setlocal tabstop=2
+setlocal shiftwidth=2

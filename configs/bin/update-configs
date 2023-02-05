@@ -12,10 +12,6 @@ cp -rf $XDG_CONFIG_HOME/alacritty ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf ~/.local/bin ~/FMPIS-Arch/configs/
 cp -rf $XDG_CONFIG_HOME/mpv ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf $XDG_CONFIG_HOME/nvim ~/FMPIS-Arch/configs/xdg_config_home/
-cp -rf $XDG_DATA_HOME/nvim ~/FMPIS-Arch/configs/xdg_data_home/
-rm -rf ~/FMPIS-Arch/configs/xdg_data_home/nvim/plugged
-rm -rf ~/FMPIS-Arch/configs/xdg_data_home/nvim/swap
-rm -rf ~/FMPIS-Arch/configs/xdg_data_home/nvim/shada
 cp -rf $XDG_DATA_HOME/pass ~/FMPIS-Arch/configs/xdg_data_home/
 cp $HOME/.zshenv ~/FMPIS-Arch/configs/
 cp -rf $XDG_CONFIG_HOME/zathura ~/FMPIS-Arch/configs/xdg_config_home/

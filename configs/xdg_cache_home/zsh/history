@@ -1,380 +1,3 @@
-nvim app.component.ts
-ls
-cd ../../..
-ls
-cd
-exit
-ani-cli -U
-sudo ani-cli -U
-cd Descargas/
-ls
-ls | grep "ani"
-cd
-sudo ani-cli -U
-sudo ani-cli -U
-anime -h
-sudo rm "/usr/local/bin/ani-cli"
-anime
-exit
-yay -S ani-cli
-anime
-exit
-pass -c Solem/rubrika
-exit
-pass github
-exit
-nvim
-exit
-nvim
-nvim
-nvim
-nvim .config/nvim/lua/francisco/lspconfig.lua
-nvim
-nvim
-exit
-exit
-touch tokyonight_night.json
-touch tokyonight_storm.json
-nvim tokyonight_night.json
-nvim tokyonight_storm.json
-sudo pacman -Rs lollypop
-exit
-exit
-nvim
-nvim
-nvim
-exit
-nvim
-exit
-nvim
-nvim
-nvim
-cd Documentos/Angular/map-api
-ls
-cd src/app
-ls
-nvim app.component.css
-ls components
-ls components/header
-nvim components/header/header.component.css
-ls
-cd ..
-ls
-nvim styles.css
-exit
-exit
-nvim
-nvim
-nvim
-cd Documentos
-ls
-cd Proyectos\ Web\ Personales
-ls
-cd Geoservice
-ls
-cd ..
-ls
-cd El-Rincon-de-las-Guitarras
-ls
-nvim index.html
-cd
-clea
-clear
-exit
-exit
-pass -c Solem/rubrika
-pass Solem/rubrika-pin
-exit
-nvim
-exit
-nvim
-exit
-nvim
-anime
-exit
-matrix
-exit
-anime
-update-configs
-sudo flatpak update
-anime
-anime ranma
-cÃ±ear
-clear
-music-dl "https://www.youtube.com/watch?v=YlfO8jKGQrg&list=PLxA687tYuMWi6_su77B_HWQCTK9fmMSM2"
-ls
-cd MÃºsica/Muse
-ls
-cd Will\ Of\ The\ People
-ls
-rm Top\ Hits\ 2022\ ðƒ¿ƒ®§\ Pop\ Music\ Playlist\ 2022\ ðƒ¿ƒ®¶\ New\ Music\ 2022\ ðƒ¿ƒ®¤\ Top\ Pop\ Songs\ Playlist\ \[YVs_iFSeKH0\].opus
-nvim tracks
-ls ~/.local/bin/
-albumtag2 tracks
-ls
-nvim ~/.local/bin/albumtag2
-monitor
-exit
-exit
-exit
-exit
-pass
-pass claveunica
-pass -c claveunica
-exit
-anime ranma
-exit
-nvim
-nvim
-nvim
-exit
-nvim
-nvim
-exit
-nvim
-nvim
-exit
-nvim
-nvim
-cÃ±ear
-clear
-nvim
-exit
-nvim
-exit
-nvim
-exit
-nvim Descargas/Propuesta\ de\ la\ Nueva\ Constitucion\ -\ Convencion\ Constitucional.epub
-exit
-mv Descargas/Propuesta\ de\ la\ Nueva\ Constitucion\ -\ Convencion\ Constitucional.epub Documentos/E-Books
-cd Documentos/E-Books
-ls
-mkdir "Convencion Constituyente"
-mv Propuesta\ de\ la\ Nueva\ Constitucion\ -\ Convencion\ Constitucional.epub Convencion\ Constituyente
-ls
-cd Convencion\ Constituyente
-nvim Propuesta\ de\ la\ Nueva\ Constitucion\ -\ Convencion\ Constitucional.epub
-exit
-nvim
-nvim
-nvim
-exit
-yay -Syu
-clear
-sudo flatpak update
-clear
-nvim
-exit
-monitor
-exit
-anime baki
-exit
-anime ranma
-clear
-anime hunter x hunter
-anime hunter x hunter
-clear
-anime hunter x hunter
-exit
-nvim
-exit
-nvim
-exit
-pass
-pass -c netflix
-pass netflix
-exit
-pacman -Qqdt | sudo pacman -Rs -
-yay -Sc
-pacman -Qqdt | sudo pacman -Rs -
-sudo paccache -vrk0
-sudo flatpak uninstall --unused
-clear
-nvim
-nvim
-clear
-anime hunter x hunter
-clear
-anime -h
-anime -c
-anime hunter x hunter
-exit
-sudo flatpak update
-sudo flatpak update
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-sudo flatpak update
-exit
-exit
-mirror-refresh
-clear
-yay -Syyu
-sudo flatpak update
-sudo flatpak update
-clear
-exit
-yay -Syu
-clear
-anime hunter x hunter
-ping google.com
-ping google.com
-exit
-sudo flatpak uninstall --unused
-yay -Sc
-pacman -Qqdt | sudo pacman -Rs -
-sudo paccache -vrk0
-clear
-yay -Ss mangal
-yay -S mangal-bin
-clear
-mangal mini
-mangal mini
-clear
-yay -Rs mangal-bin
-clear
-curl -sSL mangal.metafates.one/install | sh
-ls -a
-nvim .zshenv
-clear
-exit
-mangal mini
-mangal
-exit
-ls
-rm -r go
-rm -rf go
-sudo rm -rf go
-clear
-ls
-mangal help
-mangal F
-mangal --format cbz
-mangal env
-mangal config
-mangal mini
-clear
-exit
-mangal whre
-mangal where
-ls .local/bin
-exit
-mangal --format cbz
-exit
-cd Documentos/E-Books
-ls
-cd Jonathan\ Swift
-ls
-nvim Los_viajes_de_Gulliver_Jonathan_Swift.epub
-ls
-cd ..
-cd Jules\ Verne
-ls
-nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-exit
-pass
-pass -c Solem/rubrika
-pass Solem/rubrika-pin
-exit
-mangal mini
-clear
-mangal --format cbz
-exit
-mangal --format cbz
-exit
-mangal --format cbz
-exit
-mangal --help
-mangal --format cbz
-exit
-mangal --format cbz
-exit
-nvim
-nvim
-cd .config/nvim/lua/francisco
-ls
-nvim alpha-nvim.lua
-cd ../..
-ls
-nvim init.vim
-nvim
-nvim lua/francisco/init.lua
-ls ftdetect
-nvim ftdetect/md.vim
-nvim ftdetect/mom.vim
-nvim lua/francisco/init.lua
-nvim
-nvim lua/francisco/init.lua
-nvim
-ls
-cd
-cd Documentos/Angular/dashboard
-ls
-cd src/app
-nvim
-cd
-cd .config/nvim/lua/francisco
-nvim treesitter.lua
-nvim
-nvim ../../init.vim
-nvim init.lua
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim --version
-nvim init.lua
-nvim ../../init.vim
-nvim
-exit
-nvim
-nvim
-nvim
-nvim
-nvim
-cd .config/nvim/lua/francisco
-ls
-nvim treesitter.lua
-nvim init.lua
-nvim ../../init.vim
-exit
-nvim
-nvim .zshenv
-nvim .config/zsh
-exit
-manga
-manga mini
-clear
-manga
-manga
-exit
-cd Blame
-nvim \[0001\]_Chapter_1_The_Net_S_Offspring.cbz
-cd
-clear
-yay -S calibre
-yay -Rs calibre
-exit
-mangal --help
-mangal env
-mangal where --config
-cd .config
-ls
-cd mangal
-ls
-ls sources
-ls -a
-ls logs
-ls
-cd
-mangal config get
-mangal --help
-cd .config/mangal
-ls
-touch mangal.toml
 ls
 nvim mangal.toml
 ls
@@ -997,4 +620,382 @@ monitor
 yay -Syu
 yay -S archlinux-keyring
 yay -Syu
+exit
+monitor
+sudoedit /boot/loader/loader.conf
+ls
+cd FMPIS-Arch
+ls
+nvim FMPIS-2.sh
+nvim FMPIS-3.sh
+nvim FMPIS-1.sh
+gnome-console
+pacman -Ss gnome-console
+ls
+cd
+update-configs
+clear
+cd FMPIS-Arch
+git status
+git add -A
+pass
+pass github
+git commit -m "Actualizacion de archivos"
+git push origin
+ping google.com
+pass github
+pass -c github
+git push origin
+cd ..
+clear
+exit
+monitor
+exit
+cd Descargas
+ls
+rm -r firefox-gnome-theme
+rm -rf firefox-gnome-theme
+git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
+ls
+./scripts/auto-install.sh
+exit
+sudo flatpak update
+sudo flatpak update
+exit
+monitor
+exit
+pass -c Solem/rubrika
+pass -c Solem/rubrika-pin
+pass Solem/rubrika-pin
+exit
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+pass -c Solem/rubrika
+exit
+nvim .config/zsh/.zshrc
+exit
+man rsync
+lsblk
+lsblk
+ls /mnt
+ls /media
+ls /run
+ls /run/media
+ls -a /run/media
+ls -a /run/mount
+ls -a /mnt
+ls -a /media
+cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982
+ls
+cd Memoria\ interna
+ls
+cd ..
+ls
+cd Tarjeta\ de\ memoria
+ls
+cd MÃºsica
+ls
+pwd
+rsync -avh ~/MÃºsica/ .
+sudo rsync -avh ~/MÃºsica/ .
+clear
+exit
+cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/MÃºsica
+cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/MÃºsica
+cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/
+cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/
+ls
+cd Tarjeta\ de\ memoria
+ls
+cd MÃºsica
+ls
+clear
+sudo rsync -avh ~/MÃºsica/ . && notify-send "Listo"
+sudo rsync -avh ~/MÃºsica/ .
+man rsync
+sudo rsync -avht ~/MÃºsica/ .
+rsync -avht ~/MÃºsica/ .
+rsync -avh --no-times ~/MÃºsica/ .
+rsync -avh --no-times --no-perms ~/MÃºsica/ .
+cd
+clear
+exit
+lsblk
+cd /run/media/francisco/26A3-D69B
+ls
+cd Music
+clear
+rsync -avh ~/MÃºsica/ . && notify-send "Copia finalizada"
+clear
+cd
+exit
+nvim
+exit
+yay -Rs gnome-chess
+flatpak search gnome-chess
+exit
+yay -Ss gnu-chess
+pacman -Ss gnu-chess
+mangal
+lsblk
+exit
+yay -Syu
+yay -S gnome-chess
+clear
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+monitor
+exit
+yay -Rs linux
+yay -Q linux
+yay -Q linux-lts
+yay -Rs linux
+sudoedit /boot/loader/loader.conf
+sudoedit /boot/loader/entries/arch.conf
+cd /boot/loader/entries
+ls
+nvim arch-fallback.conf
+ls ..
+ls ../..
+ls
+sudo rm arch.conf arch-fallback.conf
+ls
+cd ..
+ls
+nvim loader.conf
+sudoedit loader.conf
+ls
+cd ..
+ls
+cd
+exit
+sudo flatpak update
+mangal
+exit
+ping google.com
+exit
+monitor
+exit
+monitor
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+monitor
+exit
+monitor
+exit
+monitor
+retroarch
+nvim
+nvim .config/zsh/.zshrc
+man gotop
+man top
+man
+clear
+monitor
+clear
+monitor
+exit
+monitor
+exit
+exit
+exit
+monitor
+exit
+exit
+exit
+exit
+yay -Ss code-oss
+flatpak search code-oss
+clear
+yay -Ss code
+yay -Rs code
+nvim
+exit
+cd Documentos/Solem/proyectos/dashboard-pte-frontend
+nvim
+cd
+exit
+exit
+monitor
+exit
+yay -S ripgrep
+exit
+ping google.com
+clear
+exit
+mirror-refresh
+clear
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+ls .local/share/nvim
+ls .local/share/nvim/site
+ls .local/share/nvim/site/pack/packer/start
+clear
+nvim
+nvim
+cd .config/nvim/
+ls
+nvim
+nvim
+exit
+monitor
+exit
+nvim
+exit
+nvim
+exit
+exit
+ls /usr/share/fonts
+ls /usr/share/fonts/misc
+exit
+monitor
+exit
+pass claveunica
+pass
+man pass
+pass insert banco-chile
+pass
+pass generate --no-symbols banco-chile
+pass -c banco-chile
+nvim
+nvim
+nvim .config/zsh/.zshrc
+nvim .zshenv
+nvim
+nvim
+nvim
+nvim
+pass banco-chile
+pass
+pass banco-chile
+pass banco-chile
+pass -c banco-chile
+nvim
+nvim
+nvim
+pass banco-chile
+man pass
+mirror-refresh
+yay -Syyu
+yay -Syyu
+yay -Syu
+yay -Sy archlinux-keyring
+yay -Syu
+pacman-key --refresh-keys
+sudo pacman-key --refresh-keys
+yay -Syu
+ls -a
+ls .ssh
+ls .config
+clear
+mkdir .gnupg
+touch .gnupg/dirmngr.conf
+nvim .gnupg/dirmngr.conf
+gpg --list-key
+clear
+yay -Syu
+gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
+dirmngr < /dev/null
+ls -ld /home/user1/.gnupg/crls.d/
+sudo -i dirmngr < /dev/null
+rm -rf .gnupg
+yay -Syu
+gpg --homedir /etc/pacman.d/gnupg/ --no-permission-warning --recv-keys C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
+ls /run/user/1000/gnupg
+sudoedit /run/user/1000/gnupg/S.dirmngr
+ls /run/user/1000/gnupg/S.dirmngr
+cat /run/user/1000/gnupg/S.dirmngr
+cd /run/user/1000/gnupg/
+ls
+nvim S.dirmngr
+sudo nvim S.dirmngr
+cd
+man pacman-key
+sudo pacman-key --add C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
+dirmngr < /dev/null
+ls -la .gnupg/crls.d/
+ls -a
+ls -la
+gpg2 --refresh-keys
+ sudo -i dirmngr < /dev/null
+ls -a
+dirmngr </dev/null
+ls -la .local/share/gnupg
+chmod 700 .local/share/gnupg/crls.d
+yay -Syu
+pacman-key --init
+sudo pacman-key --init
+yay -Syu
+sudo pacman -Sy archlinux-keyring
+pacman-key --refresh-keys
+sudo pacman-key --refresh-keys
+sudo pacman-key --populate
+sudo pacman -S archlinux-keyring
+sudo pacman -S archlinux-keyring
+yay -Syu
+pacman-key --init
+sudo pacman-key --init
+sudo pacman-key --populate
+sudo killall gpg-agent
+ls /etc/pacman.d
+sudo rm -rf /etc/pacman.d/gnupg/
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+yay -Syu
+exit
+monitor
+cd Descargas
+ls
+sudo mv JetBrains\ Mono /usr/share/fonts
+afetch
+cd /usr/share/fonts
+ls
+ls Montserrat
+ls JetBrains\ Mono
+sudo mv JetBrains\ Mono ~/Descargas
+exit
+sudo mv Descargas/JetBrains /usr/share/fonts
+exit
+nvim
+exit
+notify-send "Prueba"
+exit
+monitor
+sudo flatpak update
+clear
+sudo flatpak update
+yay -Sc
+pacman -Qqdt | sudo pacman -Rs -
+sudo flatpak uninstall --unused
+sudo paccache -vrk0
+clear
+exit
+exit
+notify-send "Prueba 2"
+notify-send "Prueba 3"
+notify-send "Prueba 4"
+exit
+notify-send "Prueba 1"
+notify-send "Prueba 2"
+notify-send "Prueba 3"
+monitor
 exit
