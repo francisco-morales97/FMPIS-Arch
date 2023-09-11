@@ -12,7 +12,7 @@ create_manga_dir = true
 create_volume_dir = true
 default_source = ''
 download_cover = false
-path = '$HOME/Documentos/E-Mangas'
+path = '$HOME/Documentos/Mangas'
 stop_on_error = false
 
 [formats]
@@ -27,7 +27,7 @@ save_on_download = false
 save_on_read = true
 
 [icons]
-variant = 'plain'
+variant = 'nerd'
 
 [installer]
 branch = 'main'

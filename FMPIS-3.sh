@@ -44,19 +44,6 @@ case "$ANSWER" in
     fi
     echo
 
-    # Instala mi tema personal de Gnome 40
-    printf "${GREEN}${BOLD}Instalando mi tema de gnome-shell${NC}\n"
-    sleep 1
-    if [ -e ~/.themes ]; then
-      git clone https://github.com/fMorales-97/Fradwaita.git
-      mv Fradwaita ~/.themes
-    else
-      mkdir ~/.themes
-      git clone https://github.com/fMorales-97/Fradwaita.git
-      mv Fradwaita ~/.themes
-    fi
-    echo
-
     # Mueve mis wallpapers a la carpeta de imágenes
     printf "${GREEN}${BOLD}Moviendo wallpapers${NC}\n"
     sleep 1

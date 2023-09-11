@@ -5,9 +5,6 @@ RED="\033[0;31m"
 BOLD="\033[1m"
 NC="\033[0m"
 
-# Comprobar que el usuario ha seleccionado un archivo
 [ ! -f "$1" ] && printf "${RED}${BOLD}Debes seleccionar un archivo${NC}\n" && exit
 
-# Ejecutar zathura independiente de la terminal y eliminar el archivo resultante de nohup
 nohup zathura "$1" > /dev/null &
-

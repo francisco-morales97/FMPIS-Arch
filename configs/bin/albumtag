@@ -15,7 +15,7 @@ TOTAL="$(wc -l < $1)"
 # Proceso de conversión de canciones
 while true; do
   echo
-  printf "%s\n" "¿Cuál es el formato del álbum?" "1) opus" "2) mp3"
+  printf "%s\n" "¿Cuál es el formato del álbum?" "1) opus" "2) mp3" "3) wav"
   echo
   read RES
   case $RES in
@@ -29,6 +29,12 @@ while true; do
       EXT="mp3"
       break
       ;;
+    3)
+      SONGS=$(ls *.wav --time=creation -r | sed "s/ /°/g")
+      EXT="wav"
+      break
+      ;;
+
     *)
       printf "${RED}${BOLD}Opción inválida${NC}\n"
       ;;
@@ -148,12 +154,12 @@ while true; do
     y)
       rm tracks cover.jpg
       echo
-      printf "${GREEN}${BOLD}¡Proceso Finalizado!${NC}\n"
+      printf "${GREEN}${BOLD}¡Etiquetado finalizado!${NC}\n"
       break
       ;;
     n)
       echo
-      printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
+      printf "${GREEN}${BOLD}¡Etiquetado finalizado!${NC}\n"
       break
       ;;
     *)

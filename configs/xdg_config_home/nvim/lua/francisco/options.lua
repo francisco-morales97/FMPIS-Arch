@@ -5,7 +5,7 @@ g.mapleader = ','
 g.user_emmet_leader_key = '<C-z>'
 
 opt.compatible = false
-opt.showmode = false
+opt.showmode = true
 opt.encoding = 'utf-8'
 opt.confirm = true
 opt.termguicolors = true
@@ -14,10 +14,11 @@ opt.mouse = 'a'
 
 opt.colorcolumn = '80'
 opt.cursorline = true
+opt.laststatus = 3
+opt.number = true
 opt.relativenumber = true
 opt.scrolloff = 8
 
-opt.showtabline = 4
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
@@ -29,7 +30,7 @@ opt.wrap = true
 opt.linebreak = true
 opt.list = false
 
-opt.hlsearch = true
+opt.hlsearch = false
 opt.incsearch = true
 opt.ignorecase = true
 opt.smartcase = true
@@ -43,9 +44,7 @@ opt.completeopt = {
     'noinsert'
 }
 
-opt.autoindent = true
 opt.smartindent = true
-opt.cindent = true
 
 opt.dictionary = 'spell'
 opt.spell = false

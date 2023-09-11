@@ -1,10 +1,13 @@
 #!/bin/sh
 
 # Definición de variables
+## Colores
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 BOLD="\033[1m"
 NC="\033[0m"
+## Ruta
+DIR="$HOME/Música"
 
 # Inicio del script
 [ ! "$1" ] && printf "${RED}${BOLD}Debes colocar la url de Youtube del álbum${NC}\n" && exit
@@ -20,7 +23,7 @@ while true; do
       printf "Escriba el nombre del artista: "; read -r ARTISTA
       printf "Escriba el nombre del álbum: "; read -r ALBUM
       echo
-      mkdir -pv ~/Música/"$ARTISTA"/"$ALBUM"
+      mkdir -pv $DIR/"$ARTISTA"/"$ALBUM"
       break
       ;;
     n)
@@ -36,7 +39,7 @@ done
 echo
 while true; do
   echo
-  printf "%s\n" "Elija el formato en que quiere el álbum" "1) opus" "2) mp3"
+  printf "%s\n" "Elija el formato en que quiere el álbum" "1) opus" "2) mp3" "3) wav"
   echo
   read RES2
   case $RES2 in
@@ -44,13 +47,13 @@ while true; do
       if [ $RES = "y" ]; then
         echo
         printf "Creando archivo 'tracks'...\n"
-        yt-dlp -e $1 > ~/Música/"$ARTISTA"/"$ALBUM"/tracks
+        yt-dlp -e $1 > $DIR/"$ARTISTA"/"$ALBUM"/tracks
         printf "Descargando canciones...\n"
         echo
-        yt-dlp --abort-on-error -x --audio-format best --audio-quality 0 -P "~/Música/$ARTISTA/$ALBUM" $1
+        yt-dlp --abort-on-error -x --audio-format best --audio-quality 0 -P "$DIR/$ARTISTA/$ALBUM" $1
         echo
-        printf "${GREEN}${BOLD}Proceso finalizado!${NC}\n"
-        notify-send "Listo"
+        notify-send "¡Descarga finalizada!" "'<i>$ALBUM</i>' se ha descargado correctamente"
+        printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
       else
         echo
         printf "Creando archivo 'tracks'...\n"
@@ -58,21 +61,21 @@ while true; do
         printf "Descargando canciones...\n"
         echo
         yt-dlp --abort-on-error -x --audio-format best --audio-quality 0 $1
-        printf "${GREEN}${BOLD}Proceso finalizado!${NC}\n"
-        notify-send "Listo"
+        notify-send "¡Descarga finalizada!" "El álbum se ha descargado correctamente"
+        printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
       fi
       break
       ;;
     2)
-      if [ $RES = "n" ]; then
+      if [ $RES = "y" ]; then
         echo
         printf "Creando archivo 'tracks'...\n"
-        yt-dlp -e $1 > ~/Música/"$ARTISTA"/"$ALBUM"/tracks
+        yt-dlp -e $1 > $DIR/"$ARTISTA"/"$ALBUM"/tracks
         printf "Descargando canciones...\n"
         echo
-        yt-dlp --abort-on-error -x --audio-format mp3 --audio-quality 0 -P "~/Música/$ARTISTA/$ALBUM" $1
-        printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
-        notify-send "Listo"
+        yt-dlp --abort-on-error -x --audio-format mp3 --audio-quality 0 -P "$DIR/$ARTISTA/$ALBUM" $1
+        notify-send "¡Descarga finalizada!" "'<i>$ALBUM</i>' se ha descargado correctamente"
+        printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
       else
         echo
         printf "Creando archivo 'tracks'...\n"
@@ -80,8 +83,31 @@ while true; do
         printf "Descargando canciones...\n"
         echo
         yt-dlp --abort-on-error -x --audio-format mp3 --audio-quality 0 $1
-        printf "${GREEN}${BOLD}¡Proceso finalizado!${NC}\n"
-        notify-send "Listo"
+        notify-send "¡Descarga finalizada!" "El álbum se ha descargado correctamente"
+        printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
+      fi
+      break
+      ;;
+    3)
+      if [ $RES = "y" ]; then
+          echo
+          printf "Creando archivo 'tracks'...\n"
+          yt-dlp -e $1 > $DIR/"$ARTISTA"/"$ALBUM"/tracks
+          printf "Descargando canciones...\n"
+          echo
+          yt-dlp --abort-on-error -x --audio-format wav --audio-quality 0 -P "$DIR/$ARTISTA/$ALBUM" $1
+          echo
+          notify-send "¡Descarga finalizada!" "'<i>$ALBUM</i>' se ha descargado correctamente"
+          printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
+      else
+          echo
+          printf "Creando archivo 'tracks'...\n"
+          yt-dlp -e $1 > tracks
+          printf "Descargando canciones...\n"
+          echo
+          yt-dlp --abort-on-error -x --audio-format wav --audio-quality 0 $1
+          notify-send "¡Descarga finalizada!" "El álbum se ha descargado correctamente"
+          printf "${GREEN}${BOLD}¡Descarga finalizada!${NC}\n"
       fi
       break
       ;;

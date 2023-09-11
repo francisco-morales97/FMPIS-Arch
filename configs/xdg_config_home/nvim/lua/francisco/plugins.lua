@@ -1,7 +1,3 @@
--- local function get_config(name)
---     return string.format('require("francisco.plugins.%s")', name)
--- end
-
 local ensure_packer = function()
     local fn = vim.fn
     local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
@@ -16,166 +12,99 @@ end
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup({function(use)
-  use 'wbthomason/packer.nvim'
+    use 'wbthomason/packer.nvim'
 
-  -- Plugins para LSP, autocompletado y sintax-highlight
-  use {
-      'neovim/nvim-lspconfig',
-      config = function()
-          require('francisco.plugins.lspconfig')
-      end
-  }
+    -- Plugins para LSP, autocompletado y sintax-highlight
+    use {
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v2.x',
+        requires = {
+            'neovim/nvim-lspconfig',
+            {
+                'williamboman/mason.nvim',
+                run = function()
+                    pcall(vim.cmd, 'MasonUpdate')
+                end,
+            },
+            'williamboman/mason-lspconfig.nvim',
+            'hrsh7th/nvim-cmp',
+            'hrsh7th/cmp-nvim-lsp',
+            'hrsh7th/cmp-path',
+            'hrsh7th/cmp-nvim-lsp',
+            'hrsh7th/cmp-buffer',
+            'hrsh7th/cmp-cmdline',
+            'saadparwaiz1/cmp_luasnip',
+            'L3MON4D3/LuaSnip',
+            'rafamadriz/friendly-snippets',
+        }
+    }
+    use 'nvim-treesitter/nvim-treesitter'
 
-  use {
-      'williamboman/mason.nvim',
-      config = function()
-          require('francisco.plugins.mason')
-      end,
-      requires = { 'williamboman/mason-lspconfig.nvim' }
-  }
+    -- Plugins de funcionalidad
 
-  use {
-      'nvim-treesitter/nvim-treesitter',
-      config = function()
-          require('francisco.plugins.treesitter')
-      end
-  }
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.1',
+        requires = {
+            'nvim-lua/plenary.nvim',
+            'nvim-telescope/telescope-ui-select.nvim'
+        }
+    }
 
-  use {
-      'hrsh7th/nvim-cmp',
-      config = function()
-          require('francisco.plugins.nvim-cmp-lsp')
-      end,
-      requires = {
-          'hrsh7th/cmp-nvim-lsp',
-          'hrsh7th/cmp-buffer',
-          'hrsh7th/cmp-path',
-          'hrsh7th/cmp-cmdline',
-          'hrsh7th/cmp-vsnip',
-          'hrsh7th/vim-vsnip'
-      }
-  }
+    use {
+        'ThePrimeagen/harpoon',
+        requires = 'nvim-lua/plenary.nvim'
+    }
 
-  -- Plugins de funcionalidad
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = 'nvim-tree/nvim-web-devicons'
+    }
 
-  use {
-      'nvim-telescope/telescope.nvim', tag = '0.1.1',
-      config = function()
-          require('francisco.plugins.telescope')
-      end,
-      requires = { 'nvim-lua/plenary.nvim' }
-  }
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = 'nvim-tree/nvim-web-devicons'
+    }
 
-  use {
-      'nvim-tree/nvim-tree.lua',
-      config = function()
-          require('francisco.plugins.nvim-tree')
-      end,
-      requires = { 'nvim-tree/nvim-web-devicons' }
-  }
+    use 'echasnovski/mini.nvim'
 
-  use {
-      'nvim-lualine/lualine.nvim',
-      config = function()
-          require('francisco.plugins.lualine')
-      end,
-      requires = { 'nvim-tree/nvim-web-devicons' }
-  }
+    -- Plugins de integracion con Git
 
-  use {
-      'akinsho/bufferline.nvim',
-      tag = "v3.*",
-      config = function()
-          require('francisco.plugins.bufferline-conf')
-      end,
-      requires = { 'nvim-tree/nvim-web-devicons' }
-  }
+    use 'tpope/vim-fugitive'
 
-  use {
-      'echasnovski/mini.nvim',
-      config = function()
-          require('francisco.plugins.mini-nvim')
-      end
-  }
+    use 'lewis6991/gitsigns.nvim'
 
-  -- Plugins de integracion con Git
+    -- Plugins extras
 
-  use 'tpope/vim-fugitive'
+    use {
+        'folke/todo-comments.nvim',
+        requires = 'nvim-lua/plenary.nvim'
+    }
 
-  use {
-      'lewis6991/gitsigns.nvim',
-      config = function()
-          require('francisco.plugins.gitsigns')
-      end
-  }
+    use 'NvChad/nvim-colorizer.lua'
 
-  -- Plugins extras
+    use 'mattn/emmet-vim'
 
-  use {
-      'folke/todo-comments.nvim',
-      config = function()
-          require('francisco.plugins.todo-comments')
-      end,
-      requires = 'nvim-lua/plenary.nvim'
-  }
+    -- Plugins de temas de colores
+    use "ellisonleao/gruvbox.nvim"
 
-  use {
-      'NvChad/nvim-colorizer.lua',
-      config = function()
-          require('francisco.plugins.colorizer')
-      end
-  }
+    use 'Shatur/neovim-ayu'
 
-  use {
-      'goolord/alpha-nvim',
-      config = function()
-          require('francisco.plugins.alpha')
-      end,
-      requires = 'nvim-tree/nvim-web-devicons'
-  }
+    use 'navarasu/onedark.nvim'
 
-  use 'mattn/emmet-vim'
+    use {
+        'rose-pine/nvim',
+        as = 'rose-pine'
+    }
 
-  -- Plugins de temas de colores
-
-  use {
-      "ellisonleao/gruvbox.nvim",
-      config = function()
-          require('francisco.plugins.gruvbox')
-      end
-  }
-
-  use {
-      "catppuccin/nvim",
-      as = "catppuccin",
-      config = function()
-          require('francisco.plugins.catppuccin')
-      end
-  }
-
-  use {
-      'navarasu/onedark.nvim',
-      config = function()
-          require('francisco.plugins.onedark')
-      end
-  }
-
-  use {
-      'Shatur/neovim-ayu',
-      config = function()
-          require('francisco.plugins.ayu')
-      end
-  }
-
-  -- Instala Packer si este no existe
-  if packer_bootstrap then
-      require('packer').sync()
-  end
-end,
-config = {
-  display = {
-    open_fn = function()
-      return require('packer.util').float({ border = 'single' })
+    -- Instala Packer si este no existe
+    if packer_bootstrap then
+        require('packer').sync()
     end
-  }
-}})
+end,
+    config = {
+        display = {
+            open_fn = function()
+                return require('packer.util').float({ border = 'rounded' })
+            end
+        }
+    }})

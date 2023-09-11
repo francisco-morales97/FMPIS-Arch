@@ -21,25 +21,17 @@ case "$ANSWER" in
     PROGRAMAS_PAC=(
       # Desarrollo web --
       'firefox'
-      'chromium'
-      'code'
       'inkscape'
       'gimp'
       'npm'
       'neovim'
-
-      # Mensajería --
-      'geary'
-
-      # Aplicaciones favoritas --
-      'alacritty'
 
       # Emuladores --
       'dolphin-emu'
 
       # Escritura con groff --
       'zathura'
-      'zathura-pdf-poppler'
+      'zathura-pdf-mupdf'
       'zathura-ps'
 
       # Codecs OGG para GStreamer --
@@ -54,13 +46,15 @@ case "$ANSWER" in
       'flatpak'
       'gnome-calendar'
       'gnome-calculator'
-      'gnome-usage'
-      'gnome-photos'
+      'gnome-weather'
+      'gnome-clocks'
       'pass'
       'xclip'
+      'imagemagick'
       'wl-clipboard'
       'file-roller'
       'evince'
+      'htop'
       'sushi'
       'pass'
       'eog'
@@ -68,13 +62,15 @@ case "$ANSWER" in
       'yt-dlp'
       'transmission-gtk'
       'firewalld'
-      'ttf-iosevka-nerd'
       'dash'
+      'ttf-jetbrains-mono-nerd'
       'zsh'
       'zsh-syntax-highlighting'
       'zsh-autosuggestions'
       'zsh-completions'
       'starship'
+      'cmus'
+      'entr'
     )
     for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
       echo
@@ -90,23 +86,22 @@ case "$ANSWER" in
     PROGRAMAS_FLAT=(
       # Desarrollo web --
       'io.github.Figma_Linux.figma_linux'
-      'com.getpostman.Postman'
-      'net.xmind.XMind'
 
       # Aplicaciones favoritas --
       'com.stremio.Stremio'
       'io.bassi.Amberol'
-      'com.raggesilver.BlackBox'
         
       # Emuladores --
       'org.libretro.RetroArch'
         
       # Ofimatica --
-      'com.wps.Office'
       'org.onlyoffice.desktopeditors'
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
+      'org.gnome.Loupe'
+      'io.missioncenter.MissionCenter'
+      'com.raggesilver.BlackBox'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo
@@ -120,14 +115,10 @@ case "$ANSWER" in
     printf "Instalación de programas con yay (AUR)\n"
     sleep 1
     PROGRAMAS_AUR=(
-      # Desarrollo web --
-      'xampp'
-
       # Fuentes tipograficas --
       'ttf-ms-fonts'
 
       # Utilidades --
-      'gotop'
       'game-devices-udev'
       'ani-cli'
       'mangal-bin'

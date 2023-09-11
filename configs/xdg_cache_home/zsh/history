@@ -1,1001 +1,1001 @@
-ls
-nvim mangal.toml
-ls
-rm mangal.toml
-ls
-mangal env
-cd
-mangal config init
-mangal config write
-cd .config/mangal
-ls
-nvim mangal.toml
+yay -S spek
 exit
-mangal config info
-nvim .config/zsh/.zshrc
-exit
-mangal
-nvim .config/mangal/mangal.toml
-exit
-mangal
-nvim .config/mangal/mangal.toml
-exit
-xdg-mime default org.gnome.Nautilus.desktop inode/directory
-exit
-mangal
-mangal
-exit
-exit
-yay -Q ani-cli
-pacman -Q ani-cli
-yay -Ss ani-cli
-yay mangal
-nvim FMPIS-Arch/FMPIS-2.sh
-exit
-yay -Ss mangal
-exit
-nvim FMPIS-Arch/FMPIS-2.sh
-nvim .local/bin/update-configs
-cd FMPIS-Arch/configs
-ls
-cd
-ls .config/mangal
-update-configs
-cd FMPIS-Arch/
-git status
-cd ..
-cd FMPIS-Arch/
-git add -A
-git status
-clear
-pass -c github
-git commit -m "actualizacion de configs"
-git push origin
-cd
-exit
-yay -Syu
-sudo flatpak update
-mangal
-exit
-cd Documentos/Angular/dashboard
-cd src/app
-nvim
-cd
-cd FMPIS-Arch/
-nvim FMPIS-1.sh
-exit
-cd FMPIS-Arch/
-nvim FMPIS-1.sh
-exit
-yt-dlp https://la.spankbang.com/76lsi/video/porn
-exit
-cd .local/bin
-ls
-nvim albumtag
-rm albumtag
-ls
-mv albumtag2 albumtag
-ls
-nvim albumtag
-nvim albumtag
-ls
-ls
-nvim music-dl
-cd
-ls
-cd FMPIS-Arch/
-ls
-update-configs
-nvim FMPIS-1.sh
-git status
-ls
-cd configs
-ls
-cd bin
-ls
-nvim albumtag
-nvim albumtag2
-git rm albumtag2 tagtrans
-ls
-cd ..
-cd wallpapers
-ls
-cd ..
-clear
-ls
-cd ..
-update-configs
-git status
-git add -A
-git status
-git commit -m "actualizacion de configs y eliminacion de archivos"
-pass -c github
-git push origin
-exit
-anime hunter x hunter
-exit
-yay -S firefox
-clear
-yay -S firefox
-exit
-yay -Rs firefox-developer-edition
-exit
-nvim .zshenv
-cd .local/share/applications
-ls
-nvim firefox-developer-edition.desktop
-ls /usr/share/applications | grep "firefox"
-sudo cp /usr/share/applications/firefox.desktop .
-ls
-nvim firefox.desktop
-man chown
-chown francisco:francisco firefox.desktop
-nvim firefox.desktop
-exit
-cd Descargas
-git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
-git branch
-./scripts/auto-install.sh
-exit
-rm .local/share/applications/firefox-developer-edition.desktop
-exit
-pass -c github
-mangal
-exit
-exit
-manga
-mangal
-exit
-mangal
-mangal
-ping google.com
-mangal
-exit
-yay -Syu
-exit
-pass -c mercadolibre
-exit
-pass -c Solem/rubrika
-exit
-pass -c Solem/rubrika
-exit
-pass -c Solem/rubrika
-pass Solem/rubrika-pin
-exit
-pass
-pass insert hbomax
-pass hbomax
-exit
-pass net
-pass netflix
-exit
-mangal
-exit
-yay -Syu
-yay -Syu
-yay -Syu
-yay -Sc
-afetch
-yay -Rs xampp
-clear
-exit
-yay -Syu
-exit
-yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night?"
-yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night?"
-yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
-yt-dlp "https://la.spankbang.com/5qwhr/video/hentai+anal+milf"
-yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
-yt-dlp "https://la.spankbang.com/60ywo/video/brother+shoves+his+cock+in+his+big+stepsister+s+anal+every+night"
-exit
-music-dl "https://www.youtube.com/watch?v=QTJLu4eKL_8&list=OLAK5uy_kMeQiWgvnD8GXfeCh8FqZJYx-2qtDuwtY"
-nvim .local/bin/albumtag
-cd Música/Bill\ Evans\ Trio/Bill\ Evans\ With\ Symphony\ Orchestra
-clear
-ls
-cat tracks
-albumtag tracks
-ls
-clear
-exit
-lsblk
-exit
-yay -S gnome-shell-extension-pop-shell
-yay -Rs gnome-shell-extension-pop-shell
-yay -Rs rust
-exit
-yt-dlp "https://la.spankbang.com/5sldd/video/that+housewife+at+that+apartment"
-exit
-mangal
-exit
-yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph5d9a5a0706aed"
-exit
-exit
-cd /boot/EFI/
-ls
-cd ..
-ls
-cd loader
-ls
-nvim loader.conf
-ls entries
-nvim entries/arch-rt.conf
-cd ..
-ls
-cd EFI
-ls
-ls Linux
-ls systemd
-exit
-nvim FMPIS-Arch/FMPIS-2.sh
-cd FMPIS-Arch
-ls
-nvim FMPIS-3.sh
-ls configs
-cd configs
-ls xdg_config_home
-cd ..
-nvim FMPIS-3.sh
-ls
-cd ..
-ls
-mkdir test-folder
-ls
-man mv
-man rename
-ls
-ls ImÃ�genes
-mv -f ImÃ�genes/* test-folder
-ls ImÃ�genes
-ls test-folder
-mv -f test-folder/* ImÃ�genes
-ls ImÃ�genes
-ls test-folder
-rm test-folder
-rm -rf test-folder
-ls
-cd FMPIS-Arch
-nvim FMPIS-3.sh
-ls
-nvim FMPIS-1.sh
-ls
-ls configs
-ls
-update-configs
-cd
-nvim .local/bin/update-configs
-ls .config
-clear
-cd FMPIS-Arch
-git add -A
-git status
-git commit -m "refactorizacion de codigo y actualizacion de archivos"
-pass -c github
-git push origin
-exit
-yay -Ss gnome-console
-exit
-yay -Syu
-sudo flatpak update
-sudo flatpak uninstall --unused
-yay -Sc
-pacman -Qqdt | sudo pacman -Rs -
-sudo paccache -vrk0
-clear
+yay -Rs spek
 exit
 nvim
-nvim .config/zsh/.zshrc
-exit
-rm -rf TLauncher
-ls
-cd ..
-ls
-ls -a
-cd ..
-ls
-cd root
-sudo su
-clear
-cd
-ls -a
-cd .minecraft
-ls
-cd ..
-rm -rf .minecraft
-rm -rf .zoom
-ls -a
-ls .android
-cd
-clear
-ls
-exit
-ls Descargas
-clear
-ls -a
-ls .config
-cd .config/REAPER
-ls
-ls ProjectTemplates
-nvim 'Inicio rapido 2.RPP'
 exit
 cd Descargas
-ls
-cd reaper664_linux_x86_64
-ls
-cd reaper_linux_x86_64
-ls
-./install-reaper.sh
-cd
+git clone https://github.com/CoolnsX/dra-cla && cd dra-cla
+sudo cp dra-cla /usr/local/bin/dra-cla
+exit
+dra-cla
+dra-cla -h
+nvim .config/zsh/.zshrc
+exit
+dra-cla -h
+exit
+dorama
 clear
-ls
-ls /usr/share/applications | grep "reaper"
-ls /srv
-ls /var
-nvim Descargas/reaper664_linux_x86_64/reaper_linux_x86_64/install-reaper.sh
-cd Descargas/reaper664_linux_x86_64/reaper_linux_x86_64
-ls
-nvim install-reaper.sh
-./install-reaper.sh uninstall
-./install-reaper.sh
+exit
+dorama
 clear
-nvim install-reaper.sh
-ls /opt
-sudo ./install-reaper.sh
-sudo ./install-reaper.sh uninstall
-sudo ./install-reaper.sh 1
-nvim install-reaper.sh
+exit
+dorama
+dorama
+exit
+dorama
+exit
+dorama
+anime
+anime
+anime
 clear
-sudo ./install-reaper.sh --uninstall
-./install-reaper.sh --uninstall
-cd /opt/REAPER
+dorama
+the love that you give me
+dor
+dorama
+dorama
+flatpak search cartrigde
+flatpak search cartrige
+flatpak search cartridges
+sudo flatpak install hu.kramo.Cartridges
+dolphin Roms/Gamecube/Ikaruga\ \(USA\)/Ikaruga\ \(USA\).iso
+exit
 ls
-sudo ./uninstall-reaper.sh
-cd ..
-ls
-cd ..
-cd
-clear
-ls
-ls -a
-ls .config
-rm -rf .config/REAPER
-clear
-ls
-ls Documentos
-clear
-ls
-ls -a
-sudo flatpak uninstall com.anydesk.Anydesk
-clear
-ls
-ls -a
-ls .vst
-yay -Ss yabridge
-ls .vst3
-ls .local/share
-clear
-yay -Rs wine winetricks
-clear
-yay -Rs yabridge-bin
-yay -Rs wine winetricks
-clear
-ls -a
-rm -rf .vst .vst3 .wine
-rm -rf .anydesk
-nvim .aidata.txt
-rm .aidata.txt
-ls -a
-ls .var
-cd .config
-ls
-rm -rf yabridgectl
-ls
-cd
+ls Roms/Gamecube
+exit
+nvim .config/zsh/.zshrc
 exit
 monitor
-yay -Rs helvum
 exit
-exit
-yay -Rs alacritty
-exit
-yt-dlp "https://la.spankbang.com/5xa7z/video/anime+anal"
+sudo flatpak uninstall --delete-data hu.kramo.Cartridges
 exit
 pass -c Solem/rubrika
 pass Solem/rubrika-pin
+nvim
+nvim
+nvim
+exit
+nvim
+nvim
+nvim
+cd Documentos/Angular/dashboard
+ls
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+cd Documentos/E-Books/Douglas\ Crockford
+nvim JavaScript_The_Good_Parts.epub
+exit
+nvim
+nvim
+exit
+nvim .config/zsh/.zshrc
+exit
+nvim .config/zsh/.zshrc
+exit
+ebooks
+nvim .zshenv
+nvim .config/zsh/.zshrc
+ebooks
+exit
+ebooks
+ls
+ebooks
+exit
+nvim .config/zsh/.zshrc
+exit
+books
+exit
+monitor
+exit
+books
+nvim Platón/Eutifron_Platon.epub
+exit
+books
+nvim Platón/Eutifron_Platon.epub
+exit
+books
+nvim Douglas\ Crockford/JavaScript_The_Good_Parts.epub
+nvim Douglas\ Crockford/JavaScript_The_Good_Parts.epub
+nvim Douglas\ Crockford/JavaScript_The_Good_Parts.epub
+nvim Douglas\ Crockford/JavaScript_The_Good_Parts.epub
+exit
+nvim
+dorama
+dorama
+exit
+cd Música
+ls
+rm -rf Suzanne\ Vega
+ls
+cd
 clear
-cd Documentos/Angular
+music-dl "https://www.youtube.com/watch?v=0uYm11HicI0&list=PL41P3HCJ8ccSuB39daO9IY7GnkzXJdFAl"
+cd Música/Suzanne\ Vega/Suzanne\ Vega
+ls
+albumtag tracks
+exit
+matrix
+exit
+mangal
+mangal
+manga-trim "Dragon_Ball_Super"
+exit
+man mkdir
+cat .config/zsh/.zshrc
+cd Documentos/Mangas/Dragon_Ball_Super
+ls
+clear
+mkdir Vol.{1..20}
+exit
+pass -c Solem/rubrika
+exit
+monitor
+exit
+cd Documentos/Angular/dashboard
+ls
+nvim
+exit
+yay -Ss emacs
+exit
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd Documentos/Angular/dashboard
+nvim
+nvim
+nvim
+nvim
+cd
+nvim .config/nvim/lua/francisco/options.lua
+nvim .config/nvim/lua/francisco/options.lua
+cd Documentos/Angular/dashboard
+nvim src/app/tablero/tablero.component.spec.ts
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+clear
+nvim
+exit
+mpv
+man mpv
+exit
+pass -c claveunica
+pass -c Solem/rubrika
+exit
+nvim
+cd Documentos/Angular/dashboard
+nvim
+nvim
+nvim
+nvim
+cd
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+exit
+nvim
+cd Documentos/Angular/dashboard
+nvim
+exit
+yay -S snes9x
+yay -Syu
+clear
+yay -S snes9x
+exit
+snes9x
+cd Roms/SNES
+snes9x -v2 Super\ Mario\ World\ \(Europe\).zip
+snes9x -v2 -fullscreen Super\ Mario\ World\ \(Europe\).zip
+snes9x -v2 -fullscreen -xvideo Super\ Mario\ World\ \(Europe\).zip
+snes9x -v2 -fullscreen -xvideo Mega\ Man\ X\ \(USA\).zip
+snes9x -soundsync -fullscreen -xvideo Mega\ Man\ X\ \(USA\).zip
+exit
+yay -Ss snes
+yay -Rs snes9x
+yay -S snes9x-gtk
+snes9x
+snes9x -h
+snes9x
+exit
+snes9x-gtk
+exit
+nvim .var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg
+exit
+ls .config
+ls
+ls -a
+ls .snes9x
+exit
+yay -Rs snes9x-gtk
+ls
+rm -rf snes9x.conf snes9x.glslp .snes9x
+ls -a
+ls .config
+yay -Ss snes
+exit
+sudo flatpak install hu.kramo.Cartridges
+yay -S snes9x-gtk-git
+yay -Rs snes9x-gtk-git
+clear
+ls
+ls -a
+rm snes9x.conf
+ls .config
+ls
+clear
+yay -S snes9x-gtk
+exit
+mkdir .config/snes9x
+mv snes9x.conf .config/snes9x
+ls
+ls
+ls
+clear
+ls
+nvim .config/snes9x/snes9x.conf
+exit
+ls
+nvim .config/snes9x/snes9x.conf
+exit
+monitor
+exit
+man xdg-open
+exit
+man notify-send
+man notify-send
+notify-send --icon=ERROR
+notify-send --icon=ERROR "test"
+notify-send --icon=error "test"
+notify-send --icon=info "test"
+notify-send --icon=warning "test"
+notify-send --icon=danger "test"
+notify-send --icon=done "test"
+man notify-send
+notify-send --icon=warn "test"
+notify-send --icon=wrong "test"
+notify-send --icon=complete "test"
+exit
+nvim
+chmod +x .local/bin/snes
+ls .local/bin/
+nvim .local/bin/snes
+exit
+snes
+snes "Super Mario World (Europe)"
+snes "Super Mario World (Europe).zip"
+snes "Super Mario World \(Europe\).zip"
+nvim .local/bin/snes
+exit
+snes "Super Mario World \(Europe\).zip"
+snes "Super Mario World (Europe).zip"
+nvim .local/bin/snes
+snes9x-gtk Roms/SNES/"Super Mario World (Europe).zip"
+snes9x-gtk Roms/SNES/"Super Mario World (Europe)".zip
+exit
+nvim .local/bin/snes
+exit
+nvim .local/bin/snes
+snes Roms/SNES/Super\ Mario\ World\ \(Europe\).zip
+nvim .local/bin/snes
+exit
+snes Super\ Mario\ World\ \(Europe\).zip
+nvim .local/bin/snes
+man test
+nvim .local/bin/snes
+exit
+snes Super\ Mario\ World\ \(Europe\).zip
+nvim .local/bin/snes
+ls -al .local/bin
+nvim .local/bin/snes
+snes Super\ Mario\ World\ \(Europe\).zip
+snes
+rm .local/bin/snes
+exit
+yay -Ss mesen
+yay -Ss mba
+yay -Ss visual-boy
+yay -Ss visualboyadvance
+yay -Ss vba-m
+yay -Ss vba
+yay -S vbam-wx
+yay -Rs vbam-wx
+exit
+yay -Ss mgba
+yay -S mgba-sdl
+mgba
+yay -Rs mgba-sdl
+yay -Rs mgba-qt
+yay -S mgba-qt
+mgba-qt
+QT_QPA_PATFORM=wayland mgba-qt
+exit
+yay -Rs mgba-qt
+QT_QPA_PATFORM=xwayland mgba-qt
+export QT_QPA_PATFORM=xwayland mgba-qt
+export QT_QPA_PATFORM=xwayland && mgba-qt
+export QT_QPA_PATFORM=wayland && mgba-qt
+export QT_QPA_PATFORM=wayland && mgba-qt
+exit
+nvim .config/mgba/config.ini
+nvim .config/mgba/qt.ini
+yay -Rs mgba-sdl
+ls .config
+rm -rf .config/mgba
+ls .config
+exit
+ls Escritorio
+ls .local/share/applications
+sudoedit /usr/share/applications/io.mgba.mGBA.desktop
+mgba-qt Roms/GBA/Castlevania\ -\ Aria\ of\ Sorrow\ \(U\).sav
+yay -Rs mgba-qt
+yay -S mgba-sdl
+mgba
+mgba -f Roms/GBA/Castlevania\ -\ Aria\ of\ Sorrow\ \(U\).zip
+man mgba
+exit
+yay -Ss vba
+yay -S vbam-wx
+exit
+visualboyadvance-m
+visualboyadvance-m Roms/GBA/Castlevania\ -\ Aria\ of\ Sorrow\ \(U\).zip
+exit
+yay -Ss project64
+yay -Ss mupen64
+yay -S mupen64plus
+mupen64plus
+mupen64plus -h
+mupen64plus --windowed Roms/Nintendo\ 64/Legend\ of\ Zelda,\ The\ -\ Ocarina\ of\ Time\ \(USA\).zip
+mupen64plus --windowed Roms/Nintendo\ 64/"Legend of Zelda, The - Ocarina of Time (USA).zip"
+yay -Rs mupen64plus
+ls
+ls .config
+rm -rf .config/mupen64plus
+yay -Ss mupen64
+yay -S mupen64plus
+exit
+mupen64plus --windowed "$HOME/Roms/Nintendo 64/Legend of Zelda, The - Ocarina of Time (USA).zip"
+nvim .config/mupen64plus/mupen64plus.cfg
+mupen64plus --windowed "$HOME/Roms/Nintendo 64/Legend of Zelda, The - Ocarina of Time (USA).zip"
+mupen64plus --fullscreen "$HOME/Roms/Nintendo 64/Legend of Zelda, The - Ocarina of Time (USA).zip"
+monitor
+jobs
+kill mupen64plus
+top
+top
+clear
+top
+exit
+dumpkeys -l
+dumpkeys -h
+dumpkeys -k
+exit
+mupen64plus --windowed Roms/Nintendo\ 64/Legend\ of\ Zelda,\ The\ -\ Ocarina\ of\ Time\ \(USA\).n64
+nvim .config/mupen64plus/mupen64plus.cfg
+mupen64plus --windowed Roms/Nintendo\ 64/Legend\ of\ Zelda,\ The\ -\ Ocarina\ of\ Time\ \(USA\).n64
+nvim .config/mupen64plus/mupen64plus.cfg
+nvim .config/mupen64plus/mupen64plus.cfg
+mupen64plus --windowed Roms/Nintendo\ 64/Legend\ of\ Zelda,\ The\ -\ Ocarina\ of\ Time\ \(USA\).n64
+mupen64plus --fullscreen Roms/Nintendo\ 64/Legend\ of\ Zelda,\ The\ -\ Ocarina\ of\ Time\ \(USA\).n64
+yay -Rs mupen64plus
+ls
+ls .config
+rm -rf .config/mupen64plus
+yay -Ss mupen64
+flatpak search mupen64
+sudo flatpak install simple64
+exit
+sudo flatpak install simple64
+sudo flatpak uninstall --delete-data simple64
+sudo flatpak update
+flatpak search project64
+yay -Ss project64
+yay -Ss mupen64
+yay -Ss citra
+flatpak search citra
+sudo flatpak install Citra
+exit
+citra
+flatpak run org.citra_emu.citra
+dolphin-emu
+nvim .config/zsh/.zshrc
+exit
+dolphin Roms/Gamecube/Legend\ of\ Zelda,\ The\ -\ Twilight\ Princess\ \(USA\)/Legend\ of\ Zelda,\ The\ -\ Twilight\ Princess\ \(USA\).iso
+top
+clear
+dolphin Roms/Gamecube/Ikaruga\ \(USA\)/Ikaruga\ \(USA\).iso
+exit
+sudo flatpak uninstall --delete-data Citra
+exit
+yay -Ss fb-alpha
+yay -Ss fbalpha
+sudo flatpak install flathub com.github.AmatCoder.mednaffe
+sudo flatpak uninstall --delete-data mednaffe
+nvim .config/zsh/.zshrc
+exit
+retroarch
+exit
+retroarch
+yay -Ss dbus-broker-launch
+ls /usr/bin | grep "dbus"
+flatpak run org.libretro.RetroArch
+exit
+exit
+nvim .var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg
+exit
+monitor
+exit
+retroarch
+flatpak run org.libretro.RetroArch
+flatpak run org.libretro.RetroArch
+exit
+sudo flatpak uninstall --delete-data cartridges
+yay -Rs vbam-wx snes9x-gtk
+exit
+yay -Ss loupe
+flatpak search loupe
+sudo flatpak install Loupe
+exit
+yay -Rs eog
+exit
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph60a23ab567edb" && notify-send "Video descargado"
+exit
+nvim .config/zsh/.zshrc
+exit
+cd .var/app/org.libretro.RetroArch/config/retroarch
+ls
+ls config
+exit
+exit
+monitor
+exit
+exit
+nvim .config/alacritty/alacritty.yml
+exit
+exit
+exit
+monitor
+exit
+matrix
+exit
+anime
+clear
+anime nazo no kanojo x
+ping google.com
+ani-cli nazo no kanojo x
+exit
+cd Roms/PSX/Resident\ Evil\ 2\ -\ Dual\ Shock\ Ver.\ \(USA\)
+ls
+nvim "Resident Evil 2 - Dual Shock Ver. (USA).m3u"
+exit
+monitor
+nvim Roms/PSX/Resident\ Evil\ 2\ -\ Dual\ Shock\ Ver.\ \(USA\)/Resident\ Evil\ 2\ -\ Dual\ Shock\ Ver.\ \(USA\).m3u
+pwd
+nvim Roms/PSX/Resident\ Evil\ 2\ -\ Dual\ Shock\ Ver.\ \(USA\)/Resident\ Evil\ 2\ -\ Dual\ Shock\ Ver.\ \(USA\).m3u
+exit
+yay -Rs gnome-photos
+yay -Ss track3-miners
+yay -Ss tracker3-miners
+afetch
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+exit
+flatpak search loupe
+exit
+man pass
+pass generate Shopping/ikea 12
+pass -c Shopping/ikea
+pass -c Shopping/ikea
+anime nazo no kanojo x
+ls .cache
+ls .cache/ani-cli
+rm .cache/ani-cli/*
+anime nazo no kanojo x
+ani-cli -U
+sudo ani-cli -U
+anime nazo no kanojo x
+exit
+man pass
+pass generate -n Shopping/ikea 12
+pass -c Shopping/ikea
+exit
+pass -c Shopping/ikea
+exit
+yay -Ss autopatch
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika
+exit
+anime nazo no kanojo x
+anime -c
+anime nazo no kanojo x
+exit
+anime -c
+anime nazo no kanojo x
+yay -Syu
+exit
+nvim .config/alacritty/alacritty.yml
+exit
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.yml
+exit
+exit
+anime nazo no kanojo x
+sudo ani-cli -U
+anime nazo no kanojo x
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+yay -Ss linux
+exit
+yay -Syu
+exit
+pass
+pass Finanzas/banco-chile
+pass mail
+exit
+pass Finanzas/banco-chile
+exit
+exit
+pass Finanzas/banco-chile
+pass -c Finanzas/banco-chile
+anime nazo no kanojo x
+cd .cache
+ls
+ls ani-cli
+ls ani-cli/0
+cd
+clear
+yay -S htop
+htop
+monitor
+nvim FMPIS-Arch/FMPIS-2.sh
+man gotop
+man htop
+monitor
+nvim .config/gotop/layout
+nvim .config/zsh/.zshrc
+gotop -l htop
+gotop
+man gotop
+exit
+pass
+pass -c Shopping/aliexpress
+exit
+exit
+monitor
+htop
+exit
+sudo flatpak install com.vixalien.muzika.flatpak
+sudo flatpak install com.vixalien.muzika.flatpak
+flatpak update
+sudo flatpak install flathub com.github.KRTirtho.Spotube
+exit
+pass
+pass generate Shopping/ebay 12
+pass
+pass -c Shopping/ebay
+pass generate -n Shopping/ebay 12
+pass -c Shopping/ebay
+pass -c Shopping/ebay
+exit
+cd Documentos/Angular/dashboard
+exit
+cd Documentos/Angular/dashboard
+ng s
+exit
+cd Documentos/Angular/dashboard
+ls
+cd ..
 ls
 cd dashboard
 ls
+cd src
+ls
 cd ..
-cd map-api/src/app
+clear
+nvim
+nvim
+matrix
+exit
+pass -c claveunica
+exit
+pass -c claveunica
+exit
 nvim
 exit
-pacman -Ss epiphany
+nvim
+nvim
+exit
+matrix
+exit
+monitor
+exit
+matrix
+matrix
+exit
+nvim
+exit
+nvim
+exit
+pass -c Finanzas/banco-chile
+pass -c Finanzas/banco-chile
+exit
+monitor
+exit
+anime isekai ojisan
+anime nazo no kanojo x
+yay -Syu
+exit
+anime isekai ojisan
+exit
+anime hunter x hunter
+F\
+
+exit
+mangal
+mangal
+mangal
+exit
+anime -h
+anime -c
+anime nazo no kanojo x
+exit
+yay -Ss thunderbird
+yay -S thunderbird
+exit
+pass -c Finanzas/banco-chile
+exit
+pass Finanzas/banco-chile
+exit
+yt-dlp "https://jav.guru/291966/jufe-496-while-my-girlfriend-is-visiting-my-childhood-friend-with-a-no-panties-huge-butt-and-exposed-anal-squeezes-out-all-my-sperm-oto-alice/" && notify-send "Video descargado"
+yt-dlp "https://k2s.cc/file/91292abc1efdf/JUFE-496.mp4" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+yt-dlp "https://str-125.filestore.app/81280cc68ea30/cda4366d5faf4/51652714f9c89?temp_url_expires=1690328402&temp_url_id=a021e0a1-0b5e-4e0c-ba6c-5fdac066f347&countable=true&filename=JUFE-496.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=449997198&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A91292abc1efdf&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=d24a16074ab54b90d0dcaa7d5802aa0d06907a68c45db0f1f2bfb12c316464b151dd45bd6a4f7212f183496edc9b63ff7ef9e4d5d5d62ab0415d5e97b2ded098&client_ip=" && notify-send "Video descargado"
+exit
+yt-dlp "https://javtiful.com/video/37029/jufe-496" && notify-send "Video descargado"
+yt-dlp "https://thisav.com/en/jufe-496" && notify-send "Video descargado"
+exit
+yt-dlp "https://missav.com/en/jufe-496" && notify-send "Video descargado"
+exit
+nvim Vídeos/.porno/videos.txt
+exit
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=649b827a645b5" && notify-send "Video descargado"
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph62c7e212be522" && notify-send "Video descargado"
+exit
+pass -c Shopping/ikea
+exit
+mangal
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+yay -Ss opera
+yay -Ss firefox
+exit
+sudo flatpak uninstall --delete-data com.github.KRTirtho.Spotube
+exit
+pass -c Solem/rubrika
+pass Solem/rubrika-pin
+exit
+exit
+lspci
+sudo systemctl enable --now networkmanager
+sudo systemctl enable --now networkManager
+nmtui
+nmcli
+ping archlinux.org
+sudoedit /etc/pacman.conf
+exit
+yay -Syyu
+afetch
+exit
+yt-dlp "https://www.xvideos.com/video67619921/pareja_de_sexo_desagradable_-_vista_inferior_del_sexo_anal" && notify-send "Video descargado"
+exit
+anime
+exit
+pass -c claveunica
+exit
+pass -c Finanzas/banco-chile
+exit
+man yt-dlp
+exit
+yt-dlp "https://www.xvideos.com/video77504623/_dialogos_calientes_chilena_madura_con_ano_gloton_dice_que_le_gusta_por_el_culito_y_que_lo_estaria_todo_el_dia_y_toda_una_noche_y_ella_le_dice_creo_que_lo_hemos_estado_y_el_marido_le_dice_asi_como_ahora_mientras_la_coge_por_el_culo" && notify-send "Video descargado"
+yt-dlp "https://www.xvideos.com/video77504623/_dialogos_calientes_chilena_madura_con_ano_gloton_dice_que_le_gusta_por_el_culito_y_que_lo_estaria_todo_el_dia_y_toda_una_noche_y_ella_le_dice_creo_que_lo_hemos_estado_y_el_marido_le_dice_asi_como_ahora_mientras_la_coge_por_el_culo" && notify-send "Video descargado"
+clear
+yt-dlp "https://www.xvideos.com/video77504623/_dialogos_calientes_chilena_madura_con_ano_gloton_dice_que_le_gusta_por_el_culito_y_que_lo_estaria_todo_el_dia_y_toda_una_noche_y_ella_le_dice_creo_que_lo_hemos_estado_y_el_marido_le_dice_asi_como_ahora_mientras_la_coge_por_el_culo" && notify-send "Video descargado"
+yt-dlp "https://www.xvideos.com/video52706053/chilena_gabi.gabrielass" && notify-send "Video descargado"
+yt-dlp -o chilena_dialogos_calientes "https://www.xvideos.com/video77504623/_dialogos_calientes_chilena_madura_con_ano_gloton_dice_que_le_gusta_por_el_culito_y_que_lo_estaria_todo_el_dia_y_toda_una_noche_y_ella_le_dice_creo_que_lo_hemos_estado_y_el_marido_le_dice_asi_como_ahora_mientras_la_coge_por_el_culo" && notify-send "Video descargado"
+yt-dlp -o chilena_dialogos_calientes.mp4 "https://www.xvideos.com/video77504623/_dialogos_calientes_chilena_madura_con_ano_gloton_dice_que_le_gusta_por_el_culito_y_que_lo_estaria_todo_el_dia_y_toda_una_noche_y_ella_le_dice_creo_que_lo_hemos_estado_y_el_marido_le_dice_asi_como_ahora_mientras_la_coge_por_el_culo" && notify-send "Video descargado"
+yt-dlp "https://www.xvideos.com/video77399291/haciendole_intenso_sexo_por_el_culo_a_gordibuena_mientras_gime_exitada" && notify-send "Video descargado"
+yt-dlp "https://www.xvideos.com/video77399387/culiando_fuerte_por_el_culo_depues_plug_de_zorro_en_el_culo_y_culiando_por_la_vagina_aparte_se_queja_como_toda_una_puta" && notify-send "Video descargado"
+yt-dlp "https://www.xvideos.com/video77562665/chilena_gordita_bbw_recibiendo_pico_en_4" && notify-send "Video descargado"
+exit
+exit
+pass -c Finanzas/banco-chile
+exit
+exit
+pass -c Solem/rubrika
+exit
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=64c683a870721" && notify-send "Video descargado"
+exit
+mv Rose\ gets\ Cum\ Covered\ Asshole\ \[64c683a870721\].mp4 Vídeos/.porno
+exit
+pass -c Finanzas/banco-chile
+exit
+pass -c Solem/rubrika
+ls
+exit
+pass -c Solem/rubrika
+exit
+ping archlinux.org
+clear
+anime nichijou
+anime nichijou
+ani-cli -U
+sudo ani-cli -U
+exit
+anime nichijou
+sudo ani-cli -U
+anime nichijou
+exit
+pass -c Solem/rubrika
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=641d415f426d6" && notify-send "Video descargado"
+mv Anal\ in\ the\ locker\ room\ \[641d415f426d6\].mp4 Vídeos/.porno
+ls
+exit
+cmus
+exit
+pass -c Solem/rubrika
+exit
 yay -Ss epiphany
 exit
-cd Documentos/E-Books/Aristóteles
-ls
-nvim Metafisica-Aristoteles.epub
-exit
-cd Documentos/E-Books/Aristóteles
-nvim Metafisica-Aristoteles.epub
-exit
-cd Documentos/E-Books/Jules\ Verne
-nvim Veinte_mil_leguas_de_viaje_submarino_Jules_Verne.epub
-cd ../George\ R.\ R.\ Martin
-ls
-nvim Juego_de_tronos_George_R_R_Martin.epub
-exit
-yay -S epiphany
-yay -Syu
-nvim /etc/pacman.conf
-sudo nvim /etc/pacman.conf
-sudoedit /etc/pacman.conf
-yay -Syyu
-exit
-exit
-yay -Syyu
-mirror-refresh
-yay -Syyu
-exit
-monitor
-exit
-monitor
-exit
-notify-send "Prueba"
-notify-send "Prueba 2"
-notify-send "Prueba 3"
-notify-send "Prueba"
-exit
-yay -S epiphany
 sudo flatpak update
 exit
-monitor
-yay -Rs epiphany
-yay -Rs epiphany
-exit
-nvim
-nvim
-nvim
-cd Documentos/Angular/dashboard/src/app
-nvim
-cd
-nvim
-nvim
-nvim
-cd Documentos/Angular/dashboard/src/app
-nvim
+yay -Syu
 exit
 exit
-nvim
-nvim
+yay -Ss eartag
+flatpak search eartag
+sudo flatpak install flathub app.drey.EarTag
 exit
-nvim
-yay -Ss gnome-console
-yay -S gnome-console
-yay -Rs gnome-console
+pass -c Shopping/falabella
 exit
-update-configs
-cd FMPIS-Arch
-ls
-git status
-git add -A
+adb shell
+adb shell
+adb devices
+adb shell
 exit
-clear
+pass Finanzas/banco-chile
+adb devices
+adb shell
+exit
+pass -c Shopping/ikea
+pass -c Finanzas/banco-chile
 pass
-pass generate falabella
-pass
-pass -c falabella
-pass -c falabella
-pass generate falabella
-pass -c falabella
-pass generate --no-symbols falabella
-pass -c falabella
+pass -c Finanzas/banco-chile
+exit
+yay -Ss mission-center
+flatpak search mission-center
+sudo flatpak install flathub io.missioncenter.MissionCenter
+exit
+yay -Ss gnome-usage
+yay -Rs gnome-usage
 clear
-nvim
-nvim
-nvim
-exit
-yay -Syu
-exit
-monitor
-exit
-mangal blame!
-mangal blame
-mangal
-exit
-cd .config/mangal
-ls
-nvim mangal.toml
-exit
-mangal
-anime blame
-anime blame
-anime blame
-exit
-exit
-pass -c Solem/rubrika
-exit
-yay -Ss gnome-text-editor
-yay -S gnome-text-editor
-exit
-mangal
-exit
-yay -Syu
-sudo flatpak update
-clear
-exit
-yay -Ss gnome-todo
-yay -S endeavour
-yay -Rs endeavour
-exit
-yay -S calibre
-exit
-mangal
-exit
-anime
-nvim
-nvim
-nvim
-nvim
-exit
-mangal
-exit
-notify-send "Prueba"
-monitor
-exit
-monitor
-exit
-nvim
-exit
-yay -S gnome-console
-yay -Rs gnome-terminal
-exit
-yay -Ss fragments
-yay -S fragments
-yay -Rs transmission-gtk
-yay -Ss gnome-boxes
-flatpak list
-sudo flatpak uninstall org.gnome.Boxes
-clear
-yay -Ss gnome-music
-yay -S gnome-music
-yay -S gnome-music
-ping google.com
-yay -S gnome-music
-yay -Syu
-yay -S gnome-music
-gnome-music
-gnome-calculator
-clear
-yay -S grilo
-yay -Ss grilo
-gnome-music
-yay -Rs gnome-music
 nvim FMPIS-Arch/FMPIS-2.sh
-yay -Rs gnome-music
-flatpak search gnome-music
-sudo flatpak install flathub org.gnome.Music
 exit
-yay -Ss secrets
-flatpak search secrets
-flatpak search secrets
-sudo flatpak install flathub org.gnome.World.Secrets
-sudo flatpak uninstall org.gnome.World.Secrets
-flatpak list
-sudo flatpak uninstall org.gnome.Music
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=64ce969b2e4df" && notify-send "Video descargado"
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=64c5e8f5605e5" && notify-send "Video descargado"
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=647bba7fa2b65" && notify-send "Video descargado"
 exit
-anime
+pass Finanzas/banco-chile
 exit
-monitor
+pass generate -n wifi 12
+pass -c wifi
+ping archlinux.org
+exit
+pass -c wifi
 exit
 yay -Syu
 exit
-pass -c Solem/rubrika
+ls .local/bin
+touch .local/bin/rename
+chmod +x .local/bin/rename
+nvim .local/bin/rename
+rm .local/bin/rename
+exit
 pass Solem/rubrika-pin
 exit
-yay -Ss vscodium
-exit
-exit
-man python
-exit
-mangal
-anime
-exit
-yay -Syu
-exit
-anime
-exit
-monitor
-exit
-yay -Syu
-exit
-yay -Ss musescore
-exit
-anime ishuzoku reviews
-exit
-yay -Syu
-monitor
-yay -Syu
-yay -S archlinux-keyring
-yay -Syu
-exit
-monitor
-sudoedit /boot/loader/loader.conf
-ls
-cd FMPIS-Arch
-ls
-nvim FMPIS-2.sh
-nvim FMPIS-3.sh
-nvim FMPIS-1.sh
-gnome-console
-pacman -Ss gnome-console
-ls
-cd
-update-configs
-clear
-cd FMPIS-Arch
-git status
-git add -A
 pass
-pass github
-git commit -m "Actualizacion de archivos"
-git push origin
-ping google.com
-pass github
-pass -c github
-git push origin
-cd ..
-clear
-exit
-monitor
-exit
-cd Descargas
-ls
-rm -r firefox-gnome-theme
-rm -rf firefox-gnome-theme
-git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
-ls
-./scripts/auto-install.sh
-exit
-sudo flatpak update
-sudo flatpak update
-exit
-monitor
-exit
-pass -c Solem/rubrika
-pass -c Solem/rubrika-pin
-pass Solem/rubrika-pin
-exit
-exit
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-exit
+pass -c Finanzas/banco-chile
 pass -c Solem/rubrika
 exit
 nvim .config/zsh/.zshrc
-exit
-man rsync
-lsblk
-lsblk
-ls /mnt
-ls /media
-ls /run
-ls /run/media
-ls -a /run/media
-ls -a /run/mount
-ls -a /mnt
-ls -a /media
-cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982
-ls
-cd Memoria\ interna
-ls
-cd ..
-ls
-cd Tarjeta\ de\ memoria
-ls
-cd Música
-ls
-pwd
-rsync -avh ~/Música/ .
-sudo rsync -avh ~/Música/ .
-clear
-exit
-cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/Música
-cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/Música
-cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/Tarjeta de memoria/
-cd /run/user/1000/gvfs/mtp:host=HUAWEI_ANE-LX3_KPSDU18808000982/
-ls
-cd Tarjeta\ de\ memoria
-ls
-cd Música
-ls
-clear
-sudo rsync -avh ~/Música/ . && notify-send "Listo"
-sudo rsync -avh ~/Música/ .
-man rsync
-sudo rsync -avht ~/Música/ .
-rsync -avht ~/Música/ .
-rsync -avh --no-times ~/Música/ .
-rsync -avh --no-times --no-perms ~/Música/ .
-cd
-clear
-exit
-lsblk
-cd /run/media/francisco/26A3-D69B
-ls
-cd Music
-clear
-rsync -avh ~/Música/ . && notify-send "Copia finalizada"
-clear
-cd
-exit
-nvim
-exit
-yay -Rs gnome-chess
-flatpak search gnome-chess
-exit
-yay -Ss gnu-chess
-pacman -Ss gnu-chess
-mangal
-lsblk
-exit
-yay -Syu
-yay -S gnome-chess
-clear
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-nvim
-exit
-monitor
-exit
-yay -Rs linux
-yay -Q linux
-yay -Q linux-lts
-yay -Rs linux
-sudoedit /boot/loader/loader.conf
-sudoedit /boot/loader/entries/arch.conf
-cd /boot/loader/entries
-ls
-nvim arch-fallback.conf
-ls ..
-ls ../..
-ls
-sudo rm arch.conf arch-fallback.conf
-ls
-cd ..
-ls
-nvim loader.conf
-sudoedit loader.conf
-ls
-cd ..
-ls
-cd
-exit
-sudo flatpak update
-mangal
-exit
-ping google.com
-exit
-monitor
-exit
-monitor
-exit
-pass -c Solem/rubrika
-pass Solem/rubrika-pin
-exit
-monitor
-exit
-monitor
-exit
-monitor
-retroarch
-nvim
-nvim .config/zsh/.zshrc
-man gotop
-man top
-man
-clear
-monitor
-clear
-monitor
-exit
-monitor
-exit
-exit
-exit
-monitor
-exit
-exit
-exit
-exit
-yay -Ss code-oss
-flatpak search code-oss
-clear
-yay -Ss code
-yay -Rs code
-nvim
-exit
-cd Documentos/Solem/proyectos/dashboard-pte-frontend
-nvim
-cd
-exit
-exit
-monitor
-exit
-yay -S ripgrep
-exit
-ping google.com
-clear
 exit
 mirror-refresh
-clear
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-ls .local/share/nvim
-ls .local/share/nvim/site
-ls .local/share/nvim/site/pack/packer/start
-clear
-nvim
-nvim
-cd .config/nvim/
+yay -Syyu
+exit
+pass
+exit
+flatpak search color-picker
+cmus
+exit
+ls
+cd Documentos
 ls
 nvim
-nvim
-exit
-monitor
-exit
-nvim
-exit
-nvim
-exit
-exit
-ls /usr/share/fonts
-ls /usr/share/fonts/misc
-exit
-monitor
-exit
-pass claveunica
-pass
-man pass
-pass insert banco-chile
-pass
-pass generate --no-symbols banco-chile
-pass -c banco-chile
-nvim
-nvim
-nvim .config/zsh/.zshrc
-nvim .zshenv
-nvim
-nvim
-nvim
-nvim
-pass banco-chile
-pass
-pass banco-chile
-pass banco-chile
-pass -c banco-chile
-nvim
-nvim
-nvim
-pass banco-chile
-man pass
-mirror-refresh
-yay -Syyu
-yay -Syyu
-yay -Syu
-yay -Sy archlinux-keyring
-yay -Syu
-pacman-key --refresh-keys
-sudo pacman-key --refresh-keys
-yay -Syu
-ls -a
-ls .ssh
-ls .config
-clear
-mkdir .gnupg
-touch .gnupg/dirmngr.conf
-nvim .gnupg/dirmngr.conf
-gpg --list-key
-clear
-yay -Syu
-gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
-dirmngr < /dev/null
-ls -ld /home/user1/.gnupg/crls.d/
-sudo -i dirmngr < /dev/null
-rm -rf .gnupg
-yay -Syu
-gpg --homedir /etc/pacman.d/gnupg/ --no-permission-warning --recv-keys C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
-ls /run/user/1000/gnupg
-sudoedit /run/user/1000/gnupg/S.dirmngr
-ls /run/user/1000/gnupg/S.dirmngr
-cat /run/user/1000/gnupg/S.dirmngr
-cd /run/user/1000/gnupg/
-ls
-nvim S.dirmngr
-sudo nvim S.dirmngr
 cd
-man pacman-key
-sudo pacman-key --add C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
-dirmngr < /dev/null
-ls -la .gnupg/crls.d/
+ls
+touch note.md
+nvim note.md
+ls
+rm note.md
+ls
+exit
+nvim
+ls
+cd .config/nvim
+ls
+cd ..
+cd ..
+ls
+cd .local/share/nvim
+ls
+cd ..
+ls
+rm -rf nvim
+ls
+cd
+cd .config/nvim
+ls
+rm -rf *
+ls
 ls -a
-ls -la
-gpg2 --refresh-keys
- sudo -i dirmngr < /dev/null
-ls -a
-dirmngr </dev/null
-ls -la .local/share/gnupg
-chmod 700 .local/share/gnupg/crls.d
-yay -Syu
-pacman-key --init
-sudo pacman-key --init
-yay -Syu
-sudo pacman -Sy archlinux-keyring
-pacman-key --refresh-keys
-sudo pacman-key --refresh-keys
-sudo pacman-key --populate
-sudo pacman -S archlinux-keyring
-sudo pacman -S archlinux-keyring
-yay -Syu
-pacman-key --init
-sudo pacman-key --init
-sudo pacman-key --populate
-sudo killall gpg-agent
-ls /etc/pacman.d
-sudo rm -rf /etc/pacman.d/gnupg/
-sudo pacman-key --init
-sudo pacman-key --populate archlinux
-yay -Syu
+cd
+exit
+nvim
+nvim
+nvim
+exit
+nvim
+ls
+ls .local/share
+exit
+nvim
+ls
+touch note.md
+nvim note.md
+ls
+rm note.md
+ls
+cd .config/nvim
+ls
+nvim
+ls
+ls plugin
+cd after/plugin
+ls
+rm alpha.lua
+ls
+cd
+cd .local/share/nvim
+ls
+cd
+nvim .config/nvim/lua/francisco/plugins.lua
+nvim
+nvim .
+cd Documentos/Angular/dashboard
+ls
+nvim .
+exit
+ls Documentos/Notes
+ls -a Documentos/Notes
+nvim Documentos/Notes/Nota\ de\ prueba.md
+nvim Documentos/Notes/Nota\ de\ prueba.md
+nvim Documentos/Notes/Nota\ de\ prueba.md
+nvim Documentos/Notes/Nota\ de\ prueba.md
+ls -a Documentos/Notes
+ls -a Documentos/Notes
+nvim Documentos/Notes/
+exit
+nvim note.md
+nvim
+ls
+nvim note.md
+yay -S syncthing
+clear
+syncthing
+syncthing
+exit
+ping archlinux.org
+exit
+nvim Documentos/Notes/100_Tareas/101_Ferreteria.md
+syncthing
+exit
+pass -c Finanzas/banco-chile
+matrix
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.yml
+exit
+cd Documentos/Notes
+ls
+ls 200_Trabajo
+nvim 200_Trabajo/Clave\ encriptación\ disco.md
+ls 100_Tareas
+nvim 100_Tareas/101_Ferreteria.md
+mv 200_Trabajo/Clave\ encriptación\ disco.md 200_Trabajo/201_Clave-encriptacion-disco.md
+ls 000_Personal
+mv 200_Trabajo/Clave\ encriptación\ disco.md 200_Trabajo/201_Encriptacion.md
+mv 200_Trabajo/201_Clave-encriptacion-disco.md 200_Trabajo/201_Encriptacion.md
+nvim 200_Trabajo/201_Encriptacion.md
+exit
+syncthing
 exit
 monitor
-cd Descargas
-ls
-sudo mv JetBrains\ Mono /usr/share/fonts
-afetch
-cd /usr/share/fonts
-ls
-ls Montserrat
-ls JetBrains\ Mono
-sudo mv JetBrains\ Mono ~/Descargas
+ping archlinux.org
 exit
-sudo mv Descargas/JetBrains /usr/share/fonts
+man systemd
+man systemctl
+sudo systemctl restart networkManager
+sudo systemctl restart NetworkManager
+exit
+yay -Syu
+exit
+flatpak run io.github.Figma_Linux.figma_linux
+exit
+sudo flatpak update
+flatpak search blackbox
+sudo flatpak install flathub com.raggesilver.BlackBox
+exit
+nvim
+nvim
+exit
 exit
 nvim
 exit
-notify-send "Prueba"
+nvim .config/nvim/after/plugin/gitsigns.lua
+cd Documentos/Vue/vue-test/
+ls
+cd ../../Angular/dashboard
+ls
+nvim
 exit
-monitor
-sudo flatpak update
-clear
-sudo flatpak update
-yay -Sc
-pacman -Qqdt | sudo pacman -Rs -
-sudo flatpak uninstall --unused
-sudo paccache -vrk0
-clear
+pass
+pass generate Meta/instagram 12
+pass -c Meta/instagram
 exit
 exit
-notify-send "Prueba 2"
-notify-send "Prueba 3"
-notify-send "Prueba 4"
-exit
-notify-send "Prueba 1"
-notify-send "Prueba 2"
-notify-send "Prueba 3"
-monitor
 exit

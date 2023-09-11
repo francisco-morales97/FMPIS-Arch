@@ -6,7 +6,7 @@ set statusbar-h-padding 0
 set statusbar-v-padding 0
 
 #Definicion de colores del modo oscuro
-set recolor-lightcolor "#282828"
-set recolor-darkcolor "#ebdbb2"
-set highlight-color "#98971a"
-set highlight-active-color "#98971a"
+set recolor-lightcolor "#282c34"
+set recolor-darkcolor "#abb2bf"
+set highlight-color "#98c379"
+set highlight-active-color "#98c379"
