@@ -14,5 +14,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup('francisco.plugins', {
-    ui = { border = ui_border },
+    ui = { border = ui_border, },
 })
