@@ -1,1 +1,2 @@
-require('francisco')
+require('francisco.core')
+require('francisco.lazy')

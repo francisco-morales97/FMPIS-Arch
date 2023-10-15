@@ -46,8 +46,10 @@ case "$ANSWER" in
       'flatpak'
       'gnome-calendar'
       'gnome-calculator'
+      'gnome-console'
       'gnome-weather'
       'gnome-clocks'
+      'loupe'
       'pass'
       'xclip'
       'imagemagick'
@@ -56,6 +58,7 @@ case "$ANSWER" in
       'evince'
       'htop'
       'sushi'
+      'ripgrep'
       'pass'
       'eog'
       'mpv'
@@ -99,7 +102,6 @@ case "$ANSWER" in
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
-      'org.gnome.Loupe'
       'io.missioncenter.MissionCenter'
       'com.raggesilver.BlackBox'
     )
