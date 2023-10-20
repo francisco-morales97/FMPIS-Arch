@@ -33,6 +33,7 @@ key[Control-Right]="${terminfo[kRIT5]}"
 [[ -n "${key[End]}"       ]] && bindkey -- "${key[End]}"        end-of-line
 [[ -n "${key[Insert]}"    ]] && bindkey -- "${key[Insert]}"     overwrite-mode
 [[ -n "${key[Backspace]}" ]] && bindkey -- "${key[Backspace]}"  backward-delete-char
+bindkey -- "^H"  backward-kill-word
 [[ -n "${key[Delete]}"    ]] && bindkey -- "${key[Delete]}"     delete-char
 [[ -n "${key[Up]}"        ]] && bindkey -- "${key[Up]}"         up-line-or-history
 [[ -n "${key[Down]}"      ]] && bindkey -- "${key[Down]}"       down-line-or-history

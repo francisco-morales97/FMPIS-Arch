@@ -102,8 +102,8 @@ case "$ANSWER" in
 
       # Utilidades --
       'com.github.tchx84.Flatseal'
-      'io.missioncenter.MissionCenter'
       'com.raggesilver.BlackBox'
+      'net.nokyan.Resources'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo

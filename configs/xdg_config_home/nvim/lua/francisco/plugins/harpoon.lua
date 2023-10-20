@@ -26,7 +26,7 @@ return {
             }
         }
 
-        map('n', '<leader>ha', function()
+        map('n', '<leader>m', function()
             hm.add_file();
             local current_file = vim.fn.expand('%:t')
             print('Archivo marcado:', current_file)
