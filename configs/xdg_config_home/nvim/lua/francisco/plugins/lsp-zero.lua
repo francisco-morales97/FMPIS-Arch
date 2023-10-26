@@ -25,7 +25,7 @@ return {
                         package_pending = "➜",
                         package_uninstalled = "✗",
                     },
-                    border = ui_border
+                    border = ui_border,
                 }
             })
         end,
@@ -34,11 +34,14 @@ return {
     -- Completion
     {
         'hrsh7th/nvim-cmp',
-        event = { 'InsertEnter', 'CmdlineEnter' },
+        event = 'InsertEnter',
         dependencies = {
+            {
+                'hrsh7th/cmp-cmdline',
+                event = 'CmdlineEnter',
+            },
             'hrsh7th/cmp-path',
             'hrsh7th/cmp-buffer',
-            'hrsh7th/cmp-cmdline',
             'saadparwaiz1/cmp_luasnip',
             'L3MON4D3/LuaSnip',
             'rafamadriz/friendly-snippets',
@@ -96,7 +99,7 @@ return {
                 sources = {
                     { name = 'nvim_lsp' },
                     { name = 'luasnip', keyword_length = 2 },
-                    { name = 'buffer', keyword_length = 3 },
+                    { name = 'buffer',  keyword_length = 3 },
                     { name = 'path' },
                 },
                 window = {
@@ -121,8 +124,8 @@ return {
                 sources = cmp.config.sources({
                     { name = 'cmp_git' },
                 }, {
-                        { name = 'buffer' },
-                    })
+                    { name = 'buffer' },
+                })
             })
 
             cmp.setup.cmdline({ '/', '?' }, {
@@ -135,8 +138,8 @@ return {
             cmp.setup.cmdline(':', {
                 mapping = cmp.mapping.preset.cmdline(),
                 sources = cmp.config.sources({
-                    { name = 'path' }
-                },
+                        { name = 'path' }
+                    },
                     {
                         { name = 'cmdline' }
                     })
@@ -156,6 +159,7 @@ return {
         },
         config = function()
             local map = require('utils').map
+            local icons = require('utils').icons
             local ui_border = require('utils').border
             local lsp_zero = require('lsp-zero')
             local mason_lsp = require('mason-lspconfig')
@@ -184,10 +188,18 @@ return {
                 map('n', 'K', vim.lsp.buf.hover, 'Muestra info en hover', opts)
                 map('n', 'gl', vim.diagnostic.open_float, 'Abre diagnostico en ventana flotante', opts)
                 map('n', '<leader>ca', vim.lsp.buf.code_action, 'Muestra acciones de codigo disponibles', opts)
-                map('n', 'gr', function() telescope_builtin.lsp_references({ initial_mode = 'normal' }) end, 'Muestra lista de referencias', opts)
+                map('n', 'gr', function() telescope_builtin.lsp_references({ initial_mode = 'normal' }) end,
+                    'Muestra lista de referencias', opts)
                 map('n', '<leader>rn', vim.lsp.buf.rename, 'Renombra variable', opts)
                 map('n', '<leader>rs', '<cmd>LspRestart<CR>', 'Reinicia LSP', opts)
             end)
+
+            lsp_zero.set_sign_icons({
+                error = icons.error,
+                warn = icons.warn,
+                hint = icons.hint,
+                info = icons.info
+            })
 
             mason_lsp.setup({
                 ensure_installed = {

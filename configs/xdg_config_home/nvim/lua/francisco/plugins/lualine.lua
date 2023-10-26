@@ -2,6 +2,7 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = 'nvim-tree/nvim-web-devicons',
     config = function()
+        local icons = require('utils').icons
         local lualine = require('lualine')
 
         -- NOTE: Colores para ayu
@@ -186,7 +187,8 @@ return {
         ins_left {
             'diagnostics',
             sources = { 'nvim_diagnostic' },
-            symbols = { error = ' ', warn = ' ', info = ' ' },
+            symbols = { error = icons.error .. ' ', warn = icons.warn .. ' ', info = icons.info .. ' ',
+                hint = icons.hint .. ' ' },
             diagnostics_color = {
                 color_error = { fg = colors.red },
                 color_warn = { fg = colors.yellow },
@@ -208,7 +210,7 @@ return {
 
         ins_right {
             'diff',
-            symbols = { added = ' ', modified = '󰝤 ', removed = ' ' },
+            symbols = { added = icons.add .. ' ', modified = icons.change .. ' ', removed = icons.delete .. ' ' },
             diff_color = {
                 added = { fg = colors.green },
                 modified = { fg = colors.orange },

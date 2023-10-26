@@ -1,464 +1,3 @@
-cd .config/nvim
-ls
-nvim
-ls
-ls plugin
-cd after/plugin
-ls
-rm alpha.lua
-ls
-cd
-cd .local/share/nvim
-ls
-cd
-nvim .config/nvim/lua/francisco/plugins.lua
-nvim
-nvim .
-cd Documentos/Angular/dashboard
-ls
-nvim .
-exit
-ls Documentos/Notes
-ls -a Documentos/Notes
-nvim Documentos/Notes/Nota\ de\ prueba.md
-nvim Documentos/Notes/Nota\ de\ prueba.md
-nvim Documentos/Notes/Nota\ de\ prueba.md
-nvim Documentos/Notes/Nota\ de\ prueba.md
-ls -a Documentos/Notes
-ls -a Documentos/Notes
-nvim Documentos/Notes/
-exit
-nvim note.md
-nvim
-ls
-nvim note.md
-yay -S syncthing
-clear
-syncthing
-syncthing
-exit
-ping archlinux.org
-exit
-nvim Documentos/Notes/100_Tareas/101_Ferreteria.md
-syncthing
-exit
-pass -c Finanzas/banco-chile
-matrix
-nvim .config/alacritty/alacritty.yml
-nvim .config/alacritty/alacritty.yml
-exit
-cd Documentos/Notes
-ls
-ls 200_Trabajo
-nvim 200_Trabajo/Clave\ encriptación\ disco.md
-ls 100_Tareas
-nvim 100_Tareas/101_Ferreteria.md
-mv 200_Trabajo/Clave\ encriptación\ disco.md 200_Trabajo/201_Clave-encriptacion-disco.md
-ls 000_Personal
-mv 200_Trabajo/Clave\ encriptación\ disco.md 200_Trabajo/201_Encriptacion.md
-mv 200_Trabajo/201_Clave-encriptacion-disco.md 200_Trabajo/201_Encriptacion.md
-nvim 200_Trabajo/201_Encriptacion.md
-exit
-syncthing
-exit
-monitor
-ping archlinux.org
-exit
-man systemd
-man systemctl
-sudo systemctl restart networkManager
-sudo systemctl restart NetworkManager
-exit
-yay -Syu
-exit
-flatpak run io.github.Figma_Linux.figma_linux
-exit
-sudo flatpak update
-flatpak search blackbox
-sudo flatpak install flathub com.raggesilver.BlackBox
-exit
-nvim
-nvim
-exit
-exit
-nvim
-exit
-nvim .config/nvim/after/plugin/gitsigns.lua
-cd Documentos/Vue/vue-test/
-ls
-cd ../../Angular/dashboard
-ls
-nvim
-exit
-pass
-pass generate Meta/instagram 12
-pass -c Meta/instagram
-exit
-exit
-exit
-cd FMPIS-Arch/configs
-ls
-ls xdg_config_home
-ls -a
-ls -al
-cd
-clear
-update-configs
-cat .local/bin/update-configs
-ls -al .config
-clear
-cd FMPIS-Arch
-git status
-git add -A
-cd
-ls FMPIS-Arch/configs/xdg_config_home/alacritty/themes
-cd FMPIS-Arch
-git rm --cached configs/xdg_config_home/alacritty/themes
-git rm -f --cached configs/xdg_config_home/alacritty/themes
-ls
-ls configs/xdg_config_home/alacritty
-git rm --force --cached configs/xdg_config_home/alacritty/themes
-cd configs/xdg_config_home/alacritty
-ls
-ls themes
-git rm --force --cached themes
-ls
-rm -rf themes
-ls
-ls
-cd ..
-ls
-rm -rf alacritty
-ls
-git add -A
-cd ..
-cd ..
-ls
-git status
-git add -A
-git commit -m "Actualizacion 11 sep 2023"
-ls
-nvim FMPIS-3.sh
-ls configs
-ls configs/xdg_config_home/
-ls configs/xdg_data_home
-cd
-nvim .local/bin/update-configs
-cd FMPIS-Arch
-ls
-nvim FMPIS-2.sh
-nvim FMPIS-1.sh
-git add -A
-git status
-git commit --amend --no-edit
-git status
-nvim FMPIS-3.sh
-pass -c github
-git push origin
-git status
-exit
-exit
-cmus
-exit
-cd .config
-ls
-cd epiphany
-ls
-ls -al
-cd
-exit
-yay -S epiphany
-epiphany
-clear
-flatpak search epiphany
-sudo flatpak install flathub org.gnome.Epiphany
-yay -Rs epiphany
-clear
-sudo flatpak install flathub org.gnome.Epiphany
-exit
-pass -c claveunica
-pass -c claveunica
-yay -Ss dconf
-yay -S dconf-editor
-exit
-pass
-pass generate Meta/instagram 12
-pass generate -n Meta/instagram 12
-exit
-yay -Rs dconf-editor
-sudo flatpak uninstall --delete-data org.gnome.Epiphany
-exit
-yt-dlp "https://www.xvideos.com/video61922867/profesora_argentina_de_primer_grado_se_folla_al_representante_de_su_alumno"
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-sudo flatpak update
-exit
-exit
-yay -Syu
-exit
-sudo flatpak update
-exit
-yay -Syu
-exit
-pass
-exit
-pass generate -n Shopping/ripley 12
-pass Finanzas/banco-chile
-pass -c Finanzas/banco-chile
-pass generate -n Shopping/elContainer 12
-pass -c Finanzas/banco-chile
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-yay -Syu
-sudo flatpak update
-exit
-yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph62063657e0c58"
-exit
-yay -Syu
-exit
-yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph62f9f9263a107"
-yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph5e23e8910263e"
-exit
-yay -Syu
-exit
-pass
-pass -c Shopping/elContainer
-pass -c Shopping/elContainer
-exit
-yay -Syu
-exit
-pass Solem/rubrika-pin
-exit
-yay -Syu
-exit
-flatpak search akira
-exit
-yay -Ss akira
-yay -S akira
-exit
-yay -Rs akira
-yay -S
-yay -Syu
-exit
-cd Descargas/firefox-gnome-theme
-git pull origin
-clear
-git status
-ls
-cd scripts
-ls
-install
-./install.sh
-exit
-yay -Syu
-flatpak search ticket
-sudo flatpak install me.iepure.Ticketbooth
-exit
-yay -Syu
-exit
-yay -Syu
-exit
-pass -c Finanzas/banco-chile
-exit
-cmus
-exit
-pass
-exit
-pass -c Finanzas/banco-chile
-exit
-yay -Syu
-exit
-pass -c Shopping/ikea
-yay -Ss sqlite
-exit
-sudoedit /etc/sudo.conf
-sudoedit /etc/sudoers
-sudo usermod -aG wheel bianca
-exit
-nvim
-exit
-yay -Syu
-exit
-flatpak search sql
-exit
-yay -Ss sqlitebrowser
-sqlitebrowser
-yay -Rs sqlitebrowser
-sudo flatpak install sqlitebrowser
-exit
-sudo flatpak uninstall --delete-data org.sqlitebrowser.sqlitebrowser
-yay -S sqlitebrowser
-exit
-yay -Syu
-exit
-pass -c Shopping/elContainer
-exit
-cd Descargas/Noto\ Sans/Noto_Sans
-ls
-ls /usr/share/fonts
-ls /usr/share/fonts/Roboto
-cd ..
-ls
-sudo mv Noto_Sans /usr/share/fonts
-ls
-cd
-ls /usr/share/fonts/
-exit
-nvim .config/nvim/lua/francisco/plugins.lua
-nvim
-nvim .
-nvim .config/nvim
-nvim .config/nvim
-nvim
-nvim
-nvim .config/nvim
-nvim .
-nvim .
-nvim .config/nvim
-nvim .config/nvim
-nvim .config/nvim
-exit
-nvim .config/nvim/after/plugin/oil.lua
-exit
-nvim
-yay -Syu
-exit
-nvim
-ls
-exit
-nvim
-cd Documentos/Angular/dashboard
-nvim
-exit
-nvim .config/nvim/after/plugin/oil.lua
-nvim
-nvim .config/nvim/after/plugin/oil.lua
-nvim .config/nvim/after/plugin/oil.lua
-nvim .config/nvim/after/plugin/oil.lua
-nvim .config/nvim/lua/francisco/keymaps.lua
-nvim .config/nvim/lua/francisco/keymaps.lua
-nvim .config/nvim/lua/francisco/keymaps.lua
-nvim .config/nvim/lua/francisco/keymaps.lua
-exit
-nvim .config/nvim/lua/
-nvim .config/nvim/lua/
-nvim .config/nvim/lua/
-nvim .config/nvim/lua/
-cd Documentos/Angular/dashboard
-nvim .
-cd
-exit
-nvim .config/nvim/
-nvim .config/nvim/
-yay -Syu
-exit
-sudo flatpak update
-exit
-nvim
-exit
-nvim .config/nvim/
-cd Documentos/Angular/dashboard
-nvim
-nvim .config/nvim/
-nvim ~/.config/nvim/
-exit
-nvim ~/.config/nvim/
-cd .config
-ls
-ls nvim
-mv nvim ~/Documentos
-cd
-ls Documentos
-ls .local/share/nvim
-rm -rf .local/share/nvim
-ls
-ls .local/share/
-nvim
-ls .local/share/
-rm -rf .local/share/nvim
-ls .config
-clear
-mkdir .config/nvim
-cd .config/nvim
-ls
-touch init.lua
-ls
-ls
-mkdir -p lua/francisco/core
-touch lua/francisco/lazy.lua
-ls
-nvim init.lua
-ls
-cd lua/francisco/core
-ls
-cp ~/Documentos/nvim/lua/francisco/* .
-ls
-rm plugins.lua
-ls
-nvim init.lua
-nvim init.lua
-nvim keymaps.lua
-cd ..
-ls
-cp ~/Documentos/nvim/lua/utils.lua .
-ls
-nvim lazy.lua
-nvim lazy.lua
-nvim core/init.lua
-nvim lazy.lua
-nvim core/options.lua
-nvim lazy.lua
-nvim
-cd ..
-cd ..
-ls
-nvim init.lua
-nvim init.lua
-nvim lua/francisco/core/keymaps.lua
-ls
-mv lua/francisco/utils.lua lua/
-ls
-ls lua
-nvim init.lua
-nvim init.lua
-ls
-cd lua
-ls
-cd francisco
-ls
-mkdir plugins
-ls
-cd plugins
-ls
-cp ~/Documentos/nvim/after/plugin/* .
-ls
-ls
-nvim ayu.lua
-clear
-ls
-mv lsp-zero.lua lspconfig.lua
-ls
-nvim lspconfig.lua
-cd ../..
-cd ../..
-ls
-rm -rf nvim
-ls
-cd
-rm -rf .local/share/nvim
-cp Documentos/nvim .config
-cp -rf Documentos/nvim .config/
-ls .config
-nvim
-nvim
 rm -rf Documentos/nvim
 nvim
 nvim .config/nvim/lua/francisco/plugins.lua
@@ -997,4 +536,477 @@ sudo flatpak update
 sudo flatpak uninstall --delete-data net.xmind.XMind
 exit
 nvim
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+flatpak list
+nvim FMPIS-Arch/FMPIS-2.sh
+clear
+update-configs
+cd FMPIS-Arch
+git status
+git add -A
+git status
+cd
+exit
+yay -Syu
+exit
+htop
+ls
+cd Descargas
+ls
+exit
+ls
+cd FMPIS-Arch
+git status
+pass -c github
+git commit -m "Actualizacion 20 oct"
+git push origin
+git status
+exit
+nvim
+ls
+exit
+yay -Ss screen
+exit
+ls
+exit
+exit
+cd Documentos/Angular/dashboard
+nvim .
+exit
+cd Documentos/Angular/dashboard
+nvim .
+exit
+matrix
+ping archlinux.org
+clear
+exit
+nvim
+exit
+nvim
+exit
+nvim
+exit
+exit
+exit
+nvim
+nvim .config/nvim/lua/francisco/plugins/treesitter.lua
+exit
+cd Documentos/Groff-docs/Clases-de-ingles
+ls
+nvim clase1.mom
+cd
+nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
+cd Documentos/Groff-docs/Clases-de-ingles
+nvim clase1.mom
+exit
+nvim
+exit
+cd Documentos/Angular/dashboard
+ls
+ls node_modules
+clear
+ls node_modules | grep "eslint"
+nvim
+nvim
+nvim .
+nvim .
+nvim
+nvim
+nvim
+nvim
+cd
+cd .config/nvim
+nvim .
+nvim .
+cd
+cd Documentos/Angular/dashboard
+nvim .
+nvim 
+npm init @eslint/config
+ls
+nvim 
+nvim
+cd ..
+ls
+cd map-api
+ls
+nvim .
+npm init @eslint/config
+ls
+nvim .
+exit
+cd .config/nvim
+nvim .
+exit
+cd Documentos/Angular/map-api
+nvim
+nvim ~/.config/nvim/lua/francisco/plugins/nvim-lint.lua
+nvim
+nvim
+nvim .eslintrc.js package.json
+ls
+cd ..
+ls
+ng new typescript-linter
+ls
+cd typescript-linter
+ls
+npm install ts-standard -D
+nvim
+nvim .
+nvim .
+nvim package.json
+nvim .
+npm lint
+npm run lint
+nvim
+nvim
+cd ..
+ls
+rm -rf typescript-linter
+ng new lint-test
+cd lint-test
+ls
+ls -a
+npm install eslint -D -E
+npm install eslint-config-airbnb-typescript \\
+            @typescript-eslint/eslint-plugin@^6.0.0 \\
+            @typescript-eslint/parser@^6.0.0 \\
+            --save-dev
+ls
+nvim .
+nvim
+npm info "eslint-config-airbnb-base@latest" peerDependencies
+npm install eslint-config-airbnb-base -E -D
+nvim package.json
+npm install eslint-config-airbnb-base -E -D
+nvim package.json
+npm install eslint-config-airbnb-base -E -D
+nvim .
+nvim
+ls
+cd ..
+ls
+rm -rf lint-test
+ls
+ng new lint-test
+cd lint-test
+ls
+npm init @eslint/config
+ls
+ls -a
+npx install-peerdeps --dev eslint-config-airbnb-base
+npm --version
+npx install-peerdeps --dev eslint-config-airbnb-base
+npm info "eslint-config-airbnb-base@latest" peerDependencies
+npm install eslint-config-airbnb-base -E -D
+nvim .eslintrc.json
+npm install eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin@^6.0.0 @typescript-eslint/parser@^6.0.0 -D
+nvim .
+nvim .
+npm run lint
+nvim package.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .eslintrc.json
+nvim .eslintrc.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .eslintrc.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .eslintrc.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .eslintrc.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim tsconfig.
+nvim tsconfig.json
+ls
+nvim .eslintrc.json
+cd ..
+rm -rf lint-test
+ls
+ng new lint-test
+ls
+cd lint-test
+ls
+npm install eslint -D -E
+npx eslint --init
+ls
+nvim .
+nvim .
+ls
+cd ..
+cd ..
+ls
+cd Vue
+ls
+cd vue-test
+ls
+ls -a
+npm init @eslint/config
+nvim .
+npm init @eslint/config
+npm init @eslint/config
+npm init @eslint/config
+cd ..
+cd ../Angular/lint-test
+clear
+ls -a
+nvim .
+ls
+nvim .eslintrc.json
+npm install prettier -E -D
+npm install eslint-config-prettier -D -E
+nvim .eslintrc.json
+ls -a
+nvim .
+npx eslint-config-prettier src/app/app.component.ts
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .
+cd ..
+rm -rf lint-test
+ls
+ng new lint-test
+cd lint-test
+ls
+ls
+npm init @eslint/config
+npm init @eslint/config
+npx install-peerdeps --dev eslint-config-airbnb-base
+clear
+ls -a
+(\
+  export PKG=eslint-config-airbnb-base;\
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"\
+)
+ls -a
+nvim package.json
+ls -a
+nvim .eslintrc.json
+nvim .
+nvim .
+nvim .eslintrc.json
+nvim .eslintrc.json
+ls
+npm install eslint-config-airbnb-typescript \\
+            @typescript-eslint/eslint-plugin@^6.0.0 \\
+            @typescript-eslint/parser@^6.0.0 \\
+            --save-dev
+ls -a
+nvim .eslintrc.json
+npx eslint . --ext .js,.jsx,.ts,.tsx
+nvim .
+nvim .
+nvim package.json
+nvim
+nvim .
+nvim
+nvim .
+npm install prettier eslint-config-prettier -D
+nvim .eslintrc.json
+nvim
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+clear
+ls
+nvim src/app/app.component.ts
+nvim .
+exit
+cd Documentos/Angular/lint-test
+nvim
+cd ..
+ls
+rm -rf lint-test
+ng new lint-test
+ls
+cd lint-test
+ls
+npm init @eslint/config
+npm install prettier eslint-config-prettier -D
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim ~/.config/nvim/lua/francisco/plugins/format.lua
+nvim .
+nvim .
+nvim .
+exit
+cd Documentos/Angular/lint-test
+nvim package.json
+nvim .
+cd ..
+ls
+ng new airbnb-lint
+cd airbnb-lint
+ls
+npm info "eslint-config-airbnb-base@latest" peerDependencies
+npm install eslint-config-airbnb-base eslint-plugin-import eslint -D
+ls -a
+npx eslint .
+touch .eslintrc.json
+ls
+ls -a
+nvim .eslintrc.json
+npm install eslint-config-airbnb-typescript \\
+            @typescript-eslint/eslint-plugin@^6.0.0 \\
+            @typescript-eslint/parser@^6.0.0 \\
+            -D
+ls -A
+cat .eslintrc.json
+nvim .eslintrc.json
+npx eslint .
+nvim .
+nvim .
+exit
+cd Documentos/Angular/airbnb-lint
+ls
+nvim .eslintrc.json
+cd ..
+ls
+cd lint-test
+nvim .
+exit
+pass
+exit
+nvim
+cd Documentos/Angular/airbnb-lint
+ls
+npm install prettier -D
+ls
+nvim .
+node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+ls -a
+cat .prettierrc
+clear
+ls -a
+nvim .
+npx prettier --check
+npx prettier . --check
+nvim .prettierignore
+nvim .
+cd
+nvim 
+cd Documentos/Angular/airbnb-lint
+nvim .
+exit
+nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
+cd Documentos/Angular/airbnb-lint
+nvim .
+cd
+nvim .config/nvim/lua/francisco/plugins/lualine.lua
+nvim .config/nvim/lua/francisco/plugins/lualine.lua
+nvim .config/nvim/lua/francisco/plugins/lualine.lua
+nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
+exit
+cd Documentos/Angular/airbnb-lint
+nvim .eslintrc.json
+cd ../lint-test
+nvim .eslintrc.json
+exit
+nvim
+nvim .config/nvim/lua/francisco/plugins/linter.lua
+nvim .config/nvim/lua/francisco/plugins/linter.lua
+nvim .config/nvim/lua/francisco/plugins/linter.lua
+exit
+nvim .config/nvim/lua/francisco/core/keymaps.lua
+cd Documentos/Angular/airbnb-lint
+nvim .
+exit
+nvim
+exit
+nvim .config/nvim/lua/francisco/core/keymaps.lua
+nvim .config/nvim/lua/francisco/core/keymaps.lua
+cd Documentos/Angular/airbnb-lint
+nvim .
+exit
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+yay -Rs ttf-jetbrains-mono-nerd
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+exit
+ls /usr/share/fonts
+sudo mv Descargas/JetBrainsMono /usr/share/fonts
+ls /usr/share/fonts
+exit
+exit
+nvim FMPIS-Arch/FMPIS-2.sh
+cd Documentos/Angular/airbnb-lint
+cd ../lint-test
+nvim .
+exit
+yay -Syu
+sudo flatpak update
+yay -Ss gnome-todo
+yay -Ss tasks
+yay -Ss notes
+exit
+cd Documentos/Angular/airbnb-lint
+nvim angular.json
+nvim package.json
+exit
+cd Documentos/Angular/airbnb-lint
+ls -a
+exit
+cd .config/nvim
+nvim .
+cd
+cd Documentos/Angular/airbnb-lint
+nvim .
+cd
+nvim ./config/nvim
+nvim .config/nvim
+cd Documentos/Angular/airbnb-lint
+nvim
+cd
+cd .config/nvim
+nvim lua/francisco/plugins/formatter.lua
+cd
+nvim .config/nvim/lua/francisco/plugins/formatter.lua
+cd Documentos/Angular/airbnb-lint
+nvim
+ls
+cd src/app/view/home
+ls
+nvim home.component.ts
+cd ../../..
+cd ..
+nvim
+cd
+cd .config/nvim
+nvim .
+nvim
+cd
+cd Documentos/Angular/airbnb-lint
+nvim
+cd
+nvim
+cd .config/nvim
+nvim .
+cd
+cd Documentos/Angular/airbnb-lint
+nvim .
+cd
+exit
+pass
+pass github
+update-configs
+cd FMPIS-Arch
+git status
+cd
+cd .config/nvim
+nvim .
+nvim .
+nvim .
+nvim .
 exit

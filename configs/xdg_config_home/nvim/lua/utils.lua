@@ -17,4 +17,14 @@ end
 
 M.border = 'rounded'
 
+M.icons = {
+    error = '',
+    warn = '',
+    hint = '',
+    info = '',
+    add = '',
+    change = '',
+    delete = '',
+}
+
 return M

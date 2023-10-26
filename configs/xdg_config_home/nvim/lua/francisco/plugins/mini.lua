@@ -4,9 +4,9 @@ return {
     config = function()
         local map = require('utils').map
 
-        require('mini.comment').setup{}
+        require('mini.comment').setup {}
 
-        require('mini.indentscope').setup{
+        require('mini.indentscope').setup {
             draw = {
                 delay = 50,
                 animation = require('mini.indentscope').gen_animation.linear({
@@ -15,17 +15,15 @@ return {
                     unit = 'step'
                 })
             },
-
             options = {
                 border = 'both',
                 indent_at_cursor = true,
                 try_as_border = false,
             },
-
             symbol = '╎'
         }
 
-        require('mini.pairs').setup{
+        require('mini.pairs').setup {
             modes = { insert = true, command = false, terminal = false },
 
             -- Global mappings. Each right hand side should be a pair information, a
@@ -55,10 +53,8 @@ return {
             },
         }
 
-        require('mini.surround').setup{
+        require('mini.surround').setup {
             highlight_duration = 500,
-
-            -- Module mappings. Use `''` (empty string) to disable one.
             mappings = {
                 add = 'sa',
                 delete = 'sd',
@@ -69,12 +65,12 @@ return {
             },
         }
 
-        require('mini.bufremove').setup{ set_vim_settings = true }
-        require('mini.move').setup {} 
+        require('mini.bufremove').setup { set_vim_settings = true }
+        require('mini.move').setup {}
 
         local gen_hook = require('mini.splitjoin').gen_hook
         local curly = { brackets = { '%b{}' } }
-        local pad_curly =  gen_hook.pad_brackets(curly)
+        local pad_curly = gen_hook.pad_brackets(curly)
 
         require('mini.splitjoin').setup {
             mappings = { toggle = 'gS' },
@@ -90,7 +86,7 @@ return {
 
         local group = vim.api.nvim_create_augroup('MiniFileTypeDisabling', { clear = true })
         vim.api.nvim_create_autocmd("FileType", {
-            pattern = { 'NvimTree', 'alpha' },
+            pattern = { 'oil', 'lazy', 'mason', 'help' },
             callback = function()
                 vim.b.miniindentscope_disable = true
             end,

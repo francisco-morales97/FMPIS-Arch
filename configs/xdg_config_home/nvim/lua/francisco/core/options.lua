@@ -10,6 +10,7 @@ opt.encoding = 'utf-8'
 opt.confirm = true
 opt.termguicolors = true
 opt.clipboard:append('unnamedplus')
+opt.iskeyword:append('-')
 opt.mouse = 'a'
 
 opt.colorcolumn = '80'
@@ -45,6 +46,7 @@ opt.completeopt = {
 }
 
 opt.smartindent = true
+opt.autoindent = true
 
 opt.dictionary = 'spell'
 opt.spell = false
@@ -52,3 +54,4 @@ opt.spelllang = {
     'es',
     'en_us'
 }
+
