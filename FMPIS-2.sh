@@ -49,6 +49,7 @@ case "$ANSWER" in
       'gnome-console'
       'gnome-weather'
       'gnome-clocks'
+      'gnome-font-viewer'
       'loupe'
       'pass'
       'xclip'
@@ -104,6 +105,7 @@ case "$ANSWER" in
       'com.github.tchx84.Flatseal'
       'com.raggesilver.BlackBox'
       'net.nokyan.Resources'
+      'io.github.mrvladus.List'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo

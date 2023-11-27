@@ -1,5 +1,13 @@
 return {
     'stevearc/conform.nvim',
+    cond = function()
+        local empty = vim.fn.empty
+        local path = vim.fn.expand('%:p:h')
+        local eslint_conf = vim.fn.findfile('.eslintrc.json', path .. ';')
+        local prettier_conf = vim.fn.findfile('.prettierrc', path .. ';')
+
+        return empty(eslint_conf) ~= 1 or empty(prettier_conf) ~= 1
+    end,
     event = { 'BufReadPre', 'BufNewFile' },
     config = function()
         local map = require('utils').map

@@ -1,489 +1,3 @@
-rm -rf Documentos/nvim
-nvim
-nvim .config/nvim/lua/francisco/plugins.lua
-nvim
-cd .config/nvim
-nvim
-nvim
-nvim
-exit
-exit
-exit
-ls
-ls Documentos
-cp -rf .config/nvim Documentos
-ls Documentos
-rm -rf .local/share/nvim
-rm -rf .config/nvim/*
-cd .config/nvim
-ls
-touch init.lua
-mkdir -p lua/francisco/core lua/francisco/plugins
-ls lua/
-ls lua/francisco
-touch lua/francisco/lazy.lua
-cp ~/Documentos/nvim/lua/utils.lua lua
-ls lua
-cp ~/Documentos/nvim/lua/francisco/* lua/francisco/core
-ls
-nvim init.lua
-nvim init.lua
-nvim lua/francisco/core/init.lua
-nvim lua/francisco/core/init.lua
-ls
-rm -rf plugin
-ls
-ls
-cd lua
-ls
-cd francisco
-ls
-cd core
-ls
-nvim options.lua
-ls
-nvim plugins.lua
-cd ..
-ls
-nvim lazy.lua
-rm -rf ~/.local/share/nvim
-clear
-nvim lazy.lua
-ls
-cd plugins
-ls
-ls
-touch lspconfig.lua mason.lua nvim-cmp.lua
-ls
-nvim mason.lua
-ls
-nvim lspconfig.lua
-ls
-nvim mason.lua
-nvim nvim-cmp.lua
-nvim nvim-cmp.lua
-ls
-touch telescope.lua
-nvim telescope.lua
-cd ..
-ls
-nvim lazy.lua
-cd ..
-cd ..
-ls
-nvim init.lua
-ls lua/francisco
-nvim init.lua
-nvim init.lua
-nvim lua/francisco/plugins
-nvim init.lua
-nvim init.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim
-rm -rf ~/.local/share/nvim
-ls
-rm lazy-lock.json
-nvim init.lua
-cd lua/francisco/plugins
-ls
-nvim lspconfig.lua
-nvim lspconfig.lua
-ls
-nvim nvim-cmp.lua
-cd ..
-ls
-nvim core/options.lua
-nvim plugins/nvim-cmp.lua
-nvim plugins/nvim-cmp.lua
-ls
-nvim plugins/mason.lua
-nvim lazy.lua
-nvim lazy.lua
-ls
-nvim plugins/onedark.lua
-nvim plugins/onedark.lua
-nvim plugins/telescope.lua
-nvim plugins/treesitter.lua
-nvim plugins/treesitter.lua
-ls
-clear
-ls plugins
-nvim plugins/lualine.nvim
-ls plugins
-nvim plugins/lualine.lua
-nvim plugins/oil.lua
-nvim plugins/harpoon.lua
-ls
-nvim plugins/harpoon.lua
-nvim plugins/mini.lua
-nvim plugins/mini.lua
-nvim plugins/telescope.lua
-nvim plugins/fugitive.lua
-nvim plugins/gitsigns.lua
-nvim plugins/todo-comments.lua
-nvim plugins/colorizer.lua
-ls plugins
-exit
-cd .config/nvim/lua/francisco/core
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim plugins.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim ~/Documentos/nvim/after/plugin/telescope.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-ls
-nvim ~/Documentos/nvim/after/plugin/lsp-zero.lua
-nvim ~/Documentos/nvim/after/plugin/onedark.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/onedark.lua
-nvim plugins.lua
-nvim ~/Documentos/nvim/after/plugin/treesitter.lua
-nvim plugins.lua
-nvim plugins.lua
-nvim plugins.lua
-nvim plugins.lua
-nvim plugins.lua
-exit
-nvim
-exit
-exit
-exit
-sudo flatpak update
-exit
-cd .config/nvim/lua/francisco/core
-ls
-nvim plugins.lua
-exit
-pass
-pass Streaming/disneyplus
-pass -h
-man pass
-pass edit Streaming/disneyplus
-pass -c Streaming/disneyplus
-exit
-cd .config/nvim/
-ls
-ls lua/francisco/
-ls lua/francisco/plugins
-nvim lua/francisco/plugins/colorizer.lua
-ls lua/francisco/plugins
-nvim init.lua
-nvim init.lua
-exit
-exit
-cd Documentos/nvim
-ls
-cd after/plugin
-ls
-nvim lsp-zero.lua
-exit
-nvim
-cd Documentos/Angular/dashboard
-nvim
-nvim ~/.config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim
-nvim
-nvim ~/.config/nvim/lua/francisco/plugins/nvim-cmp.lua
-nvim ~/.config/nvim/lua/francisco/plugins/nvim-cmp.lua
-nvim
-nvim ~/.config/nvim/lua/francisco/plugins/nvim-cmp.lua
-nvim
-nvim
-cd
-nvim .config/nvim/lua/francisco/plugins.lua
-cd .config/nvim/
-nvim .config/nvim/lua/francisco/plugins.lua
-ls
-ls lua/francisco/
-ls lua/francisco/core
-nvim lua/francisco/core/options.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/mason.lua
-nvim lua/francisco/plugins/mason.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/onedark.lua
-nvim lua/francisco/core/plugins.lua
-ls lua/francisco/core
-rm lua/francisco/core/plugins.lua
-ls
-clear
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-nvim lua/francisco/plugins/lspconfig.lua
-cd
-cd Documentos/Angular/dashboard
-ls
-nvim
-nvim ~/.config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .
-cd
-cd .config/nvim/lua/francisco/plugins
-nvim lspconfig.lua
-nvim lspconfig.lua
-exit
-cd Documentos/Angular/dashboard
-nvim .
-exit
-cd Documentos/Angular/dashboard
-nvim .
-exit
-cd Documentos/Angular/dashboard
-nvim
-exit
-cd .config/nvim/lua/francisco/plugins
-nvim lspconfig.lua
-cd
-cd Documentos/Angular/dashboard
-nvim .
-cd
-cd .config/nvim/lua/francisco/plugins
-nvim lspconfig.lua
-nvim lspconfig.lua
-clear
-yay -Syu
-exit
-exit
-yay -Rs transmission-gtk
-clear
-exit
-sudo flatpak update
-sudo flatpak uninstall --delete-data com.github.alainm23.planner
-exit
-nvim .config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .config/nvim/lua/francisco/lazy.lua
-nvim .config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .config/nvim/init.lua
-nvim .config/nvim/lua/francisco/plugins/lspconfig.lua
-cd Documentos/Angular/dashboard
-nvim
-nvim ~/.config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .
-nvim ~/.config/nvim/lua/francisco/plugins/lspconfig.lua
-nvim .
-ls
-nvim angular.json
-exit
-cd Documentos/Angular/dashboard
-nvim .
-cd
-cd .config/nvim/lua/francisco/plugins
-ls
-nvim lspconfig.lua
-nvim mini.lua
-nvim lspconfig.lua
-cd
-cd Documentos/Angular/dashboard
-nvim .
-cd
-exit
-cd .config/nvim/lua/francisco/plugins
-ls
-nvim lsp-zero.lua
-nvim lsp-zero.lua
-cd
-cd Documentos/Angular/dashboard
-nvim
-cd
-clear
-nvim
-nvim
-cd .config/nvim/lua/francisco/plugins
-nvim telescope.lua
-nvim
-cd
-exit
-yay -Ss loupe
-clear
-sudo flatpak uninstall --delete-data org.gnome.Loupe
-yay -S loupe
-exit
-nvim FMPIS-Arch/FMPIS-2.sh
-exit
-monitor
-htop
-htop
-exit
-nvim
-exit
-nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
-nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
-exit
-nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
-exit
-cd .config/nvim
-ls
-nvim init.lua
-cd lua
-ls
-nvim utils.lua
-exit
-pacman -Ss trizen
-yay -Ss trizen
-exit
-cd .config/nvim
-nvim
-nvim .
-nvim ~/FMPIS-Arch/FMPIS-2.sh
-nvim .
-nvim .
-pacman -Ss ripgrep
-yay -S ripgrep
-nvim .
-exit
-exit
-nvim 
-nvim
-nvim .config/nvim/lua/francisco/plugins/treesitter.lua
-nvim
-exit
-nvim
-nvim .config/nvim/lua/francisco/plugins/treesitter.lua
-exit
-yay -Syu
-e
-exit
-nvim
-nvim .config/nvim/lua/francisco/plugins/colorizer.lua
-nvim
-nvim .config/nvim/lua/francisco/plugins/oil.lua
-exit
-cmus
-exit
-nvim FMPIS-Arch/FMPIS-2.sh
-nvim
-nvim .config/nvim/lua/francisco/plugins/oil.lua
-nvim .config/nvim/lua/francisco/plugins/oil.lua
-exit
-nvim .config/nvim/lua/francisco/plugins/todo-comments.lua
-yay -Ss zellij
-exit
-exit
-nvim .config/nvim/lua/francisco/plugins/gitsigns.lua
-nvim .config/nvim/lua/francisco/plugins/gitsigns.lua
-nvim FMPIS-Arch/FMPIS-2.sh
-nvim .config/nvim/lua/francisco/plugins/gitsigns.lua
-exit
-yay -Syu
-exit
-yay -Ss zellij tmux
-yay -Ss zellij
-yay -Ss tmux
-exit
-nvim
-exit
-flatpak search resources
-sudo flatpak uninstall --delete-data io.missioncenter.MissionCenter
-sudo flatpak install resources
-sudo flatpak update
-exit
-nvim .config/nvim/lua/francisco/plugins/telescope.lua
-nvim .config/nvim/lua/francisco/plugins/telescope.lua
-nvim
-nvim .config/nvim/lua/francisco/plugins/telescope.lua
-exit
-exit
-nvim .config/nvim/lua/francisco/lazy.lua
-nvim .config/nvim/lua/francisco/lazy.lua
-nvim .config/nvim/lua/francisco/plugins/onedark.lua
-clear
-exit
-nvim .local/bin/update-configs
-update-configs
-cd FMPIS-Arch
-git status
-cd configs/xdg_config_home
-ls
-rm -rf nvim
-ls
-cd
-update-configs
-ls FMPIS-Arch/configs/xdg_config_home
-cd FMPIS-Arch
-git status
-git add -A
-exit
-cd FMPIS-Arch
-git status
-cd .config
-ls
-cd configs
-ls
-clear
-ls
-cd xdg_config_home
-ls
-ls alacritty
-rm -rf alacritty
-ls
-cd ../..
-ls
-nvim FMPIS-2.sh
-git add -A
-git status
-pass -c github
-git push origin
-git commit -m "Actualizacion 15 oct"
-git status
-pass -c github
-git push origin
-cd
-exit
-nvim .config/nvim/lua/francisco/plugins/treesitter.lua
-nvim .config/nvim/lua/francisco/plugins/treesitter.lua
-nvim .config/nvim/lua/francisco/lazy.lua
-nvim .config/nvim/lua/francisco/lazy.lua
-nvim .config/nvim/lua/francisco/lazy.lua
-exit
-nvim .config/nvim/lua/francisco/plugins/treesitter.lua
-nvim
-exit
-nvim .local/bin/update-configs
-exit
-update-configs
-cd FMPIS-Arch
-ls
-git status
-git add -A
-git commit -m "Actualizacion 2 15 oct"
-pass -c github
-git push origin
-exit
-ls
-exit
-pass -c github
-exit
-yay -Syu
-exit
-htop
-exit
-exit
-yay -Ss tmux zellij
-yay -Ss tmux
-exit
-nvim .config/nvim/lua/francisco/plugins/lsp-zero.lua
-exit
-exit
-yt-dlp "https://la.spankbang.com/8xisb/video/super+pawg+blonde+vs+bbc"
-yay -Syu
-exit
-yt-dlp "https://la.spankbang.com/8xisb/video/super+pawg+blonde+vs+bbc"
-yt-dlp -U
-yt-dlp "https://la.spankbang.com/8xisb/video/super+pawg+blonde+vs+bbc"
 yt-dlp "https://la.spankbang.com/8xati/video/ass+fucked"
 exit
 yay -Rs alacritty
@@ -1009,4 +523,490 @@ nvim .
 nvim .
 nvim .
 nvim .
+exit
+update-configs
+cd FMPIS-Arch
+ls
+git status
+git add -A
+git status
+ls configs/xdg_config_home/nvim
+ls configs/xdg_config_home/nvim/lua/francisco/plugins
+pass -c github
+git commit -m "Actualizacion 25 oct"
+git push origin
+pass -c github
+exit
+cd .config/nvim
+nvim .
+cd
+nvim
+cd FMPIS-Arch
+nvim
+cd
+cd Documentos/Angular/airbnb-lint
+ls -A
+cd ../lint-test
+ls -A
+nvim
+cd ../airbnb-lint
+nvim
+exit
+cd Documentos/Angular/airbnb-lint
+nvim .
+exit
+yay -Syu
+exit
+yay -Syu
+exit
+yt-dlp "https://www.xvideos.com/video78831993/chloe_bang_pilla_a_su_companero_de_cuarto_alex_legend_viendola_tomar_una_ducha_y_luego_le_deja_verla_masturbarse_-_mofos"
+yt-dlp "https://www.xvideos.com/video5312887/pareja_de_ebano_hacen_el_amor_naturalmente_"
+yt-dlp "https://www.xvideos.com/video78467993/migrante_venezolana_se_deja_cojer_el_culo_como_agradecimiento_por_dejarla_quedarse"
+yt-dlp "https://www.xvideos.com/video75974269/pareja_amateur_prueba_el_anal_por_primera_vez_-_a_ella_le_encanta"
+exit
+cd .config/nvim
+nvim .
+exit
+sudo flatpak update
+exit
+pass -c wifi
+exit
+cd Descargas
+git clone https://github.com/somepaulo/MoreWaita.git
+cd MoreWaita
+ls
+./install.sh
+exit
+pass -c Finanzas/banco-chile
+pass
+exit
+pass -c Finanzas/banco-chile
+pass -c Finanzas/banco-chile
+exit
+yay -Syu
+exit
+flatpak list
+sudo flatpak uninstall --delete-data me.iepure.Ticketbooth
+exit
+pass -c Finanzas/banco-chile
+exit
+pass Solem/rubrika-pin
+exit
+nvim
+cd .config/nvim
+nvim .
+exit
+pass -c claveunica
+pass -c claveunica
+yt-dlp "https://es.pornhub.com/view_video.php?viewkey=ph6333ab26292c8"
+exit
+yay -Syu
+exit
+pass
+exit
+nvim .config/nvim/lua/francisco/core/options.lua
+cd Documentos/Angular/lint-test
+nvim .
+nvim
+nvim .
+cd
+exit
+pass -c Finanzas/banco-chile
+yay -Ss gnome-fonts
+exit
+yay -Ss errand
+flatpak search errand
+sudo flatpak install io.github.mrvladus.List
+exit
+yay -Ss font-viewer
+yay -S gnome-font-viewer
+nvim FMPIS-Arch/FMPIS-2.sh
+flatpak list
+flatpak list
+nvim FMPIS-Arch/FMPIS-2.sh
+exit
+ping archlinux.org
+exit
+pass -c claveunica
+cd .config/nvim
+nvim .
+exit
+nvim
+exit
+sudo flatpak update
+exit
+nvim
+ls
+exit
+pass -c claveunica
+exit
+cd Documentos/E-Books/Robert\ Green
+nvim Las_48_leyes_del_poder_Robert_Greene.epub
+man zip
+ls
+zip -XO Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+exir
+exit
+cd Documentos/E-Books/Robert\ Green
+ls
+man unzip
+unzip Las_48_leyes_del_poder_Robert_Greene.epub
+ls
+nvim OEBPS
+nvim OEBPS
+ls
+nvim mimetype
+zip -XO Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+zip -XO Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+ls -l
+chmod +w mimetype
+zip -XO Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+ls
+ls -l
+chmod -w mimetype
+ls -l
+clear
+zip -X -O Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+man zip
+zip add Las_48_leyes_del_poder.epub mimetype
+zip Las_48_leyes_del_poder_Robert_Greene.epub mimetype
+man zip
+zip -9Xru Las_48_leyes_del_poder_Robert_Greene.epub *
+nvim Las_48_leyes_del_poder_Robert_Greene.epub
+clear
+nvim OEBPS
+nvim OEBPS
+ls
+ls -l OEBPS
+ls -l OEBPS/Text
+chmod +w OEBPS/Text/*
+nvim OEBPS
+cd ~/.config/nvim/
+ls
+cd
+cd .local/share/nvim
+ls
+ls -a
+cd
+cd .cache/nvim
+ls
+cd
+cd Documentos/E-Books/Robert\ Green
+ls
+nvim OEBPS
+cd ~/.local/state/nvim
+ls
+ls swap
+rm -rf swap/*
+cd
+cd Documentos/E-Books/Robert\ Green
+nvim OEBPS
+exit
+htop
+exit
+nvim
+cd .config/nvim
+nvim .
+nvim .
+exit
+cd .local/bin
+ls
+touch bulk-rename
+chmod +x bulk-rename
+ls
+nvim bulk-rename
+nvim bulk-rename
+rm bulk-rename
+ls
+exit
+cd Vídeos/Shingeki\ No\ Kyojin/Season\ 1
+ls
+ls | sed "s/[Judas] //g"
+ls
+man sed
+nvim ~/.local/bin/albumtag
+nvim ~/.local/bin/albumtag
+ls | sed "s/\[Judas\] //g"
+ls | sed "s/\[Judas\] //g;s/\(S\d) - \(\d\d\)/\1E\2"
+ls | sed "s/\[Judas\] //g;s/\(S\d\) - \(\d\d\)/\1E\2"
+nvim ~/.local/bin/albumtag
+ls | sed "s/\[Judas\] //g;s/\(S\d\) - \(\d\d\)/\1E\2/g"
+ls | sed "s/\[Judas\] //g;s/\(S\d\) - \(\d\d\)/\1\2/g"
+ls | sed "s/\[Judas\] //g;s/\(S\d\) - \(\d\d\)/test\1\2/g"
+ls | sed "s/\[Judas\] //g;s/\(.\d\) - \(\d\d\)/test\1\2/g"
+ls | sed "s/\(.\d\) - \(\d\d\)/test\1\2/g"
+ls | sed "s/(.\d) - (\d\d)/test\1\2/g"
+ls | sed "s/(\[.*\])/asdf\1/g"
+ls | sed "s/\(\[.*\]\)/asdf\1/g"
+ls | sed "s/S1/S2/g"
+ls | sed "s/ - \(\d\d\)/S2/g"
+ls | sed "s/ - \(.*\)/S2/g"
+ls | sed "s/ - \(.*\)/\1/g"
+ls | sed "s/ - \(.*\)/E\1/g"
+ls | sed "s/ - \(.*\)/ - E\1/g"
+ls | sed "s/S1 - \(.*\)/s1e\1/g"
+ls | sed "s/S1 - \(.*\)/s1-e\1/g"
+ls | sed "s/S1 - \(.*\)/s1 - e\1/g"
+ls | sed "s/\[Judas\] //g;s/S1 - \(.*\)/s1 - e\1/g"
+nvim ~/.local/bin/albumtag
+nvim ~/.local/bin/manga-trim
+ls | sed "s/\[Judas\] //g;s/S1 - \(.*\)/s1 - e\1/g"
+cd ../Season\ 2
+ls
+cd ../Season\ 3
+ls
+cd ../Season\ 2
+ls
+ls | sed "s/\[BlurayDesuYo\] //g;s/(Season 2) - \(..\)/s2 - \1/g"
+ls | sed "s/\[BlurayDesuYo\] //g;s/(Season 2) - \(..\)/s2 - e\1/g"
+ls | sed "s/\[BlurayDesuYo\] //g;s/(Season 2) - \(..\)/s2 - e\1/g;s/(BD.*) \[.*\]//g"
+ls | sed "s/\[BlurayDesuYo\] //g;s/(Season 2) - \(..\)/s2 - e\1/g;s/ (BD.*) \[.*\]//g"
+nvim ~/.local/bin/albumtag
+man sed
+clear
+ls
+ls | sed "s/\[BlurayDesuYo\] //g;s/(Season 2) - \(..\)/s2 - e\1/g;s/ (BD.*) \[.*\]//g"
+cd ../Season\ 1
+ls | sed "s/\[Judas\] //g;s/S1 - \(.*\)/s1 - e\1/g"
+ls
+bulk-rename
+ls
+clear
+ls
+bulk-rename
+ls
+exit
+exit
+yay -Syu
+mangal
+man mangal
+mangal -h
+mangal -v
+mangal
+exit
+cd Documentos/Mangas
+ls
+manga-trim Boruto_Two_Blue_Vortex
+exit
+adb devices
+adb devices
+adb shell
+exit
+anime shingeki no kyojin
+anime shingeki no kyojin
+exit
+nvim
+mangal
+mangal
+yay -Ss tmux
+yay -S tmux
+exit
+exit
+exit
+nvim
+exit
+nvim
+exit
+exit
+exit
+cd .config/tmux
+ls
+exit
+exit
+exit
+cd Documentos/Angular/lint-test
+ng s
+exit
+cd Documentos/Angular/lint-test
+ng s
+exit
+cd Documentos/Angular/lint-test
+ng s
+exit
+cd Documentos/Vue/vue-test
+npm run dev
+exit
+cd Documentos/Vue
+ls
+cd vue-test
+nvim .
+nvim .
+exit
+nvim
+ls
+cd Documentos/Angular/lint-test
+ls
+nvim .
+exit
+exit
+exit
+nvim
+nvim .config/tmux/tmux.conf
+exit
+exit
+nvim
+exit
+exit
+exit
+exit
+nvim .config/tmux/tmux.conf
+exit
+exit
+nvim .config/tmux/tmux.conf
+exit
+tmux
+tmux
+man touch
+mkdir .config/tmux
+touch .config/tmux/tmux.conf
+tmux
+clear
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ls -a
+nvim .config/tmux/tmux.conf
+tmux
+tmux attach
+clear
+tmux
+tmux attach
+nvim .config/tmux/tmux.conf
+nvim
+tmux
+tmux
+tmux
+tmux
+tmux
+exit
+nvim
+exit
+nvim .config/tmux/tmux.conf
+exit
+exit
+exit
+exit
+exit
+nvim
+ls -a
+exit
+nvim .config/tmux/tmux.conf
+tmux
+tmux
+clear
+tmux
+exit
+pass -c Finanzas/banco-chile
+nvim .config/tmux/tmux.conf
+exit
+nvim .config/tmux/tmux.conf
+exit
+nvim .config/tmux/tmux.conf
+nvim .config/tmux/tmux.conf
+exit
+exit
+nvim .config/tmux/tmux.conf
+exit
+cd Documentos/Angular/lint-test
+nvim
+exit
+exit
+nvim .config/tmux/tmux.conf
+exit
+tmux
+nvim .config/tmux/tmux.conf
+tmux
+tmux
+tmux
+exit
+exit
+man tmux
+exit
+nvim .config/tmux/tmux.conf
+exit
+tmux attach
+tmux
+tmux attach
+exit
+exit
+exit
+exit
+nvim
+tmux attach
+tmux
+man tmux
+tmux
+tmux list-sessions
+tmux attach
+tmux list-sessions
+exit
+exit
+echo "Hola desde dentro"
+exit
+ng s
+exit
+cd Documentos/Angular/lint-test
+nvim
+exit
+exit
+exit
+exit
+tmux
+clear
+echo "Hola"
+tmux
+tmux
+tmux attach
+tmux list-sessions
+tmux attach
+tmux list-sessions
+exit
+tmux
+tmux
+tmux a
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+nvim .config/tmux/tmux.conf
+nvim .config/tmux/tmux.conf
+exit
+exit
+tmux a
+tmux a
+man tmux
+tmux a
+tmux a
+tmux a
+tmux a
+tmux list-sessions
+exit
+nvim .config/tmux/tmux.conf
+exit
+exit
+exit
+exit
+exit
+tmux a
+tmux
+tmux
+tmux list-sessions
+tmux a
+clear
+tmux a
+tmux a
+exit
+exit
+tmux
+ls
+nvim .local/bin/update-configs
+ls -a
+ls .tmux
+ls .tmux/plugins
+ls .tmux/plugins/tpm
+ls .config
+cd
+clear
+nvim .local/bin/update-configs
 exit

@@ -1,5 +1,13 @@
 return {
     'lewis6991/gitsigns.nvim',
+    cond = function()
+        local empty = vim.fn.empty
+        local path = vim.fn.expand('%:p:h')
+        local git_dir = vim.fn.finddir('.git', path .. ';')
+
+        return empty(git_dir) ~= 1
+    end,
+    event = { 'BufReadPre', 'BufNewFile' },
     config = function()
         local map = require('utils').map
         local icons = require('utils').icons

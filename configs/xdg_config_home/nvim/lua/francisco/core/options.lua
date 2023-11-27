@@ -20,6 +20,12 @@ opt.number = true
 opt.relativenumber = true
 opt.scrolloff = 8
 
+opt.foldcolumn = '1'
+opt.foldlevel = 20
+opt.foldmethod = 'expr'
+opt.foldexpr = 'nvim_treesitter#foldexpr()'
+opt.foldenable = false
+
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true

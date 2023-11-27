@@ -1,5 +1,12 @@
 return {
     'mfussenegger/nvim-lint',
+    cond = function()
+        local empty = vim.fn.empty
+        local path = vim.fn.expand('%:p:h')
+        local eslint_conf = vim.fn.findfile('.eslintrc.json', path .. ';')
+
+        return empty(eslint_conf) ~= 1
+    end,
     ft = { 'javascript', 'typescript', 'vue' },
     config = function()
         local lint = require('lint')

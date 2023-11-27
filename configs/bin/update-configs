@@ -10,6 +10,8 @@ printf "${BOLD}Copiando archivos de configuración...${NC}\n"
 
 # cp -rf $XDG_CONFIG_HOME/alacritty ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf ~/.local/bin ~/FMPIS-Arch/configs/
+cp -rf $HOME/.tmux ~/FMPIS-Arch/configs/
+cp -rf $XDG_CONFIG_HOME/tmux ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf $XDG_CONFIG_HOME/mpv ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf $XDG_CONFIG_HOME/nvim ~/FMPIS-Arch/configs/xdg_config_home/
 cp -rf $XDG_CONFIG_HOME/cmus ~/FMPIS-Arch/configs/xdg_config_home/
