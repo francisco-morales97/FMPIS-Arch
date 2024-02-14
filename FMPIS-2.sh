@@ -19,28 +19,20 @@ case "$ANSWER" in
     printf "Instalación de programas con pacman\n"
     sleep 1
     PROGRAMAS_PAC=(
-      # Desarrollo web --
       'firefox'
       'inkscape'
       'gimp'
       'npm'
       'neovim'
-
-      # Emuladores --
       'dolphin-emu'
-
-      # Escritura con groff --
       'zathura'
       'zathura-pdf-mupdf'
       'zathura-ps'
-
-      # Codecs OGG para GStreamer --
       'gst-libav'
       'gst-plugins-base'
       'kid3-common'
-
-      # Utilidades --
       'pacman-contrib'
+      'tmux'
       'mtpfs'
       'gvfs-mtp'
       'flatpak'
@@ -75,6 +67,10 @@ case "$ANSWER" in
       'starship'
       'cmus'
       'entr'
+      'lsd'
+      'bat'
+      'ranger'
+      'mkvtoolnix-cli'
     )
     for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
       echo
@@ -88,24 +84,13 @@ case "$ANSWER" in
     printf "Instalación de programas con flatpak\n"
     sleep 1
     PROGRAMAS_FLAT=(
-      # Desarrollo web --
       'io.github.Figma_Linux.figma_linux'
-
-      # Aplicaciones favoritas --
       'com.stremio.Stremio'
       'io.bassi.Amberol'
-        
-      # Emuladores --
       'org.libretro.RetroArch'
-        
-      # Ofimatica --
       'org.onlyoffice.desktopeditors'
-
-      # Utilidades --
       'com.github.tchx84.Flatseal'
       'com.raggesilver.BlackBox'
-      'net.nokyan.Resources'
-      'io.github.mrvladus.List'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo
@@ -119,10 +104,8 @@ case "$ANSWER" in
     printf "Instalación de programas con yay (AUR)\n"
     sleep 1
     PROGRAMAS_AUR=(
-      # Fuentes tipograficas --
       'ttf-ms-fonts'
-
-      # Utilidades --
+      'plex-media-server'
       'game-devices-udev'
       'ani-cli'
       'mangal-bin'
