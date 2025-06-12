@@ -39,7 +39,7 @@ case "$ANSWER" in
     # Instalar servicios útiles
     printf "${GREEN}${BOLD}Servicios útiles${NC}\n"
     sleep 1
-    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber
+    sudo pacman -S acpid ntp dbus cups cronie pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack gst-plugin-pipewire wireplumber
     sudo systemctl enable acpid
     sudo systemctl enable ntpd
     sudo systemctl enable cups.service
@@ -84,6 +84,7 @@ case "$ANSWER" in
     printf "${GREEN}${BOLD}Habilitando servicio de bluetooth${NC}\n"
     sleep 1
     sudo systemctl enable bluetooth.service
+    echo "options ath9k btcoex_enable=1" | sudo tee /etc/modprobe.d/ath9k.conf
     echo
     printf "${GREEN}${BOLD}La primera parte del script ha finalizado${NC}\n"
     sleep 1

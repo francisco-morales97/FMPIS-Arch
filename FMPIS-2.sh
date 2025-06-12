@@ -19,10 +19,8 @@ case "$ANSWER" in
     printf "Instalación de programas con pacman\n"
     sleep 1
     PROGRAMAS_PAC=(
-      'firefox'
       'inkscape'
       'gimp'
-      'npm'
       'neovim'
       'dolphin-emu'
       'zathura'
@@ -48,29 +46,34 @@ case "$ANSWER" in
       'imagemagick'
       'wl-clipboard'
       'file-roller'
-      'evince'
+      'papers'
       'htop'
       'sushi'
       'ripgrep'
       'pass'
-      'eog'
       'mpv'
       'yt-dlp'
       'transmission-gtk'
       'firewalld'
       'dash'
       'ttf-jetbrains-mono-nerd'
+      'ttf-iosevkaterm-nerd'
       'zsh'
       'zsh-syntax-highlighting'
       'zsh-autosuggestions'
       'zsh-completions'
       'starship'
-      'cmus'
       'entr'
       'lsd'
       'bat'
-      'ranger'
       'mkvtoolnix-cli'
+      'fzf'
+      'vulkan-intel'
+      'pavucontrol'
+      'alacritty'
+      'pastel'
+      'emby-server'
+      'stow'
     )
     for PROGRAMA_PAC in "${PROGRAMAS_PAC[@]}"; do
       echo
@@ -84,13 +87,11 @@ case "$ANSWER" in
     printf "Instalación de programas con flatpak\n"
     sleep 1
     PROGRAMAS_FLAT=(
-      'io.github.Figma_Linux.figma_linux'
-      'com.stremio.Stremio'
       'io.bassi.Amberol'
       'org.libretro.RetroArch'
       'org.onlyoffice.desktopeditors'
       'com.github.tchx84.Flatseal'
-      'com.raggesilver.BlackBox'
+      'app.zen_browser.zen'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo
@@ -105,10 +106,10 @@ case "$ANSWER" in
     sleep 1
     PROGRAMAS_AUR=(
       'ttf-ms-fonts'
-      'plex-media-server'
       'game-devices-udev'
       'ani-cli'
       'mangal-bin'
+      'nvm'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
       echo
