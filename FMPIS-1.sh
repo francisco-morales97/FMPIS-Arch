@@ -52,7 +52,6 @@ case "$ANSWER" in
       'xdg-user-dirs'
       'gnome-shell'
       'nautilus'
-      'gnome-console'
       'gnome-control-center'
       'gnome-tweak-tool'
       'gdm'
