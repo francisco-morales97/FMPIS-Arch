@@ -51,6 +51,7 @@ case "$ANSWER" in
     GNOME_PAQUETES=(
       'xdg-user-dirs'
       'gnome-shell'
+      'gnome-console'
       'nautilus'
       'gnome-control-center'
       'gnome-tweak-tool'
@@ -63,6 +64,7 @@ case "$ANSWER" in
       sudo pacman -S "${GNOME_PAQUETE}" --noconfirm
     done
     sudo systemctl enable gdm
+    xdg-user-dirs-update
     echo
 
     # Instalación de Yay para usar el AUR
@@ -87,7 +89,7 @@ case "$ANSWER" in
     echo
     printf "${GREEN}${BOLD}La primera parte del script ha finalizado${NC}\n"
     sleep 1
-    printf "${GREEN}${BOLD}Reinicie la computadora antes de iniciar la segunda parte${NC}\n"
+    printf "${GREEN}${BOLD}Reinicie la computadora y clone los dotfiles antes de iniciar la segunda parte${NC}\n"
     ;;
   n)
     printf "Ha cancelado la operación\n"

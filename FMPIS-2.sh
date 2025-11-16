@@ -21,6 +21,7 @@ case "$ANSWER" in
     PROGRAMAS_PAC=(
       'adw-gtk-theme'
       'alacritty'
+      'amberol'
       'bat'
       'dash'
       'decibels'
@@ -36,7 +37,6 @@ case "$ANSWER" in
       'gnome-calculator'
       'gnome-calendar'
       'gnome-clocks'
-      'gnome-console'
       'gnome-font-viewer'
       'gnome-weather'
       'gst-libav'
@@ -85,7 +85,7 @@ case "$ANSWER" in
     printf "Instalación de programas con flatpak\n"
     sleep 1
     PROGRAMAS_FLAT=(
-      'io.bassi.Amberol'
+      # 'io.bassi.Amberol'
       # 'org.libretro.RetroArch'
       'org.onlyoffice.desktopeditors'
       'com.github.tchx84.Flatseal'
