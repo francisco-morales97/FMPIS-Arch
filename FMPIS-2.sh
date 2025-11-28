@@ -41,10 +41,13 @@ case "$ANSWER" in
       'gnome-weather'
       'gst-libav'
       'gst-plugins-base'
+      'gvfs-google'
       'gvfs-mtp'
       'htop'
       'imagemagick'
       'inkscape'
+      'intel-media-driver'
+      'libva-intel-driver'
       'loupe'
       'lsd'
       'mkvtoolnix-cli'
@@ -56,10 +59,11 @@ case "$ANSWER" in
       'pass'
       'pastel'
       'pavucontrol'
+      'power-profiles-daemon'
       'ripgrep'
       'sigil'
       'starship'
-      'stow'
+      'tealdeer'
       'thunderbird'
       'tmux'
       'transmission-gtk'
@@ -85,11 +89,14 @@ case "$ANSWER" in
     printf "Instalación de programas con flatpak\n"
     sleep 1
     PROGRAMAS_FLAT=(
-      # 'io.bassi.Amberol'
-      # 'org.libretro.RetroArch'
+      'org.gtk.Gtk3theme.adw-gtk3'
+      'org.gtk.Gtk3theme.adw-gtk3-dark'
+      'org.libretro.RetroArch'
       'org.onlyoffice.desktopeditors'
       'com.github.tchx84.Flatseal'
+      'de.haeckerfelix.Fragments'
       'app.zen_browser.zen'
+      'org.localsend.localsend_app'
     )
     for PROGRAMA_FLAT in "${PROGRAMAS_FLAT[@]}"; do
       echo
@@ -107,7 +114,6 @@ case "$ANSWER" in
       'game-devices-udev'
       'ani-cli'
       'mangal-bin'
-      'nvm'
       'emulationstation-de'
     )
     for PROGRAMA_AUR in "${PROGRAMAS_AUR[@]}"; do
@@ -117,6 +123,12 @@ case "$ANSWER" in
       yay -S --noconfirm "${PROGRAMA_AUR}"
     done
     echo
+
+    printf "Instalación de nvm (Node Version Manager)\n"
+    sleep 1
+    PROFILE=/dev/null bash -c 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash'
+    echo
+
     printf "${GREEN}${BOLD}La segunda parte del script ha finalizado${NC}\n"
     ;;
   n)

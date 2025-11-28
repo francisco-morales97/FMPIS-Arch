@@ -14,12 +14,6 @@ case "$ANSWER" in
     printf "Esto puede tardar unos minutos...\n"
     sleep 1
     echo
-    printf "Configuraciones generales\n"
-    sleep 1
-    printf "Habilitando descargas paralelas\n"
-    sleep 1
-    sudo sed -i "s/^#Para/Para/" /etc/pacman.conf
-    echo
 
     # Actualizar mirrors
     printf "${GREEN}${BOLD}Actualizando los mirrors${NC}\n"
@@ -56,6 +50,7 @@ case "$ANSWER" in
       'gnome-control-center'
       'gnome-tweak-tool'
       'gdm'
+      'stow'
     )
     for GNOME_PAQUETE in "${GNOME_PAQUETES[@]}"; do
       echo
